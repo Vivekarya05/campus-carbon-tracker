@@ -12,6 +12,12 @@
     "Business as usual": "--sc-bau", "Rooftop solar expansion": "--sc-solar", "Gas to heat pumps": "--sc-heat",
     "100% renewable PPA": "--sc-ppa", "All three combined": "--sc-all",
   };
+  const SCEN_LABEL = {
+    "Business as usual": "No new action", "Rooftop solar expansion": "More rooftop solar",
+    "Gas to heat pumps": "Gas heating to heat pumps", "100% renewable PPA": "100% renewable power contract",
+    "All three combined": "All three combined",
+  };
+  const label = (s) => SCEN_LABEL[s] || s;
   const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
   const state = { fy: null, method: "market", scen: new Set(["Business as usual", "All three combined"]) };
@@ -75,14 +81,16 @@
       (meter != null ? `<div class="meter" role="meter" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${meter}"><i style="width:${meter}%"></i></div>` : "") +
       `<div class="sub">${sub}</div></div>`;
     $("kpis").innerHTML = [
-      card("lead", "Total emissions", fmt(k.total_t), "t CO2-e",
-        isBase ? "Baseline year for all targets" :
-          `<span class="${dir}">${dir === "down" ? "▼" : "▲"} ${fmt(Math.abs(ch), 1)}%</span> vs ${D.summary.baseline_fy} baseline`),
+      card("lead", "Total emissions, all scopes", fmt(k.total_t), "t CO2-e",
+        (isBase ? "Baseline year that targets are measured from" :
+          `<span class="${dir}">${dir === "down" ? "▼" : "▲"} ${fmt(Math.abs(ch), 1)}%</span> on ${D.summary.baseline_fy}`) +
+        `<br>${fmt(k.total_location_t)} t without green power purchases`),
       card("", "Progress to 2030 target", fmt(progress), "%",
-        isBase ? `Target: cut Scope 1 and 2 by ${fmt(cutNeeded)} t` : `${fmt(Math.max(cutDone, 0))} t of the ${fmt(cutNeeded)} t cut needed`, progress),
+        isBase ? `Target: cut energy and fuel emissions by ${fmt(cutNeeded)} t by 2030` :
+          `of the cut needed: ${fmt(Math.max(cutDone, 0))} t done, ${fmt(Math.max(cutNeeded - cutDone, 0))} t to go`, progress),
       card("", "Emissions per student", fmt(k.per_student_kg), "kg CO2-e", `${fmt(k.students)} students`),
       card("", "Renewable electricity", fmt(k.renewable_share_pct), "%", "Green power bought plus rooftop solar", Math.min(100, k.renewable_share_pct)),
-      card("", "Data quality score", fmt(k.dq_score, 1), "/ 100", open ? `${open} open issue${open > 1 ? "s" : ""} across ${health.length} sources` : `No open issues across ${health.length} sources`),
+      card("", "Data quality score", fmt(k.dq_score, k.dq_score % 1 ? 1 : 0), "/ 100", open ? `${open} open issue${open > 1 ? "s" : ""} across ${health.length} sources` : `No open issues across ${health.length} sources`),
     ].join("");
   }
 
@@ -124,12 +132,12 @@
     const years = p.years, lastActual = p.actual.filter((v) => v != null).length - 1;
     const now = p.actual[lastActual], cut = 100 * (1 - now / p.baseline);
     const bau = p.summary.find((x) => x.scenario === "Business as usual");
-    $("h-path").textContent = `Scope 1 and 2 emissions are ${fmt(cut)}% below the baseline; ` +
-      (bau.meets_2030 ? "on today's settings the 2030 target is met" : `holding steady would miss the 2030 target by ${fmt(bau.gap_to_2030_target_t)} t`);
+    $("h-path").textContent = `Energy and fuel emissions are down ${fmt(cut)}% since ${D.summary.baseline_fy}, ` +
+      (bau.meets_2030 ? "enough to meet the 2030 target" : `but another ${fmt(bau.gap_to_2030_target_t)} t must go to meet the 2030 target`);
 
     $("scenario-chips").innerHTML = p.summary.map((x) =>
       `<button type="button" class="chip" aria-pressed="${state.scen.has(x.scenario)}" data-scen="${esc(x.scenario)}">` +
-      `<span class="sw line" style="background:var(${SCEN_VARS[x.scenario]})"></span>${esc(x.scenario)}</button>`).join("");
+      `<span class="sw line" style="background:var(${SCEN_VARS[x.scenario]})"></span>${esc(label(x.scenario))}</button>`).join("");
 
     const endLabel = (txt) => ({ show: true, formatter: txt, color: css("--ink-2"), fontSize: 12, distance: 6 });
     const series = [
@@ -141,8 +149,8 @@
     p.summary.forEach((x) => {
       if (!state.scen.has(x.scenario)) return;
       const c = css(SCEN_VARS[x.scenario]);
-      series.push({ name: x.scenario, type: "line", data: p.scenarios[x.scenario], symbol: "none", z: 3,
-        lineStyle: { color: c, width: 2 }, itemStyle: { color: c }, endLabel: endLabel(x.scenario) });
+      series.push({ name: label(x.scenario), type: "line", data: p.scenarios[x.scenario], symbol: "none", z: 3,
+        lineStyle: { color: c, width: 2 }, itemStyle: { color: c }, endLabel: endLabel(label(x.scenario)) });
     });
     chart("c-path").setOption({
       animation: false,  // end labels on lines with leading nulls animate through NaN positions
@@ -161,13 +169,14 @@
     const best = opts.reduce((a, c) => (c.abated_vs_bau_t > a.abated_vs_bau_t ? c : a));
     const worst = opts.reduce((a, c) => (c.abated_vs_bau_t < a.abated_vs_bau_t ? c : a));
     const all = p.summary.find((x) => x.scenario === "All three combined");
-    let txt = `On its own, the strongest option is "${best.scenario}" (${fmt(best.abated_vs_bau_t)} t a year less by 2030). ` +
-      `All three together bring 2030 emissions to ${fmt(all.t_2030)} t, ${all.meets_2030 ? fmt(p.target_2030 - all.t_2030) + " t under the target" : fmt(all.gap_to_2030_target_t) + " t over the target"}; ` +
-      `the ${fmt(all.t_2030)} t left is mostly gas, fleet fuel and refrigerant leaks that still need a plan for net zero by ${p.assumptions.net_zero_year}.`;
+    const items = [
+      `<li><b>Biggest single step:</b> a ${esc(label(best.scenario).toLowerCase())} cuts ${fmt(best.abated_vs_bau_t)} t a year by 2030${best.meets_2030 ? ", enough on its own to meet the target" : ""}.</li>`,
+      `<li><b>All three together</b> leave ${fmt(all.t_2030)} t in 2030, mostly gas, fleet fuel and refrigerant leaks that still need a plan for net zero by ${p.assumptions.net_zero_year}.</li>`,
+    ];
     if (worst.abated_vs_bau_t < 0) {
-      txt += ` ${worst.scenario} alone would add ${fmt(-worst.abated_vs_bau_t)} t, because Victoria's grid is still more carbon-intensive than gas per unit of heat: electrification only pays off alongside renewable supply.`;
+      items.push(`<li><b>${esc(label(worst.scenario))} on its own adds ${fmt(-worst.abated_vs_bau_t)} t</b>, because Victoria's grid power is still more carbon-heavy than burning gas for the same heat. It only helps alongside renewable electricity.</li>`);
     }
-    $("path-finding").textContent = txt;
+    $("path-finding").innerHTML = `<ul class="findings">${items.join("")}</ul>`;
   }
 
   // ---------------- hotspots ----------------
@@ -198,12 +207,14 @@
   function renderGrid() {
     const g = D.grid, b = base();
     if (!g.available) {
-      $("h-grid").textContent = `Every kWh is counted at Victoria's average of ${g.fallback_intensity} kg CO2-e`;
-      $("grid-finding").textContent = `Without half-hourly grid data, all ${fmt(D.summary.by_fy[D.summary.fys[D.summary.fys.length - 1]].energy.grid_mwh)} MWh of grid electricity in the latest year is counted at the flat NGA Victorian factor, so the timing of use makes no difference to the result. Adding AEMO half-hourly intensity would show when campus power is cleanest and what shifting load could save.`;
-      $("grid-source").textContent = g.source;
+      $("h-grid").textContent = `Each kWh from the grid adds ${g.fallback_intensity} kg CO2-e, whatever the time of day`;
+      $("grid-finding").textContent = `The campus used ${fmt(D.summary.by_fy[state.fy].energy.grid_mwh)} MWh of grid electricity in ${state.fy}. ` +
+        `This version uses Victoria's official yearly average for every hour, so using power at midday or at night counts the same. ` +
+        `With half-hourly AEMO grid data added, this section shows when campus power is cleanest and how much shifting load would save.`;
+      $("grid-source").textContent = "";
       $("c-grid").style.display = "none";
       document.querySelector(".grid-band .scale").style.display = "none";
-      document.querySelector(".grid-band .dek").textContent = "Half-hourly Victorian grid intensity from AEMO is not loaded in this version.";
+      document.querySelector(".grid-band .dek").textContent = "How much carbon each unit of grid electricity carries in Victoria.";
       return;
     }
     const pct = 100 * (g.dirtiest_intensity / g.cleanest_intensity - 1);
@@ -243,6 +254,8 @@
     $("h-health").textContent = issues
       ? `Data quality scored ${fmt(avg, 1)} out of 100 in ${state.fy}: ${issues} issue${issues > 1 ? "s" : ""} flagged, ${open} still open`
       : `All ${rows.length} data sources were complete, valid and on time in ${state.fy}`;
+    const flaggedFys = D.summary.fys.filter((f) => D.health[f].some((r) => r.issues));
+    $("health-hint").textContent = issues ? "" : (flaggedFys.length ? `Select ${flaggedFys.join(" or ")} above to see the problems the checks caught.` : "");
     const chip = (st) => `<span class="status ${st.toLowerCase()}"><span class="dot" aria-hidden="true"></span>${st}</span>`;
     $("health-body").innerHTML = rows.map((r, i) => {
       const det = r.flagged.length

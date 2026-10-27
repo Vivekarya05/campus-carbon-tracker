@@ -78,7 +78,8 @@ a { color: var(--accent); text-underline-offset: 2px; }
 .intro { margin: 14px 0 0; max-width: 70ch; color: var(--ink-2); font-size: 1rem; }
 
 /* KPI strip */
-.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; margin: 20px 0 8px; }
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 20px 0 8px; }
+@media (max-width: 719px) { .kpi.lead { grid-column: 1 / -1; } .kpi .value { font-size: 1.7rem; } .kpi { padding: 14px; } }
 .kpi { background: var(--surface); border: 1px solid var(--hair); border-radius: var(--radius); padding: 16px 18px 14px; }
 .kpi .label { color: var(--ink-2); font-size: 0.9rem; }
 .kpi .value { font-size: 2rem; font-weight: 650; letter-spacing: -0.02em; line-height: 1.15; margin-top: 4px; }
@@ -86,7 +87,7 @@ a { color: var(--accent); text-underline-offset: 2px; }
 .kpi .sub { font-size: 0.85rem; color: var(--ink-2); margin-top: 4px; }
 .kpi .up { color: var(--bad-text); } .kpi .down { color: var(--good-text); }
 .kpi.lead { border-color: var(--ink); }
-.kpi.lead .value { font-size: 2.4rem; }
+.kpi.lead .value { font-size: 2.2rem; }
 .kpi .value small { display: inline-block; }
 .meter { height: 6px; border-radius: 3px; background: var(--seq-0); margin-top: 10px; overflow: hidden; }
 .meter i { display: block; height: 100%; background: var(--seq-2); border-radius: 3px; }
@@ -114,6 +115,8 @@ section.panel { background: var(--surface); border: 1px solid var(--hair); borde
 .chip[aria-pressed="true"] { border-color: var(--ink-2); color: var(--ink); background: var(--accent-wash); }
 .chip[aria-pressed="false"] .sw { opacity: 0.35; }
 .finding { margin: 10px 0 0; font-size: 0.98rem; max-width: 80ch; }
+.findings { margin: 12px 0 0; padding-left: 20px; max-width: 80ch; }
+.findings li { margin: 6px 0; }
 .note { color: var(--muted); font-size: 0.82rem; margin: 8px 0 0; }
 
 /* grid timing band: the one bold moment */
