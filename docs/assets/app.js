@@ -312,8 +312,10 @@
     setupControls();
     renderAll();
   }).catch((err) => {
-    document.querySelector("main").insertAdjacentHTML("afterbegin",
-      `<p class="panel">The dashboard data could not be loaded (${esc(err.message)}). Run <code>python -m pipeline.run</code> and serve the docs/ folder.</p>`);
+    const msg = typeof echarts === "undefined"
+      ? "The chart library could not be loaded, so the charts are blank. Check your connection or any content blocker, then reload."
+      : `The dashboard data could not be loaded (${esc(err.message)}). Run <code>python -m pipeline.run</code> and serve the docs/ folder.`;
+    document.querySelector("main").insertAdjacentHTML("afterbegin", `<p class="panel">${msg}</p>`);
     console.error(err);
   });
 })();

@@ -61,6 +61,7 @@ Choices made while building, so a reviewer can see what was assumed and why.
 ## Tooling
 
 18. Tests use `unittest` so they run with no extra install (`python -m unittest`); `pytest` also discovers them.
-19. Dashboard: static HTML and Apache ECharts 5.5.1 from cdnjs (pinned exact version), no build step.
+19. Dashboard: static HTML and Apache ECharts 5.5.1 from jsDelivr (pinned exact version with a subresource-integrity hash, checked against the
+    file in the official apache/echarts 5.5.1 release; cdnjs does not host 5.5.1), no build step.
     Scope colours come from a categorical palette checked with a colour-vision-deficiency validator
     (Scope 1 orange, Scope 2 blue, Scope 3 aqua, all pairs separable in light and dark mode).
