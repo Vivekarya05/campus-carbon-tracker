@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Campus Carbon Tracker</title>
+<meta name="description" content="Scope 1, 2 and 3 emissions and Net Zero progress for Kingsford Technical University, a fictional Victorian campus (synthetic demo data).">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.1/echarts.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="title">
+      <h1>Campus Carbon Tracker</h1>
+      <p>Kingsford Technical University, Victoria: six buildings, about 25,000 students</p>
+    </div>
+    <div class="controls">
+      <span class="badge" title="All campus activity data is generated. Emission factors and grid data are real.">Synthetic demo data</span>
+      <div class="seg" role="group" aria-label="Financial year" id="fy-select"></div>
+      <button class="icon-btn" id="theme-btn" type="button" aria-label="Switch colour theme">Dark mode</button>
+    </div>
+  </header>
+
+  <main>
+    <div class="kpis" id="kpis" aria-live="polite"></div>
+
+    <section class="panel" aria-labelledby="h-scope">
+      <div class="panel-head">
+        <div>
+          <h2 id="h-scope">Loading…</h2>
+          <p class="dek">Monthly emissions by scope, in tonnes of carbon dioxide equivalent (t CO2-e).</p>
+        </div>
+        <div class="seg" role="group" aria-label="How to count electricity">
+          <button type="button" data-method="market" aria-pressed="true" title="Counts the renewable electricity the university buys">After green power</button>
+          <button type="button" data-method="location" aria-pressed="false" title="Uses the average Victorian grid for all electricity">Grid average</button>
+        </div>
+      </div>
+      <ul class="legend">
+        <li><span class="sw" style="background:var(--s1)"></span>Scope 1: gas, fleet and refrigerants burnt or leaked on campus</li>
+        <li><span class="sw" style="background:var(--s2)"></span>Scope 2: electricity bought from the grid</li>
+        <li><span class="sw" style="background:var(--s3)"></span>Scope 3: flights, waste and energy supply chains</li>
+      </ul>
+      <div class="chart" id="c-scope" role="img" aria-label="Stacked monthly bar chart of emissions by scope"></div>
+    </section>
+
+    <section class="panel" aria-labelledby="h-path">
+      <h2 id="h-path">Loading…</h2>
+      <p class="dek">Scope 1 and 2 emissions each year against an illustrative target: half the baseline by 2030 and net zero by 2035. Turn options on to see what each would do.</p>
+      <div class="chips" id="scenario-chips" role="group" aria-label="Abatement options"></div>
+      <div class="chart tall" id="c-path" role="img" aria-label="Line chart of actual emissions, target and abatement scenarios to 2035"></div>
+      <p class="finding" id="path-finding"></p>
+    </section>
+
+    <section class="panel" aria-labelledby="h-hot">
+      <h2 id="h-hot">Loading…</h2>
+      <div class="split">
+        <div>
+          <h3>Biggest sources</h3>
+          <p class="dek">t CO2-e this year, coloured by scope</p>
+          <div class="chart" id="c-sources" role="img" aria-label="Horizontal bar chart of emissions by source"></div>
+        </div>
+        <div>
+          <h3>Buildings by emissions per square metre</h3>
+          <p class="dek">Electricity, gas and refrigerant emissions divided by floor area (kg CO2-e per m²)</p>
+          <div class="chart" id="c-buildings" role="img" aria-label="Horizontal bar chart of building emissions intensity"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel grid-band" aria-labelledby="h-grid">
+      <h2 id="h-grid">Loading…</h2>
+      <p class="dek">Average carbon intensity of Victoria's grid electricity by hour of day and month (kg CO2-e per kWh). Darker means dirtier.</p>
+      <div class="hour-facts" id="hour-facts"></div>
+      <div class="chart tall" id="c-grid" role="img" aria-label="Heatmap of Victorian grid emissions intensity by hour and month"></div>
+      <div class="scale" aria-hidden="true"><span id="scale-lo"></span><span class="ramp"></span><span id="scale-hi"></span></div>
+      <p class="finding" id="grid-finding"></p>
+      <p class="note" id="grid-source"></p>
+    </section>
+
+    <section class="panel" aria-labelledby="h-health">
+      <h2 id="h-health">Loading…</h2>
+      <p class="dek">Each data source, who owns it and how complete and on time it was. Select a row to see what was flagged.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th scope="col">Data source</th><th scope="col">Owner</th><th scope="col" class="num">Complete</th>
+            <th scope="col" class="num">Days late</th><th scope="col" class="num">Open issues</th><th scope="col" class="num">Score</th><th scope="col">Status</th></tr></thead>
+          <tbody id="health-body"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Synthetic demo data.</strong> Kingsford Technical University is fictional and all campus activity data (meter readings, bills, trips, waste) is generated. Emission factors come from the Australian National Greenhouse Accounts Factors and UK DESNZ conversion factors; grid intensity comes from AEMO data. Every number is reproducible with <code>python -m pipeline.run</code>.</p>
+    <p><a href="methodology.html">Methodology, factors and data governance</a> &nbsp;|&nbsp; <a href="https://github.com/Vivekarya05/campus-carbon-tracker">Source code on GitHub</a></p>
+  </footer>
+</div>
+<script src="assets/app.js"></script>
+</body>
+</html>

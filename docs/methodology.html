@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Carbon Tracker Methodology</title>
+<meta name="description" content="Boundary, GHG Protocol approach, emission factors, data governance, assumptions and limitations for the Campus Carbon Tracker.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="title">
+      <h1>Methodology</h1>
+      <p>How the Campus Carbon Tracker counts emissions and manages its data</p>
+    </div>
+    <div class="controls"><span class="badge">Synthetic demo data</span><a href="index.html">Back to the dashboard</a></div>
+  </header>
+
+  <main class="prose">
+    <h2>What this is</h2>
+    <p>A greenhouse gas inventory and Net Zero tracker for Kingsford Technical University, a <strong>fictional</strong> six-building campus in Victoria with about 25,000 students. All campus activity data (meter readings, gas bills, fuel cards, refrigerant service records, flights and waste tonnes) is <strong>synthetic</strong>, generated with a fixed random seed by <code>pipeline/generate.py</code>. The emission factors and grid data are real and cited below. Every figure on the dashboard is produced by <code>python -m pipeline.run</code>.</p>
+
+    <h2>Boundary and reporting period</h2>
+    <ul>
+      <li><strong>Organisational boundary:</strong> operational control. The six campus buildings, the university fleet and the activities the university pays for (flights, waste collection).</li>
+      <li><strong>Reporting period:</strong> Australian financial years FY2023-24 to FY2025-26 (1 July to 30 June). FY2023-24 is the baseline.</li>
+      <li><strong>Gases:</strong> CO2, CH4 and N2O from fuels, plus HFCs from refrigerant leaks, all expressed as tonnes of CO2-equivalent (t CO2-e).</li>
+      <li><strong>Time zone:</strong> half-hourly data uses NEM time (AEST, no daylight saving), matching AEMO data.</li>
+    </ul>
+
+    <h2>Approach: the GHG Protocol</h2>
+    <p>The inventory follows the GHG Protocol Corporate Standard and its Scope 2 Guidance. Every number is <em>activity data × emission factor</em>. Emissions are calculated monthly per building and source, then summed.</p>
+    <h3>Scopes</h3>
+    <ul>
+      <li><strong>Scope 1 (direct):</strong> natural gas burnt in boilers and pool heaters, diesel and petrol in the fleet, and refrigerant leaked from air conditioning and chillers.</li>
+      <li><strong>Scope 2 (purchased electricity):</strong> grid electricity. Reported two ways:
+        <ul>
+          <li><strong>Location-based</strong> ("Grid average" on the dashboard): every kWh at the NGA Victorian grid factor.</li>
+          <li><strong>Market-based</strong> ("After green power"): kWh covered by GreenPower or voluntarily surrendered LGCs (including PPA certificates) count as zero; the rest is counted at the market factor shown in the factor table.</li>
+        </ul>
+        Rooftop solar used on site is not grid electricity, so it never enters Scope 2.</li>
+      <li><strong>Scope 3 (value chain), selected categories:</strong>
+        <ul>
+          <li>Category 3, fuel- and energy-related activities: NGA Scope 3 factors for electricity (network losses and upstream generation fuels), gas and fleet fuels.</li>
+          <li>Category 5, waste generated in operations: landfill tonnes × NGA waste factor. Recycling and composting count as zero unless a factor is listed (recycled-content cut-off approach).</li>
+          <li>Category 6, business travel: flights only, using great-circle distance (doubled for returns) × UK DESNZ passenger-km factors with radiative forcing, short-haul below 3,700 km and long-haul above, by cabin class.</li>
+        </ul>
+      </li>
+      <li><strong>Excluded:</strong> water (no NGA or Victorian water-utility factor was used, so it is left out rather than estimated), purchased goods and services, capital goods, employee commuting, student travel, accommodation and investments. These are often the largest Scope 3 items for a university and are the next priority.</li>
+    </ul>
+    <h3>Refrigerants</h3>
+    <p>Uses the top-up method: refrigerant added during servicing is assumed to replace what leaked. R-410A is a 50/50 blend of HFC-32 and HFC-125, so its GWP is the average of the two listed GWPs.</p>
+    <h3>Intensity metrics</h3>
+    <p>Emissions per student use total emissions (market-based) divided by student headcount. Building intensity uses each building's electricity (location-based, so it reflects the building's own performance rather than the campus's green power purchases), gas and refrigerant emissions, divided by gross floor area.</p>
+
+    <h2>Emission factors</h2>
+    <p>Every factor used is listed here and in <code>data/reference/factors.csv</code>, with its source table and publication.</p>
+    <div class="ref-table" id="t-factors">Loading…</div>
+
+    <h2>Grid timing</h2>
+    <p id="grid-method">Loading…</p>
+    <p>The load-shifting estimate moves 10% of each day's load in the six dirtiest half-hours into the six cleanest half-hours of the same day, keeping total kWh unchanged. It uses average rather than marginal intensity, so it is an indicator of opportunity, not an inventory number. The inventory itself always uses the NGA factor.</p>
+
+    <h2>Net Zero pathway</h2>
+    <p id="path-method">Loading…</p>
+
+    <h2>Data governance</h2>
+    <h3>Data owners</h3>
+    <p>Each source has one accountable owner who supplies it, fixes it and holds the evidence.</p>
+    <div class="ref-table" id="t-owners">Loading…</div>
+    <h3>Data quality checks</h3>
+    <ul>
+      <li><strong>Completeness:</strong> expected periods (each building or vehicle or stream, every month) versus what was received. Missing gas months are estimated from the same month in other years and flagged as open until the real bill arrives.</li>
+      <li><strong>Timeliness:</strong> days between the due date (set per source in the owner register) and the date the report arrived.</li>
+      <li><strong>Duplicates:</strong> repeated primary keys (for example the same meter and half-hour twice). Duplicates are removed.</li>
+      <li><strong>Unit and range:</strong> a half-hour reading above a building's maximum possible demand is impossible. A reading about 1,000 times too high means watt-hours were recorded as kilowatt-hours, so it is divided by 1,000 and logged as corrected.</li>
+      <li><strong>Negative values:</strong> flagged for investigation.</li>
+      <li><strong>Outliers:</strong> a robust rolling z-score (median and median absolute deviation) against the trailing window. Monthly series are first divided by the average for that calendar month, and each electricity meter is compared as a share of the campus total, so seasons and semesters do not trigger false alarms. A point must be more than 4 robust z-scores and more than 30% away from the trailing median to be flagged.</li>
+    </ul>
+    <p><strong>Score (0 to 100) per source and year:</strong> 40% completeness (share of months with all data), 30% validity (share of months with no duplicate, unit, negative or outlier issue) and 30% timeliness (share of months reported on time). Status is <em>Missing</em> if any month is incomplete, <em>Check</em> if anything else was flagged, otherwise <em>Good</em>.</p>
+    <p>Four problems were deliberately planted in the synthetic data to prove the checks work, and the test suite fails if any of them is missed or if anything else is flagged: two missing gas months for one building, one duplicated day of electricity data, one meter month recorded in Wh instead of kWh and one waste report that arrived 45 days late.</p>
+    <h3>Evidence register</h3>
+    <p>For a certification audit (for example Climate Active) every reported number needs source evidence an auditor can trace. The register lists what would be held for each source. Because this campus is fictional, no real evidence exists.</p>
+    <div class="ref-table" id="t-evidence">Loading…</div>
+    <h3>Data dictionary</h3>
+    <div class="ref-table" id="t-dict">Loading…</div>
+
+    <h2>Assumptions and limitations</h2>
+    <ul>
+      <li>All campus activity data is synthetic. The patterns (seasons, semesters, weekdays, solar) are realistic, but the totals do not describe any real university.</li>
+      <li>The 2030 and 2035 targets are illustrative, not a real commitment, and cover Scope 1 and market-based Scope 2 only.</li>
+      <li>Scope 3 covers three categories; the largest university categories (purchased goods and services, capital works, commuting) are not included.</li>
+      <li>Market-based Scope 2 deducts only the university's own renewable purchases; the dashboard does not separately model the Renewable Power Percentage.</li>
+      <li>Flight factors are UK DESNZ factors applied to Australian routes; distance bands follow the DESNZ short-haul and long-haul split.</li>
+      <li>Scenario costs, timing and technical feasibility are not modelled; they show tonnes only.</li>
+    </ul>
+    <p class="note">Built with Python (pandas, numpy) and a static HTML dashboard using Apache ECharts. Source: <a href="https://github.com/Vivekarya05/campus-carbon-tracker">github.com/Vivekarya05/campus-carbon-tracker</a>.</p>
+  </main>
+  <footer><p><strong>Synthetic demo data.</strong> Kingsford Technical University is fictional. <a href="index.html">Back to the dashboard</a></p></footer>
+</div>
+<script>
+(function () {
+  const esc = (s) => String(s == null ? "" : s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const table = (rows, cols) => "<table><thead><tr>" + cols.map((c) => `<th scope="col">${esc(c[1])}</th>`).join("") + "</tr></thead><tbody>" +
+    rows.map((r) => "<tr>" + cols.map((c) => `<td>${esc(r[c[0]])}</td>`).join("") + "</tr>").join("") + "</tbody></table>";
+  const get = (n) => fetch(`data/${n}.json`).then((r) => { if (!r.ok) throw new Error(n); return r.json(); });
+  Promise.all([get("factors"), get("governance"), get("grid"), get("pathway")]).then(([f, g, grid, p]) => {
+    document.getElementById("t-factors").innerHTML = table(f, [["factor_id", "Factor"], ["description", "What it is"], ["value", "Value"], ["unit", "Unit"], ["scope", "Scope"], ["source_table", "Source table"], ["source_publication", "Publication"], ["year", "Year"]]);
+    document.getElementById("t-owners").innerHTML = table(g.data_owners, [["source", "Source"], ["data_owner", "Owner"], ["owner_role", "Role"], ["frequency", "Frequency"], ["due_days_after_period", "Due (days after period)"], ["evidence_required", "Evidence"]]);
+    document.getElementById("t-evidence").innerHTML = table(g.evidence_register, [["evidence_id", "ID"], ["source", "Source"], ["evidence", "Evidence"], ["held_by", "Held by"], ["retention", "Retention"], ["used_for", "Used for"], ["status_fy2025_26", "Status"]]);
+    document.getElementById("t-dict").innerHTML = table(g.data_dictionary, [["table", "Table"], ["column", "Column"], ["type", "Type"], ["unit", "Unit"], ["description", "Description"], ["allowed_values_or_range", "Allowed values"]]);
+    document.getElementById("grid-method").textContent = grid.available
+      ? `Half-hourly campus grid import for the latest year is joined to half-hourly Victorian (VIC1) grid emissions intensity. Source: ${grid.source}. nemed rebuilds regional intensity from AEMO 5-minute dispatch data and AEMO's generator emission factors (the CDEII data), so it measures emissions from generators located in Victoria per MWh they send out; it does not adjust for interconnector imports and exports. The annual average was ${grid.avg_intensity} kg CO2-e/kWh, compared with the NGA Victorian Scope 2 factor of ${grid.nga_factor}.`
+      : `AEMO half-hourly data was not available, so the flat NGA Victorian Scope 2 factor (${grid.fallback_intensity} kg CO2-e/kWh) is used for every half-hour and the grid timing chart is hidden.`;
+    const a = p.assumptions;
+    document.getElementById("path-method").textContent =
+      `Baseline: ${p.baseline.toLocaleString("en-AU")} t CO2-e (Scope 1 + market-based Scope 2, FY2023-24). Illustrative target: ${a.target_cut * 100}% below baseline by ${a.target_year} (${p.target_2030.toLocaleString("en-AU")} t) and net zero by ${a.net_zero_year}, falling in a straight line between those points. ` +
+      `Scenarios start from ${a.from_fy} actuals and phase in evenly to full effect in ${a.target_year}: (1) rooftop solar expansion of ${a.solar_add_kwp.toLocaleString("en-AU")} kWp at the campus's own modelled yield of ${a.solar_yield_kwh_per_kwp.toLocaleString("en-AU")} kWh per kWp a year; ` +
+      `(2) replacing ${a.electrify_share * 100}% of gas use with heat pumps at a seasonal efficiency (COP) of ${a.heat_pump_cop}, which adds electricity demand; (3) a 100% renewable PPA covering all remaining grid electricity; and all three combined. Renewable purchases stay at the latest year's level unless the PPA scenario applies.`;
+  }).catch((e) => { document.querySelectorAll(".ref-table").forEach((el) => { el.textContent = "Run python -m pipeline.run to generate this table."; }); console.error(e); });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+table,column,type,unit,description,allowed_values_or_range
+facilities_buildings,building_id,text,,Unique building code,B01-B06
+facilities_buildings,name,text,,Building name,
+facilities_buildings,floor_area_m2,integer,m2,Gross floor area used for intensity metrics,>0
+facilities_buildings,solar_kwp,number,kWp,Installed rooftop solar capacity,>=0
+facilities_buildings,max_demand_kw,number,kW,Highest physically possible demand; used by the range check,>0
+facilities_campus_stats,fy,text,,Australian financial year (July-June),FY2023-24 to FY2025-26
+facilities_campus_stats,students_headcount,integer,students,Student headcount for intensity metrics,>0
+facilities_electricity_halfhourly,building_id,text,,Building (one main meter per building),B01-B06
+facilities_electricity_halfhourly,interval_start,datetime,NEM time (AEST),Start of the 30-minute interval,
+facilities_electricity_halfhourly,grid_import_kwh,number,kWh,Electricity imported from the grid in the interval,0 to max_demand_kw x 0.5
+facilities_electricity_halfhourly,solar_generation_kwh,number,kWh,On-site rooftop solar generation consumed in the building,>=0
+facilities_electricity_halfhourly,unit,text,,Unit as labelled by the meter data platform,kWh
+facilities_gas_monthly,building_id,text,,Building,B01-B06
+facilities_gas_monthly,month,text,YYYY-MM,Billing month,
+facilities_gas_monthly,gas_gj,number,GJ,Natural gas consumed,>=0
+facilities_gas_monthly,report_received_date,date,,Date the bill was received (timeliness check),due 30 days after month end
+facilities_refrigerants,event_date,date,,Date of the refrigerant top-up,
+facilities_refrigerants,building_id,text,,Building,B01-B06
+facilities_refrigerants,equipment,text,,Equipment type serviced,
+facilities_refrigerants,gas_type,text,,Refrigerant gas,HFC-134a | R-410A | HFC-32
+facilities_refrigerants,kg_topped_up,number,kg,Refrigerant added (assumed equal to the amount leaked),>=0
+fleet_fuel_monthly,vehicle_id,text,,Fleet vehicle,V01-V15
+fleet_fuel_monthly,fuel_type,text,,Fuel,diesel | petrol
+fleet_fuel_monthly,month,text,YYYY-MM,Fuel card statement month,
+fleet_fuel_monthly,litres,number,L,Fuel purchased,>=0
+procurement_renewables,fy,text,,Financial year the instruments were surrendered for,
+procurement_renewables,instrument,text,,GreenPower or voluntarily surrendered LGCs (incl. PPA LGCs),
+procurement_renewables,mwh,number,MWh,Renewable electricity matched to campus consumption,>=0
+travel_flights,departure_date,date,,Departure date,
+travel_flights,department,text,,Booking department,
+travel_flights,origin,text,IATA,Origin airport,see travel_airports
+travel_flights,destination,text,IATA,Destination airport,see travel_airports
+travel_flights,cabin_class,text,,Cabin class,economy | business
+travel_flights,return_trip,boolean,,True if the booking is a return trip (distance doubled),
+travel_airports,airport,text,IATA,Airport code,
+travel_airports,lat / lon,number,degrees,Airport coordinates for great-circle distance,
+wastecontractor_waste_monthly,month,text,YYYY-MM,Collection month,
+wastecontractor_waste_monthly,stream,text,,Waste stream,landfill | recycling | organics
+wastecontractor_waste_monthly,tonnes,number,t,Weighbridge tonnes collected,>=0
+wastecontractor_waste_monthly,report_received_date,date,,Date the contractor report was received,due 15 days after month end
+emissions_inventory,month / fy,text,,Reporting period,
+emissions_inventory,source,text,,Plain-English emission source,
+emissions_inventory,scope,integer,,GHG Protocol scope,1 | 2 | 3
+emissions_inventory,category,text,,Scope 3 category or Scope 1 type,
+emissions_inventory,activity / activity_unit,number,,Activity data used in the calculation,
+emissions_inventory,t_location,number,t CO2-e,Emissions with location-based Scope 2,
+emissions_inventory,t_market,number,t CO2-e,Emissions with market-based Scope 2 (equal to t_location outside Scope 2),
+data_quality_log,source / check / entity / period,text,,What was flagged and where,
+data_quality_log,status,text,,Corrected | Removed | Estimated | Late - included | Investigate,
+data_quality_log,open,boolean,,True while someone still has to act (Estimated or Investigate),

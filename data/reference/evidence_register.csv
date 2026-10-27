@@ -1,0 +1,11 @@
+evidence_id,source,evidence,held_by,retention,used_for,status_fy2025_26
+EV-01,electricity,Retailer tax invoices for each NMI,Facilities Management,7 years,Reconciling interval totals to billed kWh,Synthetic demo: not held
+EV-02,electricity,NEM12 interval data export from the metering data provider,Facilities Management,7 years,Half-hourly consumption and grid-timing analysis,Synthetic demo: not held
+EV-03,gas,Gas retailer invoices per MIRN,Facilities Management,7 years,Monthly GJ and estimation audit trail,Synthetic demo: not held
+EV-04,refrigerants,HVAC contractor service reports (gas type and kg added),Facilities Management,7 years,Fugitive emissions,Synthetic demo: not held
+EV-05,fleet,Fuel card statements,Fleet Services,7 years,Litres by fuel type,Synthetic demo: not held
+EV-06,renewables,GreenPower invoices and REC Registry LGC surrender certificates,Procurement,7 years,Market-based Scope 2 claims (no double counting),Synthetic demo: not held
+EV-07,flights,Travel management company booking report,Travel,7 years,Passenger-km by haul and cabin,Synthetic demo: not held
+EV-08,waste,Contractor weighbridge dockets and monthly tonnage report,Waste contractor,7 years,Tonnes by stream,Synthetic demo: not held
+EV-09,all,NGA Factors workbook and DESNZ conversion factors (version used),Sustainability team,Permanent,Factor provenance,Held in data/reference
+EV-10,all,Data quality log and sign-off of estimates,Sustainability team,7 years,Audit trail for corrections and estimates,Held in data/processed
