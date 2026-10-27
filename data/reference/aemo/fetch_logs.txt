@@ -1,0 +1,204 @@
+== in/aemo-0/log_0.txt
+Traceback (most recent call last):
+  File "/home/runner/work/campus-carbon-tracker/campus-carbon-tracker/scripts/fetch_vic1_intensity.py", line 20, in <module>
+    df = get_total_emissions(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/nemed/nemed.py", line 49, in get_total_emissions
+    raw_table = nd.get_total_emissions_by_DI_DUID(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/nemed/process.py", line 61, in get_total_emissions_by_DI_DUID
+    actual_stime = dt.strptime(start_time, "%Y/%m/%d %H:%M")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/_strptime.py", line 567, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/_strptime.py", line 352, in _strptime
+    raise ValueError("unconverted data remains: %s" %
+ValueError: unconverted data remains: :00
+== in/aemo-1/log_1.txt
+Traceback (most recent call last):
+  File "/home/runner/work/campus-carbon-tracker/campus-carbon-tracker/scripts/fetch_vic1_intensity.py", line 20, in <module>
+    df = get_total_emissions(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/nemed/nemed.py", line 49, in get_total_emissions
+    raw_table = nd.get_total_emissions_by_DI_DUID(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/nemed/process.py", line 61, in get_total_emissions_by_DI_DUID
+    actual_stime = dt.strptime(start_time, "%Y/%m/%d %H:%M")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/_strptime.py", line 567, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/_strptime.py", line 352, in _strptime
+    raise ValueError("unconverted data remains: %s" %
+ValueError: unconverted data remains: :00
+== in/aemo-10/log_10.txt
+Traceback (most recent call last):
+  File "/home/runner/work/campus-carbon-tracker/campus-carbon-tracker/scripts/fetch_vic1_intensity.py", line 20, in <module>
+    df = get_total_emissions(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/nemed/nemed.py", line 49, in get_total_emissions
+    raw_table = nd.get_total_emissions_by_DI_DUID(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/nemed/process.py", line 61, in get_total_emissions_by_DI_DUID
+    actual_stime = dt.strptime(start_time, "%Y/%m/%d %H:%M")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/_strptime.py", line 567, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/_strptime.py", line 352, in _strptime
+    raise ValueError("unconverted data remains: %s" %
+ValueError: unconverted data remains: :00
+== in/aemo-11/log_11.txt
+Traceback (most recent call last):
+  File "/home/runner/work/campus-carbon-tracker/campus-carbon-tracker/scripts/fetch_vic1_intensity.py", line 20, in <module>
+    df = get_total_emissions(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/nemed/nemed.py", line 49, in get_total_emissions
+    raw_table = nd.get_total_emissions_by_DI_DUID(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/nemed/process.py", line 61, in get_total_emissions_by_DI_DUID
+    actual_stime = dt.strptime(start_time, "%Y/%m/%d %H:%M")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/_strptime.py", line 567, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/_strptime.py", line 352, in _strptime
+    raise ValueError("unconverted data remains: %s" %
+ValueError: unconverted data remains: :00
+== in/aemo-2/log_2.txt
+Traceback (most recent call last):
+  File "/home/runner/work/campus-carbon-tracker/campus-carbon-tracker/scripts/fetch_vic1_intensity.py", line 20, in <module>
+    df = get_total_emissions(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/nemed/nemed.py", line 49, in get_total_emissions
+    raw_table = nd.get_total_emissions_by_DI_DUID(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/nemed/process.py", line 61, in get_total_emissions_by_DI_DUID
+    actual_stime = dt.strptime(start_time, "%Y/%m/%d %H:%M")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/_strptime.py", line 567, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/_strptime.py", line 352, in _strptime
+    raise ValueError("unconverted data remains: %s" %
+ValueError: unconverted data remains: :00
+== in/aemo-3/log_3.txt
+Traceback (most recent call last):
+  File "/home/runner/work/campus-carbon-tracker/campus-carbon-tracker/scripts/fetch_vic1_intensity.py", line 20, in <module>
+    df = get_total_emissions(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/nemed/nemed.py", line 49, in get_total_emissions
+    raw_table = nd.get_total_emissions_by_DI_DUID(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/nemed/process.py", line 61, in get_total_emissions_by_DI_DUID
+    actual_stime = dt.strptime(start_time, "%Y/%m/%d %H:%M")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/_strptime.py", line 567, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/_strptime.py", line 352, in _strptime
+    raise ValueError("unconverted data remains: %s" %
+ValueError: unconverted data remains: :00
+== in/aemo-4/log_4.txt
+Traceback (most recent call last):
+  File "/home/runner/work/campus-carbon-tracker/campus-carbon-tracker/scripts/fetch_vic1_intensity.py", line 20, in <module>
+    df = get_total_emissions(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/nemed/nemed.py", line 49, in get_total_emissions
+    raw_table = nd.get_total_emissions_by_DI_DUID(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/nemed/process.py", line 61, in get_total_emissions_by_DI_DUID
+    actual_stime = dt.strptime(start_time, "%Y/%m/%d %H:%M")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/_strptime.py", line 567, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/_strptime.py", line 352, in _strptime
+    raise ValueError("unconverted data remains: %s" %
+ValueError: unconverted data remains: :00
+== in/aemo-5/log_5.txt
+Traceback (most recent call last):
+  File "/home/runner/work/campus-carbon-tracker/campus-carbon-tracker/scripts/fetch_vic1_intensity.py", line 20, in <module>
+    df = get_total_emissions(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/nemed/nemed.py", line 49, in get_total_emissions
+    raw_table = nd.get_total_emissions_by_DI_DUID(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/nemed/process.py", line 61, in get_total_emissions_by_DI_DUID
+    actual_stime = dt.strptime(start_time, "%Y/%m/%d %H:%M")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/_strptime.py", line 567, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/_strptime.py", line 352, in _strptime
+    raise ValueError("unconverted data remains: %s" %
+ValueError: unconverted data remains: :00
+== in/aemo-6/log_6.txt
+Traceback (most recent call last):
+  File "/home/runner/work/campus-carbon-tracker/campus-carbon-tracker/scripts/fetch_vic1_intensity.py", line 20, in <module>
+    df = get_total_emissions(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/nemed/nemed.py", line 49, in get_total_emissions
+    raw_table = nd.get_total_emissions_by_DI_DUID(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/nemed/process.py", line 61, in get_total_emissions_by_DI_DUID
+    actual_stime = dt.strptime(start_time, "%Y/%m/%d %H:%M")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/_strptime.py", line 567, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/_strptime.py", line 352, in _strptime
+    raise ValueError("unconverted data remains: %s" %
+ValueError: unconverted data remains: :00
+== in/aemo-7/log_7.txt
+Traceback (most recent call last):
+  File "/home/runner/work/campus-carbon-tracker/campus-carbon-tracker/scripts/fetch_vic1_intensity.py", line 20, in <module>
+    df = get_total_emissions(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/nemed/nemed.py", line 49, in get_total_emissions
+    raw_table = nd.get_total_emissions_by_DI_DUID(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/nemed/process.py", line 61, in get_total_emissions_by_DI_DUID
+    actual_stime = dt.strptime(start_time, "%Y/%m/%d %H:%M")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/_strptime.py", line 567, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/_strptime.py", line 352, in _strptime
+    raise ValueError("unconverted data remains: %s" %
+ValueError: unconverted data remains: :00
+== in/aemo-8/log_8.txt
+Traceback (most recent call last):
+  File "/home/runner/work/campus-carbon-tracker/campus-carbon-tracker/scripts/fetch_vic1_intensity.py", line 20, in <module>
+    df = get_total_emissions(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/nemed/nemed.py", line 49, in get_total_emissions
+    raw_table = nd.get_total_emissions_by_DI_DUID(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/nemed/process.py", line 61, in get_total_emissions_by_DI_DUID
+    actual_stime = dt.strptime(start_time, "%Y/%m/%d %H:%M")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/_strptime.py", line 567, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/_strptime.py", line 352, in _strptime
+    raise ValueError("unconverted data remains: %s" %
+ValueError: unconverted data remains: :00
+== in/aemo-9/log_9.txt
+Traceback (most recent call last):
+  File "/home/runner/work/campus-carbon-tracker/campus-carbon-tracker/scripts/fetch_vic1_intensity.py", line 20, in <module>
+    df = get_total_emissions(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/nemed/nemed.py", line 49, in get_total_emissions
+    raw_table = nd.get_total_emissions_by_DI_DUID(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/nemed/process.py", line 61, in get_total_emissions_by_DI_DUID
+    actual_stime = dt.strptime(start_time, "%Y/%m/%d %H:%M")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/_strptime.py", line 567, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/_strptime.py", line 352, in _strptime
+    raise ValueError("unconverted data remains: %s" %
+ValueError: unconverted data remains: :00
