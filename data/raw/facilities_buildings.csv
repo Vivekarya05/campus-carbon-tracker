@@ -1,0 +1,7 @@
+building_id,name,floor_area_m2,solar_kwp,max_demand_kw
+B01,Learning Commons (Library),18000,350,1610.0
+B02,Engineering & Design,22000,0,2100.0
+B03,Science & Health Labs,16000,0,2320.0
+B04,Student Hub,9000,150,970.0
+B05,Administration,7000,0,720.0
+B06,Sports & Aquatic Centre,6000,0,780.0

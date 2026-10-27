@@ -1,0 +1,7 @@
+INTERVIEW_PREP.md
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+nemed_cache/
+.DS_Store

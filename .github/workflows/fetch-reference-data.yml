@@ -1,0 +1,81 @@
+# Downloads the official reference data the pipeline needs:
+#   - NGA Factors workbook (DCCEEW)            -> data/reference/nga/
+#   - UK DESNZ conversion factors (flights)    -> data/reference/desnz/
+#   - Half-hourly VIC1 grid emissions intensity built from AEMO dispatch data with `nemed`
+# Run manually (Actions tab -> Fetch reference data -> Run workflow), then download the
+# `reference-data` artifact and copy its contents into data/reference/.
+name: Fetch reference data
+
+on:
+  workflow_dispatch:
+    inputs:
+      fy_start:
+        description: "First month of the financial year to fetch AEMO data for (YYYY-MM)"
+        default: "2025-07"
+
+permissions:
+  contents: read
+
+jobs:
+  factors:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download NGA Factors and DESNZ workbooks
+        run: |
+          set -euo pipefail
+          mkdir -p out/nga out/desnz
+          UA="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+          PAGE=https://www.dcceew.gov.au/climate-change/publications/national-greenhouse-accounts-factors-2026
+          curl -sSfL -A "$UA" "$PAGE" -o out/nga/page.html
+          grep -oE 'href="[^"]+\.(xlsx|pdf)"' out/nga/page.html | sed 's/href="//;s/"$//' | sort -u | tee out/nga/links.txt
+          while read -r link; do
+            case "$link" in http*) url="$link" ;; *) url="https://www.dcceew.gov.au$link" ;; esac
+            curl -sSfL -A "$UA" "$url" -o "out/nga/$(basename "$url")" || echo "failed: $url"
+          done < out/nga/links.txt
+          curl -sSfL -A "$UA" https://assets.publishing.service.gov.uk/media/6a6c9748862aaf18d9c62ac9/ghg-conversion-factors-2026-flat-format-revised.xlsx \
+            -o out/desnz/ghg-conversion-factors-2026-flat-format-revised.xlsx
+          ls -la out/nga out/desnz
+      - uses: actions/upload-artifact@v4
+        with:
+          name: factors
+          path: out/
+
+  aemo:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        month: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install nemed && pip show nemed | head -2
+      - name: Build half-hourly VIC1 intensity for one month
+        run: python scripts/fetch_vic1_intensity.py "${{ inputs.fy_start }}" ${{ matrix.month }} out
+      - uses: actions/upload-artifact@v4
+        with:
+          name: aemo-${{ matrix.month }}
+          path: out/
+
+  combine:
+    needs: [factors, aemo]
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: in
+      - name: Merge into one reference-data bundle
+        run: |
+          set -euo pipefail
+          mkdir -p reference/aemo
+          cp -r in/factors/* reference/ || true
+          head -n1 -q in/aemo-*/vic1_*.csv | head -n1 > reference/aemo/vic1_intensity_halfhourly.csv
+          for f in $(ls in/aemo-*/vic1_*.csv | sort); do tail -n +2 "$f" >> reference/aemo/vic1_intensity_halfhourly.csv; done
+          wc -l reference/aemo/vic1_intensity_halfhourly.csv
+      - uses: actions/upload-artifact@v4
+        with:
+          name: reference-data
+          path: reference/

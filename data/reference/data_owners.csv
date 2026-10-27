@@ -1,0 +1,8 @@
+source,data_owner,owner_role,raw_file,frequency,due_days_after_period,primary_key,evidence_required
+electricity,Facilities Management,Energy Manager,facilities_electricity_halfhourly.csv.gz,half-hourly (daily feed),0,building_id|interval_start,Retailer invoices and NMI interval data export (NEM12)
+gas,Facilities Management,Energy Manager,facilities_gas_monthly.csv,monthly,30,building_id|month,Gas retailer invoices (MIRN)
+refrigerants,Facilities Management,HVAC Maintenance Coordinator,facilities_refrigerants.csv,event,30,event_date|building_id|equipment|gas_type,Contractor service reports and refrigerant handling licence records
+fleet,Fleet Services,Fleet Coordinator,fleet_fuel_monthly.csv,monthly,15,vehicle_id|month,Fuel card statements
+renewables,Procurement,Energy Procurement Lead,procurement_renewables.csv,annual,60,fy|instrument,GreenPower invoices and REC Registry LGC surrender certificates
+flights,Travel,Travel Manager,travel_flights.csv,monthly,20,,Travel management company booking report
+waste,Waste contractor,Contract Manager (Campus Services),wastecontractor_waste_monthly.csv,monthly,15,month|stream,Contractor weighbridge dockets and monthly report
