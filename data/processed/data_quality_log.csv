@@ -1,0 +1,6 @@
+source,check,entity,period,records,detail,status,days_late,month,fy,open
+electricity,Duplicates,B02,2024-09-12,48,48 duplicate records for B02 on 2024-09-12; duplicates removed,Removed,0,2024-09,FY2024-25,False
+electricity,Unit / range,B05,2025-05,1488,"1488 half-hour readings above the 720 kW max demand (median 61,285); looks like Wh recorded as kWh, divided by 1000",Corrected,0,2025-05,FY2024-25,False
+gas,Completeness,B03,2025-03,1,No gas data received for B03 in 2025-03; estimated at 911.1 GJ from the same month in other years,Estimated,0,2025-03,FY2024-25,True
+gas,Completeness,B03,2025-04,1,"No gas data received for B03 in 2025-04; estimated at 1,572.6 GJ from the same month in other years",Estimated,0,2025-04,FY2024-25,True
+waste,Timeliness,report,2025-03,3,Report for 2025-03 arrived 45 days after its due date (15 days after period end),Late - included,45,2025-03,FY2024-25,False

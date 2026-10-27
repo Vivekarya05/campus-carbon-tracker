@@ -1,0 +1,22 @@
+source,fy,completeness_pct,validity_pct,timeliness_pct,max_days_late,issues,open_issues,score,status,data_owner
+electricity,FY2023-24,100.0,100.0,100.0,0,0,0,100.0,Good,Facilities Management
+electricity,FY2024-25,100.0,83.3,100.0,0,2,0,95.0,Check,Facilities Management
+electricity,FY2025-26,100.0,100.0,100.0,0,0,0,100.0,Good,Facilities Management
+gas,FY2023-24,100.0,100.0,100.0,0,0,0,100.0,Good,Facilities Management
+gas,FY2024-25,83.3,100.0,100.0,0,2,2,93.3,Missing,Facilities Management
+gas,FY2025-26,100.0,100.0,100.0,0,0,0,100.0,Good,Facilities Management
+refrigerants,FY2023-24,100.0,100.0,100.0,0,0,0,100.0,Good,Facilities Management
+refrigerants,FY2024-25,100.0,100.0,100.0,0,0,0,100.0,Good,Facilities Management
+refrigerants,FY2025-26,100.0,100.0,100.0,0,0,0,100.0,Good,Facilities Management
+fleet,FY2023-24,100.0,100.0,100.0,0,0,0,100.0,Good,Fleet Services
+fleet,FY2024-25,100.0,100.0,100.0,0,0,0,100.0,Good,Fleet Services
+fleet,FY2025-26,100.0,100.0,100.0,0,0,0,100.0,Good,Fleet Services
+renewables,FY2023-24,100.0,100.0,100.0,0,0,0,100.0,Good,Procurement
+renewables,FY2024-25,100.0,100.0,100.0,0,0,0,100.0,Good,Procurement
+renewables,FY2025-26,100.0,100.0,100.0,0,0,0,100.0,Good,Procurement
+flights,FY2023-24,100.0,100.0,100.0,0,0,0,100.0,Good,Travel
+flights,FY2024-25,100.0,100.0,100.0,0,0,0,100.0,Good,Travel
+flights,FY2025-26,100.0,100.0,100.0,0,0,0,100.0,Good,Travel
+waste,FY2023-24,100.0,100.0,100.0,0,0,0,100.0,Good,Waste contractor
+waste,FY2024-25,100.0,100.0,91.7,45,1,0,97.5,Check,Waste contractor
+waste,FY2025-26,100.0,100.0,100.0,0,0,0,100.0,Good,Waste contractor
