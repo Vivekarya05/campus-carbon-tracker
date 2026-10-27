@@ -8,8 +8,7 @@ from .common import FYS, PROCESSED, RAW, REF
 
 def main():
     if not (REF / "factors.csv").exists():
-        raise SystemExit("data/reference/factors.csv is missing. Build it from the NGA workbook: "
-                         "python -m pipeline.factors (see README, 'Reference data').")
+        raise SystemExit("data/reference/factors.csv is missing (see README, 'Reference data').")
     generate.main()
     log, clean, scores = validate.main()
     inv, em = calculate.main(clean)

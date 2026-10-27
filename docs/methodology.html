@@ -46,7 +46,7 @@
       <li><strong>Scope 3 (value chain), selected categories:</strong>
         <ul>
           <li>Category 3, fuel- and energy-related activities: NGA Scope 3 factors for electricity (network losses and upstream generation fuels), gas and fleet fuels.</li>
-          <li>Category 5, waste generated in operations: landfill tonnes × NGA waste factor. Recycling and composting count as zero unless a factor is listed (recycled-content cut-off approach).</li>
+          <li>Category 5, waste generated in operations: landfill tonnes × the NGA commercial and industrial waste stream factor, organics × the NGA composting factor. Recycling counts as zero (recycled-content cut-off approach: its emissions belong to whoever uses the recycled material).</li>
           <li>Category 6, business travel: flights only, using great-circle distance (doubled for returns) × UK DESNZ passenger-km factors with radiative forcing, short-haul below 3,700 km and long-haul above, by cabin class.</li>
         </ul>
       </li>
@@ -58,7 +58,7 @@
     <p>Emissions per student use total emissions (market-based) divided by student headcount. Building intensity uses each building's electricity (location-based, so it reflects the building's own performance rather than the campus's green power purchases), gas and refrigerant emissions, divided by gross floor area.</p>
 
     <h2>Emission factors</h2>
-    <p>Every factor used is listed here and in <code>data/reference/factors.csv</code>, with its source table and publication.</p>
+    <p>Every factor used is listed here and in <code>data/reference/factors.csv</code>, with its source table and publication. The DCCEEW site blocks automated downloads, so the NGA 2026 values were transcribed from published factor libraries that reproduce the official workbook (and cross-checked where a second source existed); the energy content of diesel and petrol comes from an official NGA PDF. The "Checked" column says how each value was verified. Anyone with the official workbook can confirm them in a few minutes, and a fetch workflow is included to download it.</p>
     <div class="ref-table" id="t-factors">Loading…</div>
 
     <h2>Grid timing</h2>
@@ -95,6 +95,7 @@
       <li>The 2030 and 2035 targets are illustrative, not a real commitment, and cover Scope 1 and market-based Scope 2 only.</li>
       <li>Scope 3 covers three categories; the largest university categories (purchased goods and services, capital works, commuting) are not included.</li>
       <li>Market-based Scope 2 deducts only the university's own renewable purchases; the dashboard does not separately model the Renewable Power Percentage.</li>
+      <li>Emission factors were transcribed from secondary libraries of the official NGA 2026 and DESNZ 2026 publications because the official site could not be downloaded from the build environment; each is flagged for checking against the workbook. One factor edition is applied to all three years.</li>
       <li>Flight factors are UK DESNZ factors applied to Australian routes; distance bands follow the DESNZ short-haul and long-haul split.</li>
       <li>Scenario costs, timing and technical feasibility are not modelled; they show tonnes only.</li>
     </ul>
@@ -109,7 +110,7 @@
     rows.map((r) => "<tr>" + cols.map((c) => `<td>${esc(r[c[0]])}</td>`).join("") + "</tr>").join("") + "</tbody></table>";
   const get = (n) => fetch(`data/${n}.json`).then((r) => { if (!r.ok) throw new Error(n); return r.json(); });
   Promise.all([get("factors"), get("governance"), get("grid"), get("pathway")]).then(([f, g, grid, p]) => {
-    document.getElementById("t-factors").innerHTML = table(f, [["factor_id", "Factor"], ["description", "What it is"], ["value", "Value"], ["unit", "Unit"], ["scope", "Scope"], ["source_table", "Source table"], ["source_publication", "Publication"], ["year", "Year"]]);
+    document.getElementById("t-factors").innerHTML = table(f, [["factor_id", "Factor"], ["description", "What it is"], ["value", "Value"], ["unit", "Unit"], ["scope", "Scope"], ["source_table", "Source table"], ["source_publication", "Publication"], ["year", "Year"], ["retrieved_via", "Retrieved via"], ["verification", "Checked"]]);
     document.getElementById("t-owners").innerHTML = table(g.data_owners, [["source", "Source"], ["data_owner", "Owner"], ["owner_role", "Role"], ["frequency", "Frequency"], ["due_days_after_period", "Due (days after period)"], ["evidence_required", "Evidence"]]);
     document.getElementById("t-evidence").innerHTML = table(g.evidence_register, [["evidence_id", "ID"], ["source", "Source"], ["evidence", "Evidence"], ["held_by", "Held by"], ["retention", "Retention"], ["used_for", "Used for"], ["status_fy2025_26", "Status"]]);
     document.getElementById("t-dict").innerHTML = table(g.data_dictionary, [["table", "Table"], ["column", "Column"], ["type", "Type"], ["unit", "Unit"], ["description", "Description"], ["allowed_values_or_range", "Allowed values"]]);

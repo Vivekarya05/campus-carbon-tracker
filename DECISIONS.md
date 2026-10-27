@@ -4,22 +4,29 @@ Choices made while building, so a reviewer can see what was assumed and why.
 
 ## Data and sources
 
-1. **Reference data is downloaded by a GitHub Actions workflow** (`.github/workflows/fetch-reference-data.yml`).
-   The build environment could not reach dcceew.gov.au or nemweb.com.au directly, so the official NGA Factors
-   workbook, the UK DESNZ conversion factors and the AEMO dispatch data are fetched on GitHub's runners and committed
-   to `data/reference/`. Anyone can rerun the workflow to refresh them.
+1. **Emission factors were transcribed, not downloaded.** dcceew.gov.au refused automated downloads (from this
+   build environment and from GitHub's runners, where the request hung), and its robots rules block web fetching.
+   So NGA 2026 values were transcribed from the emiz.com.au library of the NGA 2026 workbook, with the Victorian
+   electricity factors cross-checked against a second source citing NGA 2026 Table 1; diesel and petrol energy
+   contents come from the official NGA July 2017 PDF (Table 4), unchanged since. Every row of `factors.csv` records
+   where it came from and what to verify. Swap in the official workbook values when available: no code changes.
+   No official website is contacted by the pipeline.
 2. **NGA Factors 2026** is the edition used (the latest DCCEEW publication at build time). The same factors are
    applied to all three years so year-on-year changes reflect activity, not factor updates. A real inventory would
    normally use the edition current for each reporting year; this is noted as a limitation.
-3. **Grid intensity uses `nemed`** to rebuild half-hourly VIC1 emissions intensity from AEMO 5-minute dispatch data
-   for FY2025-26 only (one year is enough for an hour-by-month heatmap and keeps the download manageable). It is
-   intensity of generation located in Victoria; interconnector flows are not adjusted.
+3. **Grid timing falls back to the flat NGA Victorian factor.** Half-hourly AEMO data was not downloaded (by
+   choice, no official websites were contacted), so, as the brief specifies, every half-hour uses the NGA
+   Victorian Scope 2 factor and the dashboard says so. The code is ready for real data: drop a CSV at
+   `data/reference/aemo/vic1_intensity_halfhourly.csv` (columns `interval_start, energy_mwh, emissions_t,
+   intensity_kg_per_kwh`, e.g. built with the `nemed` package) and rerun `python -m pipeline.run`; the heatmap and
+   load-shifting estimate then appear automatically.
 4. **Flights use UK DESNZ 2026 factors** (with radiative forcing), short-haul below 3,700 km and long-haul above,
    because the NGA Factors do not publish air travel factors. Great-circle distance is used as DESNZ instructs.
 5. **Water is excluded**: neither the NGA Factors nor a cited Victorian water utility factor was used, and the brief
    said to exclude rather than guess.
-6. **Recycling and organics count as zero** under the recycled-content cut-off approach unless the workbook gives a
-   factor for that treatment.
+6. **Waste factors**: landfill uses the NGA commercial and industrial waste stream factor (a university is a C&I
+   generator, not a household); organics use the NGA composting factor; recycling counts as zero under the
+   recycled-content cut-off approach.
 7. **R-410A GWP** = mean of the HFC-32 and HFC-125 GWPs listed in the NGA Factors (it is a 50/50 blend by mass).
 
 ## Synthetic data
@@ -34,8 +41,9 @@ Choices made while building, so a reviewer can see what was assumed and why.
 ## Method
 
 11. **Market-based Scope 2** deducts GreenPower and voluntarily surrendered LGCs (including PPA certificates)
-    from grid kWh, pro rata across months and buildings, and counts the rest at the market factor in
-    `factors.csv`. The Renewable Power Percentage is not modelled separately.
+    from grid kWh, pro rata across months and buildings, and counts the rest at the NGA national residual mix
+    factor (0.79), which is higher than the Victorian location-based factor (0.74) because renewables already
+    claimed elsewhere are removed from the mix. The Renewable Power Percentage is not modelled separately.
 12. **Missing gas months are estimated** (mean of the same calendar month in the other years) and stay open
     issues until real bills arrive. The Wh error is corrected (divide by 1,000) because the evidence is unambiguous.
 13. **Outlier detection** uses a robust rolling z-score on deseasonalised series (monthly series divided by their

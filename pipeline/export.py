@@ -28,7 +28,7 @@ def summary(inv, em, renewables, scores, buildings, students, pathway) -> dict:
         months = sorted(i.month.unique())
         by_month = i.pivot_table(index="month", columns="scope", values=["t_location", "t_market"], aggfunc="sum")
         src = (i.groupby("source")[["t_market", "t_location"]].sum().sort_values("t_market", ascending=False))
-        bld = (i[(i.building_id != "Campus")].groupby("building_id").t_location.sum().to_frame("t")
+        bld = (i[(i.building_id != "Campus") & i.scope.isin([1, 2])].groupby("building_id").t_location.sum().to_frame("t")
                  .join(buildings.set_index("building_id")[["name", "floor_area_m2"]]))
         bld["kg_per_m2"] = bld.t * 1000 / bld.floor_area_m2
         bld = bld.sort_values("kg_per_m2", ascending=False)

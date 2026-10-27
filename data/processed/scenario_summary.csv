@@ -1,0 +1,6 @@
+scenario,t_2030,abated_vs_bau_t,gap_to_2030_target_t,gap_to_net_zero_t,meets_2030
+Business as usual,11673.0,0.0,1868.4,11673.0,False
+Rooftop solar expansion,10120.0,1553.0,315.4,10120.0,False
+Gas to heat pumps,13364.2,-1691.1,3559.6,13364.2,False
+100% renewable PPA,5256.4,6416.7,0.0,5256.4,True
+All three combined,1225.3,10447.7,0.0,1225.3,True

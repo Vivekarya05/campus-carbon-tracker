@@ -1,0 +1,1176 @@
+month,building_id,source,scope,category,activity,activity_unit,t_location,t_market,fy
+2023-07,B01,Grid electricity,2,Scope 2,246957.72,kWh,182.74871280000002,180.08194253149287,FY2023-24
+2023-07,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,246957.72,kWh,27.1653492,27.1653492,FY2023-24
+2023-07,B02,Grid electricity,2,Scope 2,371720.15,kWh,275.07291100000003,271.05889498047645,FY2023-24
+2023-07,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,371720.15,kWh,40.8892165,40.8892165,FY2023-24
+2023-07,B03,Grid electricity,2,Scope 2,541508.33,kWh,400.7161641999999,394.86869235505037,FY2023-24
+2023-07,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,541508.33,kWh,59.5659163,59.5659163,FY2023-24
+2023-07,B04,Grid electricity,2,Scope 2,134648.55,kWh,99.639927,98.18592608908457,FY2023-24
+2023-07,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,134648.55,kWh,14.811340499999998,14.811340499999998,FY2023-24
+2023-07,B05,Grid electricity,2,Scope 2,100398.49,kWh,74.2948826,73.21073059157115,FY2023-24
+2023-07,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,100398.49,kWh,11.043833900000001,11.043833900000001,FY2023-24
+2023-07,B06,Grid electricity,2,Scope 2,214478.74,kWh,158.7142676,156.39822124575414,FY2023-24
+2023-07,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,214478.74,kWh,23.5926614,23.5926614,FY2023-24
+2023-08,B01,Grid electricity,2,Scope 2,280902.3,kWh,207.86770199999998,204.83438155148247,FY2023-24
+2023-08,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,280902.3,kWh,30.899253,30.899253,FY2023-24
+2023-08,B02,Grid electricity,2,Scope 2,423668.45,kWh,313.514653,308.9396738247611,FY2023-24
+2023-08,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,423668.45,kWh,46.60352950000001,46.60352950000001,FY2023-24
+2023-08,B03,Grid electricity,2,Scope 2,583763.23,kWh,431.98479019999996,425.68102927439827,FY2023-24
+2023-08,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,583763.23,kWh,64.2139553,64.2139553,FY2023-24
+2023-08,B04,Grid electricity,2,Scope 2,159385.98,kWh,117.94562520000001,116.2244974187714,FY2023-24
+2023-08,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,159385.98,kWh,17.5324578,17.5324578,FY2023-24
+2023-08,B05,Grid electricity,2,Scope 2,119782.64,kWh,88.6391536,87.34568205744084,FY2023-24
+2023-08,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,119782.64,kWh,13.1760904,13.1760904,FY2023-24
+2023-08,B06,Grid electricity,2,Scope 2,227459.3,kWh,168.31988199999998,165.8636652089823,FY2023-24
+2023-08,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,227459.3,kWh,25.020522999999997,25.020522999999997,FY2023-24
+2023-09,B01,Grid electricity,2,Scope 2,260388.09,kWh,192.6871866,189.87538862630083,FY2023-24
+2023-09,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,260388.09,kWh,28.6426899,28.6426899,FY2023-24
+2023-09,B02,Grid electricity,2,Scope 2,402240.84,kWh,297.6582216,293.3146282396008,FY2023-24
+2023-09,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,402240.84,kWh,44.2464924,44.2464924,FY2023-24
+2023-09,B03,Grid electricity,2,Scope 2,557458.85,kWh,412.519549,406.49983563733946,FY2023-24
+2023-09,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,557458.85,kWh,61.3204735,61.3204735,FY2023-24
+2023-09,B04,Grid electricity,2,Scope 2,147686.52,kWh,109.28802479999999,107.69323351104865,FY2023-24
+2023-09,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,147686.52,kWh,16.2455172,16.2455172,FY2023-24
+2023-09,B05,Grid electricity,2,Scope 2,113403.26,kWh,83.9184124,82.69382852337615,FY2023-24
+2023-09,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,113403.26,kWh,12.4743586,12.4743586,FY2023-24
+2023-09,B06,Grid electricity,2,Scope 2,217893.13,kWh,161.24091620000002,158.88799959226668,FY2023-24
+2023-09,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,217893.13,kWh,23.968244300000002,23.968244300000002,FY2023-24
+2023-10,B01,Grid electricity,2,Scope 2,256140.28,kWh,189.5438072,186.7778791566447,FY2023-24
+2023-10,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,256140.28,kWh,28.175430799999997,28.175430799999997,FY2023-24
+2023-10,B02,Grid electricity,2,Scope 2,415622.93,kWh,307.5609682,303.07286848546664,FY2023-24
+2023-10,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,415622.93,kWh,45.7185223,45.7185223,FY2023-24
+2023-10,B03,Grid electricity,2,Scope 2,574362.73,kWh,425.02842019999997,418.8261704719794,FY2023-24
+2023-10,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,574362.73,kWh,63.1799003,63.1799003,FY2023-24
+2023-10,B04,Grid electricity,2,Scope 2,147162.47,kWh,108.9002278,107.31109545930593,FY2023-24
+2023-10,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,147162.47,kWh,16.1878717,16.1878717,FY2023-24
+2023-10,B05,Grid electricity,2,Scope 2,116260.73,kWh,86.0329402,84.77749996448546,FY2023-24
+2023-10,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,116260.73,kWh,12.7886803,12.7886803,FY2023-24
+2023-10,B06,Grid electricity,2,Scope 2,224137.53,kWh,165.86177220000002,163.4414255064015,FY2023-24
+2023-10,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,224137.53,kWh,24.6551283,24.6551283,FY2023-24
+2023-11,B01,Grid electricity,2,Scope 2,216631.04,kWh,160.3069696,157.96768165748185,FY2023-24
+2023-11,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,216631.04,kWh,23.8294144,23.8294144,FY2023-24
+2023-11,B02,Grid electricity,2,Scope 2,368877.31,kWh,272.9692094,268.98589175747037,FY2023-24
+2023-11,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,368877.31,kWh,40.5765041,40.5765041,FY2023-24
+2023-11,B03,Grid electricity,2,Scope 2,529491.82,kWh,391.8239468,386.10623510832363,FY2023-24
+2023-11,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,529491.82,kWh,58.24410019999999,58.24410019999999,FY2023-24
+2023-11,B04,Grid electricity,2,Scope 2,123394.35,kWh,91.311819,89.97934644606744,FY2023-24
+2023-11,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,123394.35,kWh,13.5733785,13.5733785,FY2023-24
+2023-11,B05,Grid electricity,2,Scope 2,101027.78,kWh,74.7605572,73.66960981031208,FY2023-24
+2023-11,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,101027.78,kWh,11.1130558,11.1130558,FY2023-24
+2023-11,B06,Grid electricity,2,Scope 2,208772.06,kWh,154.4913244,152.23690156801487,FY2023-24
+2023-11,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,208772.06,kWh,22.9649266,22.9649266,FY2023-24
+2023-12,B01,Grid electricity,2,Scope 2,189049.78,kWh,139.89683720000002,137.85538519529322,FY2023-24
+2023-12,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,189049.78,kWh,20.7954758,20.7954758,FY2023-24
+2023-12,B02,Grid electricity,2,Scope 2,336028.56,kWh,248.66113439999998,245.0325336290775,FY2023-24
+2023-12,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,336028.56,kWh,36.9631416,36.9631416,FY2023-24
+2023-12,B03,Grid electricity,2,Scope 2,510463.0,kWh,377.74262,372.23039081529197,FY2023-24
+2023-12,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,510463.0,kWh,56.15093,56.15093,FY2023-24
+2023-12,B04,Grid electricity,2,Scope 2,103859.01,kWh,76.85566739999999,75.7341470037776,FY2023-24
+2023-12,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,103859.01,kWh,11.4244911,11.4244911,FY2023-24
+2023-12,B05,Grid electricity,2,Scope 2,87951.57,kWh,65.0841618,64.13441772257443,FY2023-24
+2023-12,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,87951.57,kWh,9.6746727,9.6746727,FY2023-24
+2023-12,B06,Grid electricity,2,Scope 2,204725.42,kWh,151.49681080000002,149.28608556628944,FY2023-24
+2023-12,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,204725.42,kWh,22.519796200000002,22.519796200000002,FY2023-24
+2024-01,B01,Grid electricity,2,Scope 2,202815.18,kWh,150.0832332,147.89313567226966,FY2023-24
+2024-01,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,202815.18,kWh,22.309669799999998,22.309669799999998,FY2023-24
+2024-01,B02,Grid electricity,2,Scope 2,349254.9,kWh,258.448626,254.67720073963386,FY2023-24
+2024-01,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,349254.9,kWh,38.41803900000001,38.41803900000001,FY2023-24
+2024-01,B03,Grid electricity,2,Scope 2,523365.92,kWh,387.2907808,381.63921957322043,FY2023-24
+2024-01,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,523365.92,kWh,57.5702512,57.5702512,FY2023-24
+2024-01,B04,Grid electricity,2,Scope 2,111438.03,kWh,82.4641422,81.26077983827669,FY2023-24
+2024-01,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,111438.03,kWh,12.2581833,12.2581833,FY2023-24
+2024-01,B05,Grid electricity,2,Scope 2,93054.95,kWh,68.860663,67.85581012883881,FY2023-24
+2024-01,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,93054.95,kWh,10.2360445,10.2360445,FY2023-24
+2024-01,B06,Grid electricity,2,Scope 2,207362.16,kWh,153.44799840000002,151.20880035791646,FY2023-24
+2024-01,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,207362.16,kWh,22.809837599999998,22.809837599999998,FY2023-24
+2024-02,B01,Grid electricity,2,Scope 2,199013.75,kWh,147.270175,145.1211271730112,FY2023-24
+2024-02,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,199013.75,kWh,21.8915125,21.8915125,FY2023-24
+2024-02,B02,Grid electricity,2,Scope 2,334871.34,kWh,247.80479160000002,244.18868705673188,FY2023-24
+2024-02,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,334871.34,kWh,36.835847400000006,36.835847400000006,FY2023-24
+2024-02,B03,Grid electricity,2,Scope 2,495342.89,kWh,366.5537386,361.204783759599,FY2023-24
+2024-02,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,495342.89,kWh,54.4877179,54.4877179,FY2023-24
+2024-02,B04,Grid electricity,2,Scope 2,109931.78,kWh,81.34951720000001,80.1624200626112,FY2023-24
+2024-02,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,109931.78,kWh,12.0924958,12.0924958,FY2023-24
+2024-02,B05,Grid electricity,2,Scope 2,90398.14,kWh,66.89462359999999,65.91846026288972,FY2023-24
+2024-02,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,90398.14,kWh,9.9437954,9.9437954,FY2023-24
+2024-02,B06,Grid electricity,2,Scope 2,195871.85,kWh,144.945169,142.8300489461807,FY2023-24
+2024-02,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,195871.85,kWh,21.5459035,21.5459035,FY2023-24
+2024-03,B01,Grid electricity,2,Scope 2,266340.53,kWh,197.09199220000002,194.21591686733808,FY2023-24
+2024-03,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,266340.53,kWh,29.297458300000002,29.297458300000002,FY2023-24
+2024-03,B02,Grid electricity,2,Scope 2,414865.46,kWh,307.0004404,302.52052021706936,FY2023-24
+2024-03,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,414865.46,kWh,45.635200600000005,45.635200600000005,FY2023-24
+2024-03,B03,Grid electricity,2,Scope 2,573090.03,kWh,424.0866222,417.8981157091648,FY2023-24
+2024-03,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,573090.03,kWh,63.039903300000006,63.039903300000006,FY2023-24
+2024-03,B04,Grid electricity,2,Scope 2,151463.81,kWh,112.0832194,110.44763908583604,FY2023-24
+2024-03,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,151463.81,kWh,16.6610191,16.6610191,FY2023-24
+2024-03,B05,Grid electricity,2,Scope 2,117199.09,kWh,86.7273266,85.46175349417406,FY2023-24
+2024-03,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,117199.09,kWh,12.8918999,12.8918999,FY2023-24
+2024-03,B06,Grid electricity,2,Scope 2,223155.07,kWh,165.1347518,162.72501419008594,FY2023-24
+2024-03,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,223155.07,kWh,24.5470577,24.5470577,FY2023-24
+2024-04,B01,Grid electricity,2,Scope 2,265843.35,kWh,196.72407899999996,193.8533724601909,FY2023-24
+2024-04,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,265843.35,kWh,29.242768499999997,29.242768499999997,FY2023-24
+2024-04,B02,Grid electricity,2,Scope 2,400543.57,kWh,296.4022418,292.0769763913393,FY2023-24
+2024-04,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,400543.57,kWh,44.059792699999996,44.059792699999996,FY2023-24
+2024-04,B03,Grid electricity,2,Scope 2,554799.46,kWh,410.5516004,404.56060443149244,FY2023-24
+2024-04,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,554799.46,kWh,61.027940599999994,61.027940599999994,FY2023-24
+2024-04,B04,Grid electricity,2,Scope 2,150253.84,kWh,111.1878416,109.5653271337949,FY2023-24
+2024-04,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,150253.84,kWh,16.527922399999998,16.527922399999998,FY2023-24
+2024-04,B05,Grid electricity,2,Scope 2,113207.84,kWh,83.77380159999998,82.55132796413264,FY2023-24
+2024-04,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,113207.84,kWh,12.4528624,12.4528624,FY2023-24
+2024-04,B06,Grid electricity,2,Scope 2,215793.19,kWh,159.6869606,157.35672017164526,FY2023-24
+2024-04,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,215793.19,kWh,23.7372509,23.7372509,FY2023-24
+2024-05,B01,Grid electricity,2,Scope 2,279449.55,kWh,206.792667,203.77503405664558,FY2023-24
+2024-05,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,279449.55,kWh,30.7394505,30.7394505,FY2023-24
+2024-05,B02,Grid electricity,2,Scope 2,413860.93,kWh,306.2570882,301.7880154234101,FY2023-24
+2024-05,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,413860.93,kWh,45.524702299999994,45.524702299999994,FY2023-24
+2024-05,B03,Grid electricity,2,Scope 2,571589.77,kWh,422.9764298,416.8041238505491,FY2023-24
+2024-05,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,571589.77,kWh,62.8748747,62.8748747,FY2023-24
+2024-05,B04,Grid electricity,2,Scope 2,157435.75,kWh,116.502455,114.80238675633416,FY2023-24
+2024-05,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,157435.75,kWh,17.317932499999998,17.317932499999998,FY2023-24
+2024-05,B05,Grid electricity,2,Scope 2,116685.05,kWh,86.34693700000001,85.0869147495546,FY2023-24
+2024-05,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,116685.05,kWh,12.8353555,12.8353555,FY2023-24
+2024-05,B06,Grid electricity,2,Scope 2,222912.01,kWh,164.95488740000002,162.54777447086718,FY2023-24
+2024-05,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,222912.01,kWh,24.5203211,24.5203211,FY2023-24
+2024-06,B01,Grid electricity,2,Scope 2,239228.34,kWh,177.02897159999998,174.44566695782757,FY2023-24
+2024-06,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,239228.34,kWh,26.3151174,26.3151174,FY2023-24
+2024-06,B02,Grid electricity,2,Scope 2,360328.97,kWh,266.64343779999996,262.7524293145078,FY2023-24
+2024-06,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,360328.97,kWh,39.636186699999996,39.636186699999996,FY2023-24
+2024-06,B03,Grid electricity,2,Scope 2,517678.55,kWh,383.08212699999996,377.491980776655,FY2023-24
+2024-06,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,517678.55,kWh,56.9446405,56.9446405,FY2023-24
+2024-06,B04,Grid electricity,2,Scope 2,131797.78,kWh,97.5303572,96.10714029809775,FY2023-24
+2024-06,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,131797.78,kWh,14.4977558,14.4977558,FY2023-24
+2024-06,B05,Grid electricity,2,Scope 2,97781.33,kWh,72.3581842,71.30229356552586,FY2023-24
+2024-06,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,97781.33,kWh,10.7559463,10.7559463,FY2023-24
+2024-06,B06,Grid electricity,2,Scope 2,204888.8,kWh,151.617712,149.4052225091264,FY2023-24
+2024-06,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,204888.8,kWh,22.537768,22.537768,FY2023-24
+2024-07,B01,Grid electricity,2,Scope 2,249222.29,kWh,184.4244946,150.20212372238873,FY2024-25
+2024-07,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,249222.29,kWh,27.4144519,27.4144519,FY2024-25
+2024-07,B02,Grid electricity,2,Scope 2,373730.56,kWh,276.5606144,225.2411845343273,FY2024-25
+2024-07,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,373730.56,kWh,41.1103616,41.1103616,FY2024-25
+2024-07,B03,Grid electricity,2,Scope 2,538430.76,kWh,398.43876240000003,324.5032522149596,FY2024-25
+2024-07,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,538430.76,kWh,59.2273836,59.2273836,FY2024-25
+2024-07,B04,Grid electricity,2,Scope 2,136815.44,kWh,101.24342560000001,82.45638721164569,FY2024-25
+2024-07,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,136815.44,kWh,15.0496984,15.0496984,FY2024-25
+2024-07,B05,Grid electricity,2,Scope 2,102488.83,kWh,75.8417342,61.76831102796973,FY2024-25
+2024-07,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,102488.83,kWh,11.2737713,11.2737713,FY2024-25
+2024-07,B06,Grid electricity,2,Scope 2,212419.71,kWh,157.19058539999997,128.0218216536488,FY2024-25
+2024-07,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,212419.71,kWh,23.3661681,23.3661681,FY2024-25
+2024-08,B01,Grid electricity,2,Scope 2,274483.04,kWh,203.1174496,165.42635706371757,FY2024-25
+2024-08,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,274483.04,kWh,30.193134399999998,30.193134399999998,FY2024-25
+2024-08,B02,Grid electricity,2,Scope 2,414474.76,kWh,306.71132240000003,249.7970353347102,FY2024-25
+2024-08,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,414474.76,kWh,45.592223600000004,45.592223600000004,FY2024-25
+2024-08,B03,Grid electricity,2,Scope 2,571239.61,kWh,422.7173114,344.27659972287825,FY2024-25
+2024-08,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,571239.61,kWh,62.8363571,62.8363571,FY2024-25
+2024-08,B04,Grid electricity,2,Scope 2,155011.25,kWh,114.708325,93.42269887200753,FY2024-25
+2024-08,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,155011.25,kWh,17.0512375,17.0512375,FY2024-25
+2024-08,B05,Grid electricity,2,Scope 2,116908.34,kWh,86.5121716,70.45870956750734,FY2024-25
+2024-08,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,116908.34,kWh,12.8599174,12.8599174,FY2024-25
+2024-08,B06,Grid electricity,2,Scope 2,222618.99,kWh,164.7380526,134.16875785441673,FY2024-25
+2024-08,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,222618.99,kWh,24.488088899999997,24.488088899999997,FY2024-25
+2024-09,B01,Grid electricity,2,Scope 2,253475.63,kWh,187.5719662,152.7655409067561,FY2024-25
+2024-09,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,253475.63,kWh,27.8823193,27.8823193,FY2024-25
+2024-09,B02,Grid electricity,2,Scope 2,394087.99,kWh,291.62511259999997,237.51026856982776,FY2024-25
+2024-09,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,394087.99,kWh,43.3496789,43.3496789,FY2024-25
+2024-09,B03,Grid electricity,2,Scope 2,545884.81,kWh,403.95475940000006,328.99568401282517,FY2024-25
+2024-09,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,545884.81,kWh,60.04732910000001,60.04732910000001,FY2024-25
+2024-09,B04,Grid electricity,2,Scope 2,143441.04,kWh,106.1463696,86.44952599122699,FY2024-25
+2024-09,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,143441.04,kWh,15.778514400000002,15.778514400000002,FY2024-25
+2024-09,B05,Grid electricity,2,Scope 2,110830.4,kWh,82.014496,66.79563634938847,FY2024-25
+2024-09,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,110830.4,kWh,12.191343999999999,12.191343999999999,FY2024-25
+2024-09,B06,Grid electricity,2,Scope 2,213274.26,kWh,157.82295240000002,128.5368447072728,FY2024-25
+2024-09,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,213274.26,kWh,23.4601686,23.4601686,FY2024-25
+2024-10,B01,Grid electricity,2,Scope 2,253091.68,kWh,187.2878432,152.53414063592473,FY2024-25
+2024-10,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,253091.68,kWh,27.8400848,27.8400848,FY2024-25
+2024-10,B02,Grid electricity,2,Scope 2,412111.94,kWh,304.9628356,248.37300307028573,FY2024-25
+2024-10,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,412111.94,kWh,45.3323134,45.3323134,FY2024-25
+2024-10,B03,Grid electricity,2,Scope 2,568080.18,kWh,420.3793332000001,342.3724638779175,FY2024-25
+2024-10,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,568080.18,kWh,62.4888198,62.4888198,FY2024-25
+2024-10,B04,Grid electricity,2,Scope 2,146428.16,kWh,108.3568384,88.24981346877816,FY2024-25
+2024-10,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,146428.16,kWh,16.1070976,16.1070976,FY2024-25
+2024-10,B05,Grid electricity,2,Scope 2,116386.4,kWh,86.125936,70.14414502171304,FY2024-25
+2024-10,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,116386.4,kWh,12.802503999999999,12.802503999999999,FY2024-25
+2024-10,B06,Grid electricity,2,Scope 2,220724.02,kWh,163.3357748,133.02669099358252,FY2024-25
+2024-10,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,220724.02,kWh,24.279642199999998,24.279642199999998,FY2024-25
+2024-11,B01,Grid electricity,2,Scope 2,204518.28,kWh,151.3435272,123.25976138029284,FY2024-25
+2024-11,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,204518.28,kWh,22.4970108,22.4970108,FY2024-25
+2024-11,B02,Grid electricity,2,Scope 2,354584.03,kWh,262.39218220000004,213.70188976292292,FY2024-25
+2024-11,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,354584.03,kWh,39.0042433,39.0042433,FY2024-25
+2024-11,B03,Grid electricity,2,Scope 2,513422.31,kWh,379.93250939999996,309.431075881915,FY2024-25
+2024-11,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,513422.31,kWh,56.476454100000005,56.476454100000005,FY2024-25
+2024-11,B04,Grid electricity,2,Scope 2,115776.94,kWh,85.6749356,69.77683362944614,FY2024-25
+2024-11,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,115776.94,kWh,12.7354634,12.7354634,FY2024-25
+2024-11,B05,Grid electricity,2,Scope 2,96277.87,kWh,71.2456238,58.025068871119274,FY2024-25
+2024-11,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,96277.87,kWh,10.590565699999999,10.590565699999999,FY2024-25
+2024-11,B06,Grid electricity,2,Scope 2,202448.29,kWh,149.8117346,122.01221288018031,FY2024-25
+2024-11,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,202448.29,kWh,22.2693119,22.2693119,FY2024-25
+2024-12,B01,Grid electricity,2,Scope 2,181549.18,kWh,134.3463932,109.41666732962861,FY2024-25
+2024-12,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,181549.18,kWh,19.9704098,19.9704098,FY2024-25
+2024-12,B02,Grid electricity,2,Scope 2,330686.03,kWh,244.70766220000002,199.29896315183348,FY2024-25
+2024-12,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,330686.03,kWh,36.3754633,36.3754633,FY2024-25
+2024-12,B03,Grid electricity,2,Scope 2,500521.66,kWh,370.38602839999993,301.65606896981564,FY2024-25
+2024-12,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,500521.66,kWh,55.0573826,55.0573826,FY2024-25
+2024-12,B04,Grid electricity,2,Scope 2,100390.94,kWh,74.2892956,60.503947662494014,FY2024-25
+2024-12,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,100390.94,kWh,11.0430034,11.0430034,FY2024-25
+2024-12,B05,Grid electricity,2,Scope 2,86792.12,kWh,64.2261688,52.308165318472966,FY2024-25
+2024-12,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,86792.12,kWh,9.547133200000001,9.547133200000001,FY2024-25
+2024-12,B06,Grid electricity,2,Scope 2,200323.24,kWh,148.23919759999998,120.73148063501773,FY2024-25
+2024-12,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,200323.24,kWh,22.035556399999997,22.035556399999997,FY2024-25
+2025-01,B01,Grid electricity,2,Scope 2,189667.25,kWh,140.35376499999998,114.30929292313797,FY2024-25
+2025-01,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,189667.25,kWh,20.863397499999998,20.863397499999998,FY2024-25
+2025-01,B02,Grid electricity,2,Scope 2,336286.3,kWh,248.85186199999998,202.674152615901,FY2024-25
+2025-01,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,336286.3,kWh,36.991493000000006,36.991493000000006,FY2024-25
+2025-01,B03,Grid electricity,2,Scope 2,508178.36,kWh,376.0519864,306.27063454781916,FY2024-25
+2025-01,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,508178.36,kWh,55.8996196,55.8996196,FY2024-25
+2025-01,B04,Grid electricity,2,Scope 2,104447.76,kWh,77.29134239999999,62.948925515636525,FY2024-25
+2025-01,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,104447.76,kWh,11.4892536,11.4892536,FY2024-25
+2025-01,B05,Grid electricity,2,Scope 2,89447.53,kWh,66.1911722,53.90853670320612,FY2024-25
+2025-01,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,89447.53,kWh,9.8392283,9.8392283,FY2024-25
+2025-01,B06,Grid electricity,2,Scope 2,202314.95,kWh,149.713063,121.93185108277794,FY2024-25
+2025-01,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,202314.95,kWh,22.2546445,22.2546445,FY2024-25
+2025-02,B01,Grid electricity,2,Scope 2,179650.2,kWh,132.94114800000003,108.27218370857553,FY2024-25
+2025-02,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,179650.2,kWh,19.761522,19.761522,FY2024-25
+2025-02,B02,Grid electricity,2,Scope 2,306567.01,kWh,226.8595874,184.76283146753363,FY2024-25
+2025-02,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,306567.01,kWh,33.722371100000004,33.722371100000004,FY2024-25
+2025-02,B03,Grid electricity,2,Scope 2,458827.0,kWh,339.53198,276.5273917560603,FY2024-25
+2025-02,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,458827.0,kWh,50.47097,50.47097,FY2024-25
+2025-02,B04,Grid electricity,2,Scope 2,98571.98,kWh,72.9432652,59.40769076281591,FY2024-25
+2025-02,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,98571.98,kWh,10.842917799999999,10.842917799999999,FY2024-25
+2025-02,B05,Grid electricity,2,Scope 2,81399.33,kWh,60.2355042,49.058020595106285,FY2024-25
+2025-02,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,81399.33,kWh,8.953926300000001,8.953926300000001,FY2024-25
+2025-02,B06,Grid electricity,2,Scope 2,182111.37,kWh,134.76241380000002,109.75548988011352,FY2024-25
+2025-02,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,182111.37,kWh,20.0322507,20.0322507,FY2024-25
+2025-03,B01,Grid electricity,2,Scope 2,254951.77,kWh,188.66430979999998,153.65518590163825,FY2024-25
+2025-03,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,254951.77,kWh,28.0446947,28.0446947,FY2024-25
+2025-03,B02,Grid electricity,2,Scope 2,400286.19,kWh,296.2117806,241.24582048717878,FY2024-25
+2025-03,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,400286.19,kWh,44.031480900000005,44.031480900000005,FY2024-25
+2025-03,B03,Grid electricity,2,Scope 2,556589.77,kWh,411.8764298,335.4473851281757,FY2024-25
+2025-03,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,556589.77,kWh,61.2248747,61.2248747,FY2024-25
+2025-03,B04,Grid electricity,2,Scope 2,145279.35,kWh,107.506719,87.55744481365699,FY2024-25
+2025-03,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,145279.35,kWh,15.980728500000001,15.980728500000001,FY2024-25
+2025-03,B05,Grid electricity,2,Scope 2,112263.0,kWh,83.07462,67.6590405113705,FY2024-25
+2025-03,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,112263.0,kWh,12.348930000000001,12.348930000000001,FY2024-25
+2025-03,B06,Grid electricity,2,Scope 2,217194.14,kWh,160.7236636,130.89929110296606,FY2024-25
+2025-03,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,217194.14,kWh,23.891355400000002,23.891355400000002,FY2024-25
+2025-04,B01,Grid electricity,2,Scope 2,256008.79,kWh,189.44650460000003,154.2922342523979,FY2024-25
+2025-04,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,256008.79,kWh,28.1609669,28.1609669,FY2024-25
+2025-04,B02,Grid electricity,2,Scope 2,393101.9,kWh,290.89540600000004,236.91596854882476,FY2024-25
+2025-04,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,393101.9,kWh,43.241209000000005,43.241209000000005,FY2024-25
+2025-04,B03,Grid electricity,2,Scope 2,541865.78,kWh,400.98067720000006,326.5734815633412,FY2024-25
+2025-04,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,541865.78,kWh,59.6052358,59.6052358,FY2024-25
+2025-04,B04,Grid electricity,2,Scope 2,145359.01,kWh,107.56566740000001,87.60545456902727,FY2024-25
+2025-04,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,145359.01,kWh,15.9894911,15.9894911,FY2024-25
+2025-04,B05,Grid electricity,2,Scope 2,110667.13,kWh,81.8936762,66.69723623942978,FY2024-25
+2025-04,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,110667.13,kWh,12.1733843,12.1733843,FY2024-25
+2025-04,B06,Grid electricity,2,Scope 2,211508.81,kWh,156.5165194,127.47283739345792,FY2024-25
+2025-04,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,211508.81,kWh,23.2659691,23.2659691,FY2024-25
+2025-05,B01,Grid electricity,2,Scope 2,270904.29,kWh,200.46917459999997,163.26950403796496,FY2024-25
+2025-05,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,270904.29,kWh,29.799471899999997,29.799471899999997,FY2024-25
+2025-05,B02,Grid electricity,2,Scope 2,402673.84,kWh,297.97864160000006,242.68481737909306,FY2024-25
+2025-05,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,402673.84,kWh,44.2941224,44.2941224,FY2024-25
+2025-05,B03,Grid electricity,2,Scope 2,557181.4,kWh,412.31423600000005,335.8039506763772,FY2024-25
+2025-05,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,557181.4,kWh,61.28995400000001,61.28995400000001,FY2024-25
+2025-05,B04,Grid electricity,2,Scope 2,152837.32,kWh,113.0996168,92.11250746487532,FY2024-25
+2025-05,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,152837.32,kWh,16.8121052,16.8121052,FY2024-25
+2025-05,B05,Grid electricity,2,Scope 2,113754.37,kWh,84.1782338,68.55786437361758,FY2024-25
+2025-05,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,113754.37,kWh,12.5129807,12.5129807,FY2024-25
+2025-05,B06,Grid electricity,2,Scope 2,217451.83,kWh,160.9143542,131.05459657448716,FY2024-25
+2025-05,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,217451.83,kWh,23.919701299999996,23.919701299999996,FY2024-25
+2025-06,B01,Grid electricity,2,Scope 2,238984.43,kWh,176.8484782,144.0319359981186,FY2024-25
+2025-06,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,238984.43,kWh,26.2882873,26.2882873,FY2024-25
+2025-06,B02,Grid electricity,2,Scope 2,359897.12,kWh,266.3238688,216.90400062358543,FY2024-25
+2025-06,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,359897.12,kWh,39.5886832,39.5886832,FY2024-25
+2025-06,B03,Grid electricity,2,Scope 2,515549.47,kWh,381.5066078,310.7130797889384,FY2024-25
+2025-06,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,515549.47,kWh,56.7104417,56.7104417,FY2024-25
+2025-06,B04,Grid electricity,2,Scope 2,132299.16,kWh,97.9013784,79.73450046818888,FY2024-25
+2025-06,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,132299.16,kWh,14.552907600000001,14.552907600000001,FY2024-25
+2025-06,B05,Grid electricity,2,Scope 2,98559.19,kWh,72.9338006,59.39998244281609,FY2024-25
+2025-06,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,98559.19,kWh,10.841510900000001,10.841510900000001,FY2024-25
+2025-06,B06,Grid electricity,2,Scope 2,202970.05,kWh,150.197837,122.32666894297228,FY2024-25
+2025-06,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,202970.05,kWh,22.3267055,22.3267055,FY2024-25
+2025-07,B01,Grid electricity,2,Scope 2,240023.04,kWh,177.6170496,82.70429271129373,FY2025-26
+2025-07,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,240023.04,kWh,26.4025344,26.4025344,FY2025-26
+2025-07,B02,Grid electricity,2,Scope 2,363737.3,kWh,269.16560200000004,125.33228530567592,FY2025-26
+2025-07,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,363737.3,kWh,40.011103,40.011103,FY2025-26
+2025-07,B03,Grid electricity,2,Scope 2,524601.52,kWh,388.20512479999996,180.7609705587831,FY2025-26
+2025-07,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,524601.52,kWh,57.7061672,57.7061672,FY2025-26
+2025-07,B04,Grid electricity,2,Scope 2,132477.07,kWh,98.0330318,45.647377746796934,FY2025-26
+2025-07,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,132477.07,kWh,14.572477700000002,14.572477700000002,FY2025-26
+2025-07,B05,Grid electricity,2,Scope 2,99597.34,kWh,73.7020316,34.318070301193764,FY2025-26
+2025-07,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,99597.34,kWh,10.9557074,10.9557074,FY2025-26
+2025-07,B06,Grid electricity,2,Scope 2,207810.24,kWh,153.77957759999998,71.60478809602695,FY2025-26
+2025-07,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,207810.24,kWh,22.859126399999997,22.859126399999997,FY2025-26
+2025-08,B01,Grid electricity,2,Scope 2,260129.35,kWh,192.495719,89.63228657214981,FY2025-26
+2025-08,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,260129.35,kWh,28.6142285,28.6142285,FY2025-26
+2025-08,B02,Grid electricity,2,Scope 2,397780.13,kWh,294.3572962,137.0623599561795,FY2025-26
+2025-08,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,397780.13,kWh,43.7558143,43.7558143,FY2025-26
+2025-08,B03,Grid electricity,2,Scope 2,552514.81,kWh,408.86095940000007,190.37900100575698,FY2025-26
+2025-08,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,552514.81,kWh,60.77662910000001,60.77662910000001,FY2025-26
+2025-08,B04,Grid electricity,2,Scope 2,146791.34,kWh,108.62559159999999,50.579619151740765,FY2025-26
+2025-08,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,146791.34,kWh,16.147047399999998,16.147047399999998,FY2025-26
+2025-08,B05,Grid electricity,2,Scope 2,111959.76,kWh,82.85022239999999,38.57776637995334,FY2025-26
+2025-08,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,111959.76,kWh,12.3155736,12.3155736,FY2025-26
+2025-08,B06,Grid electricity,2,Scope 2,215627.57,kWh,159.56440179999998,74.29839096240502,FY2025-26
+2025-08,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,215627.57,kWh,23.7190327,23.7190327,FY2025-26
+2025-09,B01,Grid electricity,2,Scope 2,249503.49,kWh,184.6325826,85.97095374447949,FY2025-26
+2025-09,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,249503.49,kWh,27.4453839,27.4453839,FY2025-26
+2025-09,B02,Grid electricity,2,Scope 2,389307.25,kWh,288.087365,134.14287544491066,FY2025-26
+2025-09,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,389307.25,kWh,42.8237975,42.8237975,FY2025-26
+2025-09,B03,Grid electricity,2,Scope 2,538127.12,kWh,398.2140688,185.42146140789436,FY2025-26
+2025-09,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,538127.12,kWh,59.193983200000005,59.193983200000005,FY2025-26
+2025-09,B04,Grid electricity,2,Scope 2,142333.52,kWh,105.3268048,49.04359640103208,FY2025-26
+2025-09,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,142333.52,kWh,15.656687199999999,15.656687199999999,FY2025-26
+2025-09,B05,Grid electricity,2,Scope 2,109782.43,kWh,81.23899819999998,37.82752782931636,FY2025-26
+2025-09,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,109782.43,kWh,12.076067299999998,12.076067299999998,FY2025-26
+2025-09,B06,Grid electricity,2,Scope 2,209913.27,kWh,155.3358198,72.32942523378102,FY2025-26
+2025-09,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,209913.27,kWh,23.0904597,23.0904597,FY2025-26
+2025-10,B01,Grid electricity,2,Scope 2,250413.04,kWh,185.3056496,86.28435569720685,FY2025-26
+2025-10,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,250413.04,kWh,27.5454344,27.5454344,FY2025-26
+2025-10,B02,Grid electricity,2,Scope 2,407552.84,kWh,301.5891016,140.4297244742799,FY2025-26
+2025-10,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,407552.84,kWh,44.8308124,44.8308124,FY2025-26
+2025-10,B03,Grid electricity,2,Scope 2,559329.56,kWh,413.9038744,192.72714674524218,FY2025-26
+2025-10,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,559329.56,kWh,61.5262516,61.5262516,FY2025-26
+2025-10,B04,Grid electricity,2,Scope 2,144472.36,kWh,106.9095464,49.78057252391855,FY2025-26
+2025-10,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,144472.36,kWh,15.891959599999998,15.891959599999998,FY2025-26
+2025-10,B05,Grid electricity,2,Scope 2,115345.14,kWh,85.3554036,39.744260473432696,FY2025-26
+2025-10,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,115345.14,kWh,12.6879654,12.6879654,FY2025-26
+2025-10,B06,Grid electricity,2,Scope 2,217281.94,kWh,160.78863560000002,74.86843415797817,FY2025-26
+2025-10,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,217281.94,kWh,23.9010134,23.9010134,FY2025-26
+2025-11,B01,Grid electricity,2,Scope 2,192489.66,kWh,142.4423484,66.325804325024,FY2025-26
+2025-11,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,192489.66,kWh,21.1738626,21.1738626,FY2025-26
+2025-11,B02,Grid electricity,2,Scope 2,342328.41,kWh,253.32302339999998,117.95546387560033,FY2025-26
+2025-11,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,342328.41,kWh,37.6561251,37.6561251,FY2025-26
+2025-11,B03,Grid electricity,2,Scope 2,498526.72,kWh,368.9097728,171.77642519351963,FY2025-26
+2025-11,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,498526.72,kWh,54.8379392,54.8379392,FY2025-26
+2025-11,B04,Grid electricity,2,Scope 2,109775.17,kWh,81.2336258,37.825026264612056,FY2025-26
+2025-11,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,109775.17,kWh,12.0752687,12.0752687,FY2025-26
+2025-11,B05,Grid electricity,2,Scope 2,92260.65,kWh,68.272881,31.79008066614864,FY2025-26
+2025-11,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,92260.65,kWh,10.148671499999999,10.148671499999999,FY2025-26
+2025-11,B06,Grid electricity,2,Scope 2,197512.35,kWh,146.15913899999998,68.05646328158953,FY2025-26
+2025-11,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,197512.35,kWh,21.726358500000003,21.726358500000003,FY2025-26
+2025-12,B01,Grid electricity,2,Scope 2,173318.79,kWh,128.2559046,59.72013328606808,FY2025-26
+2025-12,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,173318.79,kWh,19.0650669,19.0650669,FY2025-26
+2025-12,B02,Grid electricity,2,Scope 2,318037.13,kWh,235.34747620000002,109.58546268133168,FY2025-26
+2025-12,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,318037.13,kWh,34.9840843,34.9840843,FY2025-26
+2025-12,B03,Grid electricity,2,Scope 2,485988.25,kWh,359.631305,167.45606789352138,FY2025-26
+2025-12,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,485988.25,kWh,53.458707499999996,53.458707499999996,FY2025-26
+2025-12,B04,Grid electricity,2,Scope 2,95754.52,kWh,70.85834480000001,32.993956957254724,FY2025-26
+2025-12,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,95754.52,kWh,10.5329972,10.5329972,FY2025-26
+2025-12,B05,Grid electricity,2,Scope 2,82818.35,kWh,61.285579000000006,28.536564907545436,FY2025-26
+2025-12,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,82818.35,kWh,9.1100185,9.1100185,FY2025-26
+2025-12,B06,Grid electricity,2,Scope 2,194463.99,kWh,143.90335259999998,67.00609554301994,FY2025-26
+2025-12,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,194463.99,kWh,21.391038899999998,21.391038899999998,FY2025-26
+2026-01,B01,Grid electricity,2,Scope 2,203688.55,kWh,150.729527,70.18458503458245,FY2025-26
+2026-01,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,203688.55,kWh,22.4057405,22.4057405,FY2025-26
+2026-01,B02,Grid electricity,2,Scope 2,350253.22,kWh,259.18738279999997,120.68610092578263,FY2025-26
+2026-01,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,350253.22,kWh,38.52785419999999,38.52785419999999,FY2025-26
+2026-01,B03,Grid electricity,2,Scope 2,518059.07,kWh,383.3637118,178.50665072411635,FY2025-26
+2026-01,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,518059.07,kWh,56.9864977,56.9864977,FY2025-26
+2026-01,B04,Grid electricity,2,Scope 2,112990.4,kWh,83.61289599999999,38.93289208888514,FY2025-26
+2026-01,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,112990.4,kWh,12.428944,12.428944,FY2025-26
+2026-01,B05,Grid electricity,2,Scope 2,96076.02,kWh,71.0962548,33.104735614614796,FY2025-26
+2026-01,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,96076.02,kWh,10.568362200000001,10.568362200000001,FY2025-26
+2026-01,B06,Grid electricity,2,Scope 2,203041.11,kWh,150.2504214,69.96149783731589,FY2025-26
+2026-01,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,203041.11,kWh,22.334522099999997,22.334522099999997,FY2025-26
+2026-02,B01,Grid electricity,2,Scope 2,176928.01,kWh,130.9267274,60.96375551224877,FY2025-26
+2026-02,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,176928.01,kWh,19.4620811,19.4620811,FY2025-26
+2026-02,B02,Grid electricity,2,Scope 2,301174.86,kWh,222.8693964,103.77526165289343,FY2025-26
+2026-02,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,301174.86,kWh,33.1292346,33.1292346,FY2025-26
+2026-02,B03,Grid electricity,2,Scope 2,450401.95,kWh,333.29744300000004,155.19416265429138,FY2025-26
+2026-02,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,450401.95,kWh,49.5442145,49.5442145,FY2025-26
+2026-02,B04,Grid electricity,2,Scope 2,97207.69,kWh,71.9336906,33.49467304284081,FY2025-26
+2026-02,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,97207.69,kWh,10.6928459,10.6928459,FY2025-26
+2026-02,B05,Grid electricity,2,Scope 2,80184.61,kWh,59.3366114,27.629062011634094,FY2025-26
+2026-02,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,80184.61,kWh,8.8203071,8.8203071,FY2025-26
+2026-02,B06,Grid electricity,2,Scope 2,178992.05,kWh,132.454117,61.674957938181784,FY2025-26
+2026-02,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,178992.05,kWh,19.6891255,19.6891255,FY2025-26
+2026-03,B01,Grid electricity,2,Scope 2,256282.67,kWh,189.6491758,88.30684319518618,FY2025-26
+2026-03,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,256282.67,kWh,28.1910937,28.1910937,FY2025-26
+2026-03,B02,Grid electricity,2,Scope 2,405749.57,kWh,300.2546818,139.8083750824986,FY2025-26
+2026-03,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,405749.57,kWh,44.6324527,44.6324527,FY2025-26
+2026-03,B03,Grid electricity,2,Scope 2,558028.02,kWh,412.94073480000003,192.2786775268894,FY2025-26
+2026-03,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,558028.02,kWh,61.383082200000004,61.383082200000004,FY2025-26
+2026-03,B04,Grid electricity,2,Scope 2,147003.84,kWh,108.7828416,50.652839881722144,FY2025-26
+2026-03,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,147003.84,kWh,16.1704224,16.1704224,FY2025-26
+2026-03,B05,Grid electricity,2,Scope 2,115098.98,kWh,85.1732452,39.65944157982227,FY2025-26
+2026-03,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,115098.98,kWh,12.660887800000001,12.660887800000001,FY2025-26
+2026-03,B06,Grid electricity,2,Scope 2,216232.56,kWh,160.0120944,74.50685124208236,FY2025-26
+2026-03,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,216232.56,kWh,23.7855816,23.7855816,FY2025-26
+2026-04,B01,Grid electricity,2,Scope 2,249116.91,kWh,184.3465134,85.83775059249736,FY2025-26
+2026-04,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,249116.91,kWh,27.4028601,27.4028601,FY2025-26
+2026-04,B02,Grid electricity,2,Scope 2,383572.46,kWh,283.8436204,132.16684951507577,FY2025-26
+2026-04,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,383572.46,kWh,42.1929706,42.1929706,FY2025-26
+2026-04,B03,Grid electricity,2,Scope 2,529900.4,kWh,392.126296,182.58679579023595,FY2025-26
+2026-04,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,529900.4,kWh,58.289044000000004,58.289044000000004,FY2025-26
+2026-04,B04,Grid electricity,2,Scope 2,142042.06,kWh,105.1111244,48.943168570630334,FY2025-26
+2026-04,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,142042.06,kWh,15.6246266,15.6246266,FY2025-26
+2026-04,B05,Grid electricity,2,Scope 2,107935.65,kWh,79.87238099999999,37.1911862777163,FY2025-26
+2026-04,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,107935.65,kWh,11.872921499999999,11.872921499999999,FY2025-26
+2026-04,B06,Grid electricity,2,Scope 2,206733.68,kWh,152.9829232,71.23383981805634,FY2025-26
+2026-04,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,206733.68,kWh,22.7407048,22.7407048,FY2025-26
+2026-05,B01,Grid electricity,2,Scope 2,259501.87,kWh,192.0313838,89.41607695497937,FY2025-26
+2026-05,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,259501.87,kWh,28.5452057,28.5452057,FY2025-26
+2026-05,B02,Grid electricity,2,Scope 2,387714.64,kWh,286.90883360000004,133.59411277773114,FY2025-26
+2026-05,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,387714.64,kWh,42.6486104,42.6486104,FY2025-26
+2026-05,B03,Grid electricity,2,Scope 2,540678.05,kWh,400.101757,186.30043061604218,FY2025-26
+2026-05,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,540678.05,kWh,59.47458550000001,59.47458550000001,FY2025-26
+2026-05,B04,Grid electricity,2,Scope 2,145690.79,kWh,107.8111846,50.20040468406544,FY2025-26
+2026-05,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,145690.79,kWh,16.025986900000003,16.025986900000003,FY2025-26
+2026-05,B05,Grid electricity,2,Scope 2,108335.24,kWh,80.1680776,37.328872261213995,FY2025-26
+2026-05,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,108335.24,kWh,11.916876400000001,11.916876400000001,FY2025-26
+2026-05,B06,Grid electricity,2,Scope 2,210825.63,kWh,156.01096619999998,72.64379542298485,FY2025-26
+2026-05,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,210825.63,kWh,23.190819299999998,23.190819299999998,FY2025-26
+2026-06,B01,Grid electricity,2,Scope 2,234012.14,kWh,173.16898360000002,80.6331280720228,FY2025-26
+2026-06,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,234012.14,kWh,25.7413354,25.7413354,FY2025-26
+2026-06,B02,Grid electricity,2,Scope 2,351751.19,kWh,260.29588060000003,121.20225366408948,FY2025-26
+2026-06,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,351751.19,kWh,38.692630900000005,38.692630900000005,FY2025-26
+2026-06,B03,Grid electricity,2,Scope 2,503351.77,kWh,372.4803098,173.4389837026804,FY2025-26
+2026-06,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,503351.77,kWh,55.3686947,55.3686947,FY2025-26
+2026-06,B04,Grid electricity,2,Scope 2,129270.31,kWh,95.6600294,44.54243041467886,FY2025-26
+2026-06,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,129270.31,kWh,14.2197341,14.2197341,FY2025-26
+2026-06,B05,Grid electricity,2,Scope 2,96277.0,kWh,71.24498,33.173986919610826,FY2025-26
+2026-06,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,96277.0,kWh,10.59047,10.59047,FY2025-26
+2026-06,B06,Grid electricity,2,Scope 2,198588.6,kWh,146.955564,68.42730474343641,FY2025-26
+2026-06,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,198588.6,kWh,21.844746,21.844746,FY2025-26
+2023-07,B01,Natural gas,1,Stationary combustion,2109.8,GJ,108.717994,108.717994,FY2023-24
+2023-07,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,2109.8,GJ,8.439200000000001,8.439200000000001,FY2023-24
+2023-08,B01,Natural gas,1,Stationary combustion,1876.6,GJ,96.701198,96.701198,FY2023-24
+2023-08,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1876.6,GJ,7.506399999999999,7.506399999999999,FY2023-24
+2023-09,B01,Natural gas,1,Stationary combustion,1626.7,GJ,83.823851,83.823851,FY2023-24
+2023-09,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1626.7,GJ,6.5068,6.5068,FY2023-24
+2023-10,B01,Natural gas,1,Stationary combustion,1346.8,GJ,69.40060399999999,69.40060399999999,FY2023-24
+2023-10,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1346.8,GJ,5.3872,5.3872,FY2023-24
+2023-11,B01,Natural gas,1,Stationary combustion,608.9,GJ,31.376617,31.376617,FY2023-24
+2023-11,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,608.9,GJ,2.4356,2.4356,FY2023-24
+2023-12,B01,Natural gas,1,Stationary combustion,452.8,GJ,23.332784,23.332784,FY2023-24
+2023-12,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,452.8,GJ,1.8112000000000001,1.8112000000000001,FY2023-24
+2024-01,B01,Natural gas,1,Stationary combustion,398.0,GJ,20.50894,20.50894,FY2023-24
+2024-01,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,398.0,GJ,1.592,1.592,FY2023-24
+2024-02,B01,Natural gas,1,Stationary combustion,488.9,GJ,25.193017,25.193017,FY2023-24
+2024-02,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,488.9,GJ,1.9556,1.9556,FY2023-24
+2024-03,B01,Natural gas,1,Stationary combustion,457.9,GJ,23.595587,23.595587,FY2023-24
+2024-03,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,457.9,GJ,1.8316,1.8316,FY2023-24
+2024-04,B01,Natural gas,1,Stationary combustion,821.4,GJ,42.326741999999996,42.326741999999996,FY2023-24
+2024-04,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,821.4,GJ,3.2856,3.2856,FY2023-24
+2024-05,B01,Natural gas,1,Stationary combustion,1091.0,GJ,56.21923,56.21923,FY2023-24
+2024-05,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1091.0,GJ,4.364,4.364,FY2023-24
+2024-06,B01,Natural gas,1,Stationary combustion,1921.1,GJ,98.994283,98.994283,FY2023-24
+2024-06,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1921.1,GJ,7.684399999999999,7.684399999999999,FY2023-24
+2024-07,B01,Natural gas,1,Stationary combustion,2172.2,GJ,111.933466,111.933466,FY2024-25
+2024-07,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,2172.2,GJ,8.688799999999999,8.688799999999999,FY2024-25
+2024-08,B01,Natural gas,1,Stationary combustion,2091.6,GJ,107.780148,107.780148,FY2024-25
+2024-08,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,2091.6,GJ,8.3664,8.3664,FY2024-25
+2024-09,B01,Natural gas,1,Stationary combustion,1564.4,GJ,80.613532,80.613532,FY2024-25
+2024-09,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1564.4,GJ,6.2576,6.2576,FY2024-25
+2024-10,B01,Natural gas,1,Stationary combustion,966.6,GJ,49.808898,49.808898,FY2024-25
+2024-10,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,966.6,GJ,3.8664,3.8664,FY2024-25
+2024-11,B01,Natural gas,1,Stationary combustion,671.9,GJ,34.623007,34.623007,FY2024-25
+2024-11,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,671.9,GJ,2.6875999999999998,2.6875999999999998,FY2024-25
+2024-12,B01,Natural gas,1,Stationary combustion,444.0,GJ,22.87932,22.87932,FY2024-25
+2024-12,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,444.0,GJ,1.776,1.776,FY2024-25
+2025-01,B01,Natural gas,1,Stationary combustion,397.5,GJ,20.483175,20.483175,FY2024-25
+2025-01,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,397.5,GJ,1.59,1.59,FY2024-25
+2025-02,B01,Natural gas,1,Stationary combustion,416.7,GJ,21.472551,21.472551,FY2024-25
+2025-02,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,416.7,GJ,1.6668,1.6668,FY2024-25
+2025-03,B01,Natural gas,1,Stationary combustion,542.6,GJ,27.960178000000003,27.960178000000003,FY2024-25
+2025-03,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,542.6,GJ,2.1704,2.1704,FY2024-25
+2025-04,B01,Natural gas,1,Stationary combustion,905.5,GJ,46.660415,46.660415,FY2024-25
+2025-04,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,905.5,GJ,3.622,3.622,FY2024-25
+2025-05,B01,Natural gas,1,Stationary combustion,1507.5,GJ,77.681475,77.681475,FY2024-25
+2025-05,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1507.5,GJ,6.03,6.03,FY2024-25
+2025-06,B01,Natural gas,1,Stationary combustion,2168.6,GJ,111.747958,111.747958,FY2024-25
+2025-06,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,2168.6,GJ,8.6744,8.6744,FY2024-25
+2025-07,B01,Natural gas,1,Stationary combustion,2014.9,GJ,103.827797,103.827797,FY2025-26
+2025-07,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,2014.9,GJ,8.0596,8.0596,FY2025-26
+2025-08,B01,Natural gas,1,Stationary combustion,1773.5,GJ,91.38845500000001,91.38845500000001,FY2025-26
+2025-08,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1773.5,GJ,7.094,7.094,FY2025-26
+2025-09,B01,Natural gas,1,Stationary combustion,1505.4,GJ,77.573262,77.573262,FY2025-26
+2025-09,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1505.4,GJ,6.0216,6.0216,FY2025-26
+2025-10,B01,Natural gas,1,Stationary combustion,952.8,GJ,49.097784,49.097784,FY2025-26
+2025-10,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,952.8,GJ,3.8112,3.8112,FY2025-26
+2025-11,B01,Natural gas,1,Stationary combustion,740.2,GJ,38.142506000000004,38.142506000000004,FY2025-26
+2025-11,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,740.2,GJ,2.9608000000000003,2.9608000000000003,FY2025-26
+2025-12,B01,Natural gas,1,Stationary combustion,551.7,GJ,28.429101000000003,28.429101000000003,FY2025-26
+2025-12,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,551.7,GJ,2.2068000000000003,2.2068000000000003,FY2025-26
+2026-01,B01,Natural gas,1,Stationary combustion,392.1,GJ,20.204913,20.204913,FY2025-26
+2026-01,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,392.1,GJ,1.5684,1.5684,FY2025-26
+2026-02,B01,Natural gas,1,Stationary combustion,490.6,GJ,25.280618,25.280618,FY2025-26
+2026-02,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,490.6,GJ,1.9624000000000001,1.9624000000000001,FY2025-26
+2026-03,B01,Natural gas,1,Stationary combustion,407.5,GJ,20.998475000000003,20.998475000000003,FY2025-26
+2026-03,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,407.5,GJ,1.63,1.63,FY2025-26
+2026-04,B01,Natural gas,1,Stationary combustion,879.4,GJ,45.315481999999996,45.315481999999996,FY2025-26
+2026-04,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,879.4,GJ,3.5176,3.5176,FY2025-26
+2026-05,B01,Natural gas,1,Stationary combustion,1193.6,GJ,61.506208,61.506208,FY2025-26
+2026-05,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1193.6,GJ,4.7744,4.7744,FY2025-26
+2026-06,B01,Natural gas,1,Stationary combustion,1750.6,GJ,90.208418,90.208418,FY2025-26
+2026-06,B01,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1750.6,GJ,7.0024,7.0024,FY2025-26
+2023-07,B02,Natural gas,1,Stationary combustion,2570.7,GJ,132.468171,132.468171,FY2023-24
+2023-07,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,2570.7,GJ,10.2828,10.2828,FY2023-24
+2023-08,B02,Natural gas,1,Stationary combustion,2359.8,GJ,121.60049400000001,121.60049400000001,FY2023-24
+2023-08,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,2359.8,GJ,9.439200000000001,9.439200000000001,FY2023-24
+2023-09,B02,Natural gas,1,Stationary combustion,2069.3,GJ,106.63102900000001,106.63102900000001,FY2023-24
+2023-09,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,2069.3,GJ,8.2772,8.2772,FY2023-24
+2023-10,B02,Natural gas,1,Stationary combustion,1673.2,GJ,86.219996,86.219996,FY2023-24
+2023-10,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1673.2,GJ,6.6928,6.6928,FY2023-24
+2023-11,B02,Natural gas,1,Stationary combustion,762.5,GJ,39.291625,39.291625,FY2023-24
+2023-11,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,762.5,GJ,3.05,3.05,FY2023-24
+2023-12,B02,Natural gas,1,Stationary combustion,514.6,GJ,26.517338000000002,26.517338000000002,FY2023-24
+2023-12,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,514.6,GJ,2.0584000000000002,2.0584000000000002,FY2023-24
+2024-01,B02,Natural gas,1,Stationary combustion,452.3,GJ,23.307019,23.307019,FY2023-24
+2024-01,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,452.3,GJ,1.8092000000000001,1.8092000000000001,FY2023-24
+2024-02,B02,Natural gas,1,Stationary combustion,560.0,GJ,28.8568,28.8568,FY2023-24
+2024-02,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,560.0,GJ,2.24,2.24,FY2023-24
+2024-03,B02,Natural gas,1,Stationary combustion,622.1,GJ,32.056813000000005,32.056813000000005,FY2023-24
+2024-03,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,622.1,GJ,2.4884,2.4884,FY2023-24
+2024-04,B02,Natural gas,1,Stationary combustion,1100.3,GJ,56.69845899999999,56.69845899999999,FY2023-24
+2024-04,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1100.3,GJ,4.4012,4.4012,FY2023-24
+2024-05,B02,Natural gas,1,Stationary combustion,1291.4,GJ,66.54584200000001,66.54584200000001,FY2023-24
+2024-05,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1291.4,GJ,5.1656,5.1656,FY2023-24
+2024-06,B02,Natural gas,1,Stationary combustion,2305.5,GJ,118.80241500000001,118.80241500000001,FY2023-24
+2024-06,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,2305.5,GJ,9.222,9.222,FY2023-24
+2024-07,B02,Natural gas,1,Stationary combustion,2605.9,GJ,134.282027,134.282027,FY2024-25
+2024-07,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,2605.9,GJ,10.4236,10.4236,FY2024-25
+2024-08,B02,Natural gas,1,Stationary combustion,2848.5,GJ,146.783205,146.783205,FY2024-25
+2024-08,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,2848.5,GJ,11.394,11.394,FY2024-25
+2024-09,B02,Natural gas,1,Stationary combustion,1767.1,GJ,91.058663,91.058663,FY2024-25
+2024-09,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1767.1,GJ,7.0684,7.0684,FY2024-25
+2024-10,B02,Natural gas,1,Stationary combustion,1230.7,GJ,63.41797100000001,63.41797100000001,FY2024-25
+2024-10,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1230.7,GJ,4.9228000000000005,4.9228000000000005,FY2024-25
+2024-11,B02,Natural gas,1,Stationary combustion,762.4,GJ,39.286472,39.286472,FY2024-25
+2024-11,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,762.4,GJ,3.0496,3.0496,FY2024-25
+2024-12,B02,Natural gas,1,Stationary combustion,497.0,GJ,25.610409999999998,25.610409999999998,FY2024-25
+2024-12,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,497.0,GJ,1.988,1.988,FY2024-25
+2025-01,B02,Natural gas,1,Stationary combustion,489.1,GJ,25.203323,25.203323,FY2024-25
+2025-01,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,489.1,GJ,1.9564000000000001,1.9564000000000001,FY2024-25
+2025-02,B02,Natural gas,1,Stationary combustion,506.2,GJ,26.084486000000002,26.084486000000002,FY2024-25
+2025-02,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,506.2,GJ,2.0248,2.0248,FY2024-25
+2025-03,B02,Natural gas,1,Stationary combustion,622.7,GJ,32.087731000000005,32.087731000000005,FY2024-25
+2025-03,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,622.7,GJ,2.4908,2.4908,FY2024-25
+2025-04,B02,Natural gas,1,Stationary combustion,1050.3,GJ,54.121959,54.121959,FY2024-25
+2025-04,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1050.3,GJ,4.2012,4.2012,FY2024-25
+2025-05,B02,Natural gas,1,Stationary combustion,1898.6,GJ,97.834858,97.834858,FY2024-25
+2025-05,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1898.6,GJ,7.594399999999999,7.594399999999999,FY2024-25
+2025-06,B02,Natural gas,1,Stationary combustion,2732.6,GJ,140.810878,140.810878,FY2024-25
+2025-06,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,2732.6,GJ,10.930399999999999,10.930399999999999,FY2024-25
+2025-07,B02,Natural gas,1,Stationary combustion,2717.9,GJ,140.05338700000001,140.05338700000001,FY2025-26
+2025-07,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,2717.9,GJ,10.8716,10.8716,FY2025-26
+2025-08,B02,Natural gas,1,Stationary combustion,2339.4,GJ,120.549282,120.549282,FY2025-26
+2025-08,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,2339.4,GJ,9.3576,9.3576,FY2025-26
+2025-09,B02,Natural gas,1,Stationary combustion,2039.9,GJ,105.11604700000001,105.11604700000001,FY2025-26
+2025-09,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,2039.9,GJ,8.159600000000001,8.159600000000001,FY2025-26
+2025-10,B02,Natural gas,1,Stationary combustion,1252.6,GJ,64.546478,64.546478,FY2025-26
+2025-10,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1252.6,GJ,5.0104,5.0104,FY2025-26
+2025-11,B02,Natural gas,1,Stationary combustion,890.6,GJ,45.892618,45.892618,FY2025-26
+2025-11,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,890.6,GJ,3.5624000000000002,3.5624000000000002,FY2025-26
+2025-12,B02,Natural gas,1,Stationary combustion,686.5,GJ,35.375345,35.375345,FY2025-26
+2025-12,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,686.5,GJ,2.746,2.746,FY2025-26
+2026-01,B02,Natural gas,1,Stationary combustion,439.2,GJ,22.631975999999998,22.631975999999998,FY2025-26
+2026-01,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,439.2,GJ,1.7568,1.7568,FY2025-26
+2026-02,B02,Natural gas,1,Stationary combustion,570.2,GJ,29.382406000000003,29.382406000000003,FY2025-26
+2026-02,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,570.2,GJ,2.2808,2.2808,FY2025-26
+2026-03,B02,Natural gas,1,Stationary combustion,512.2,GJ,26.393666000000003,26.393666000000003,FY2025-26
+2026-03,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,512.2,GJ,2.0488000000000004,2.0488000000000004,FY2025-26
+2026-04,B02,Natural gas,1,Stationary combustion,1132.9,GJ,58.37833700000001,58.37833700000001,FY2025-26
+2026-04,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1132.9,GJ,4.5316,4.5316,FY2025-26
+2026-05,B02,Natural gas,1,Stationary combustion,1751.8,GJ,90.270254,90.270254,FY2025-26
+2026-05,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1751.8,GJ,7.0072,7.0072,FY2025-26
+2026-06,B02,Natural gas,1,Stationary combustion,2371.4,GJ,122.19824200000001,122.19824200000001,FY2025-26
+2026-06,B02,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,2371.4,GJ,9.4856,9.4856,FY2025-26
+2023-07,B03,Natural gas,1,Stationary combustion,3550.9,GJ,182.977877,182.977877,FY2023-24
+2023-07,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,3550.9,GJ,14.2036,14.2036,FY2023-24
+2023-08,B03,Natural gas,1,Stationary combustion,3234.7,GJ,166.684091,166.684091,FY2023-24
+2023-08,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,3234.7,GJ,12.938799999999999,12.938799999999999,FY2023-24
+2023-09,B03,Natural gas,1,Stationary combustion,2782.7,GJ,143.392531,143.392531,FY2023-24
+2023-09,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,2782.7,GJ,11.130799999999999,11.130799999999999,FY2023-24
+2023-10,B03,Natural gas,1,Stationary combustion,2373.5,GJ,122.306455,122.306455,FY2023-24
+2023-10,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,2373.5,GJ,9.494,9.494,FY2023-24
+2023-11,B03,Natural gas,1,Stationary combustion,1242.6,GJ,64.031178,64.031178,FY2023-24
+2023-11,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1242.6,GJ,4.9704,4.9704,FY2023-24
+2023-12,B03,Natural gas,1,Stationary combustion,825.5,GJ,42.538015,42.538015,FY2023-24
+2023-12,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,825.5,GJ,3.302,3.302,FY2023-24
+2024-01,B03,Natural gas,1,Stationary combustion,848.8,GJ,43.738664,43.738664,FY2023-24
+2024-01,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,848.8,GJ,3.3952,3.3952,FY2023-24
+2024-02,B03,Natural gas,1,Stationary combustion,878.0,GJ,45.24334,45.24334,FY2023-24
+2024-02,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,878.0,GJ,3.512,3.512,FY2023-24
+2024-03,B03,Natural gas,1,Stationary combustion,1001.9,GJ,51.627907,51.627907,FY2023-24
+2024-03,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1001.9,GJ,4.0076,4.0076,FY2023-24
+2024-04,B03,Natural gas,1,Stationary combustion,1560.2,GJ,80.397106,80.397106,FY2023-24
+2024-04,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1560.2,GJ,6.2408,6.2408,FY2023-24
+2024-05,B03,Natural gas,1,Stationary combustion,2071.1,GJ,106.723783,106.723783,FY2023-24
+2024-05,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,2071.1,GJ,8.2844,8.2844,FY2023-24
+2024-06,B03,Natural gas,1,Stationary combustion,3239.9,GJ,166.95204700000002,166.95204700000002,FY2023-24
+2024-06,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,3239.9,GJ,12.9596,12.9596,FY2023-24
+2024-07,B03,Natural gas,1,Stationary combustion,3507.1,GJ,180.720863,180.720863,FY2024-25
+2024-07,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,3507.1,GJ,14.0284,14.0284,FY2024-25
+2024-08,B03,Natural gas,1,Stationary combustion,3548.3,GJ,182.843899,182.843899,FY2024-25
+2024-08,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,3548.3,GJ,14.193200000000001,14.193200000000001,FY2024-25
+2024-09,B03,Natural gas,1,Stationary combustion,2446.3,GJ,126.057839,126.057839,FY2024-25
+2024-09,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,2446.3,GJ,9.785200000000001,9.785200000000001,FY2024-25
+2024-10,B03,Natural gas,1,Stationary combustion,1795.6,GJ,92.52726799999999,92.52726799999999,FY2024-25
+2024-10,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1795.6,GJ,7.1823999999999995,7.1823999999999995,FY2024-25
+2024-11,B03,Natural gas,1,Stationary combustion,1280.7,GJ,65.994471,65.994471,FY2024-25
+2024-11,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1280.7,GJ,5.1228,5.1228,FY2024-25
+2024-12,B03,Natural gas,1,Stationary combustion,906.5,GJ,46.711945,46.711945,FY2024-25
+2024-12,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,906.5,GJ,3.626,3.626,FY2024-25
+2025-01,B03,Natural gas,1,Stationary combustion,811.2,GJ,41.80113600000001,41.80113600000001,FY2024-25
+2025-01,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,811.2,GJ,3.2448,3.2448,FY2024-25
+2025-02,B03,Natural gas,1,Stationary combustion,812.6,GJ,41.873278000000006,41.873278000000006,FY2024-25
+2025-02,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,812.6,GJ,3.2504,3.2504,FY2024-25
+2025-03,B03,Natural gas,1,Stationary combustion,911.1,GJ,46.948983,46.948983,FY2024-25
+2025-03,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,911.1,GJ,3.6444,3.6444,FY2024-25
+2025-04,B03,Natural gas,1,Stationary combustion,1572.6,GJ,81.03607799999999,81.03607799999999,FY2024-25
+2025-04,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1572.6,GJ,6.2904,6.2904,FY2024-25
+2025-05,B03,Natural gas,1,Stationary combustion,2600.1,GJ,133.983153,133.983153,FY2024-25
+2025-05,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,2600.1,GJ,10.4004,10.4004,FY2024-25
+2025-06,B03,Natural gas,1,Stationary combustion,3455.1,GJ,178.041303,178.041303,FY2024-25
+2025-06,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,3455.1,GJ,13.8204,13.8204,FY2024-25
+2025-07,B03,Natural gas,1,Stationary combustion,3176.9,GJ,163.705657,163.705657,FY2025-26
+2025-07,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,3176.9,GJ,12.707600000000001,12.707600000000001,FY2025-26
+2025-08,B03,Natural gas,1,Stationary combustion,2891.2,GJ,148.983536,148.983536,FY2025-26
+2025-08,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,2891.2,GJ,11.5648,11.5648,FY2025-26
+2025-09,B03,Natural gas,1,Stationary combustion,2750.9,GJ,141.75387700000002,141.75387700000002,FY2025-26
+2025-09,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,2750.9,GJ,11.0036,11.0036,FY2025-26
+2025-10,B03,Natural gas,1,Stationary combustion,1744.7,GJ,89.904391,89.904391,FY2025-26
+2025-10,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1744.7,GJ,6.978800000000001,6.978800000000001,FY2025-26
+2025-11,B03,Natural gas,1,Stationary combustion,1283.2,GJ,66.123296,66.123296,FY2025-26
+2025-11,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1283.2,GJ,5.1328000000000005,5.1328000000000005,FY2025-26
+2025-12,B03,Natural gas,1,Stationary combustion,1047.4,GJ,53.972522000000005,53.972522000000005,FY2025-26
+2025-12,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1047.4,GJ,4.1896,4.1896,FY2025-26
+2026-01,B03,Natural gas,1,Stationary combustion,835.7,GJ,43.063621000000005,43.063621000000005,FY2025-26
+2026-01,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,835.7,GJ,3.3428,3.3428,FY2025-26
+2026-02,B03,Natural gas,1,Stationary combustion,929.2,GJ,47.881676000000006,47.881676000000006,FY2025-26
+2026-02,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,929.2,GJ,3.7168,3.7168,FY2025-26
+2026-03,B03,Natural gas,1,Stationary combustion,820.3,GJ,42.270059,42.270059,FY2025-26
+2026-03,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,820.3,GJ,3.2811999999999997,3.2811999999999997,FY2025-26
+2026-04,B03,Natural gas,1,Stationary combustion,1584.9,GJ,81.669897,81.669897,FY2025-26
+2026-04,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1584.9,GJ,6.339600000000001,6.339600000000001,FY2025-26
+2026-05,B03,Natural gas,1,Stationary combustion,2216.3,GJ,114.20593900000001,114.20593900000001,FY2025-26
+2026-05,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,2216.3,GJ,8.865200000000002,8.865200000000002,FY2025-26
+2026-06,B03,Natural gas,1,Stationary combustion,2970.5,GJ,153.069865,153.069865,FY2025-26
+2026-06,B03,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,2970.5,GJ,11.882,11.882,FY2025-26
+2023-07,B04,Natural gas,1,Stationary combustion,1163.3,GJ,59.944849000000005,59.944849000000005,FY2023-24
+2023-07,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1163.3,GJ,4.6532,4.6532,FY2023-24
+2023-08,B04,Natural gas,1,Stationary combustion,1052.5,GJ,54.235325,54.235325,FY2023-24
+2023-08,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1052.5,GJ,4.21,4.21,FY2023-24
+2023-09,B04,Natural gas,1,Stationary combustion,978.8,GJ,50.437564,50.437564,FY2023-24
+2023-09,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,978.8,GJ,3.9152,3.9152,FY2023-24
+2023-10,B04,Natural gas,1,Stationary combustion,711.9,GJ,36.684207,36.684207,FY2023-24
+2023-10,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,711.9,GJ,2.8476,2.8476,FY2023-24
+2023-11,B04,Natural gas,1,Stationary combustion,356.8,GJ,18.385904000000004,18.385904000000004,FY2023-24
+2023-11,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,356.8,GJ,1.4272,1.4272,FY2023-24
+2023-12,B04,Natural gas,1,Stationary combustion,251.7,GJ,12.970101000000001,12.970101000000001,FY2023-24
+2023-12,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,251.7,GJ,1.0068,1.0068,FY2023-24
+2024-01,B04,Natural gas,1,Stationary combustion,222.5,GJ,11.465425000000002,11.465425000000002,FY2023-24
+2024-01,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,222.5,GJ,0.89,0.89,FY2023-24
+2024-02,B04,Natural gas,1,Stationary combustion,261.9,GJ,13.495706999999998,13.495706999999998,FY2023-24
+2024-02,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,261.9,GJ,1.0475999999999999,1.0475999999999999,FY2023-24
+2024-03,B04,Natural gas,1,Stationary combustion,270.0,GJ,13.9131,13.9131,FY2023-24
+2024-03,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,270.0,GJ,1.08,1.08,FY2023-24
+2024-04,B04,Natural gas,1,Stationary combustion,475.7,GJ,24.512821,24.512821,FY2023-24
+2024-04,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,475.7,GJ,1.9028,1.9028,FY2023-24
+2024-05,B04,Natural gas,1,Stationary combustion,642.3,GJ,33.097719,33.097719,FY2023-24
+2024-05,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,642.3,GJ,2.5692,2.5692,FY2023-24
+2024-06,B04,Natural gas,1,Stationary combustion,1031.5,GJ,53.153195,53.153195,FY2023-24
+2024-06,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1031.5,GJ,4.126,4.126,FY2023-24
+2024-07,B04,Natural gas,1,Stationary combustion,1211.0,GJ,62.40283,62.40283,FY2024-25
+2024-07,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1211.0,GJ,4.844,4.844,FY2024-25
+2024-08,B04,Natural gas,1,Stationary combustion,1276.4,GJ,65.77289200000001,65.77289200000001,FY2024-25
+2024-08,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1276.4,GJ,5.105600000000001,5.105600000000001,FY2024-25
+2024-09,B04,Natural gas,1,Stationary combustion,762.9,GJ,39.312237,39.312237,FY2024-25
+2024-09,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,762.9,GJ,3.0516,3.0516,FY2024-25
+2024-10,B04,Natural gas,1,Stationary combustion,611.7,GJ,31.520901000000002,31.520901000000002,FY2024-25
+2024-10,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,611.7,GJ,2.4468,2.4468,FY2024-25
+2024-11,B04,Natural gas,1,Stationary combustion,391.9,GJ,20.194607,20.194607,FY2024-25
+2024-11,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,391.9,GJ,1.5675999999999999,1.5675999999999999,FY2024-25
+2024-12,B04,Natural gas,1,Stationary combustion,259.1,GJ,13.351423,13.351423,FY2024-25
+2024-12,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,259.1,GJ,1.0364,1.0364,FY2024-25
+2025-01,B04,Natural gas,1,Stationary combustion,214.8,GJ,11.068644,11.068644,FY2024-25
+2025-01,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,214.8,GJ,0.8592000000000001,0.8592000000000001,FY2024-25
+2025-02,B04,Natural gas,1,Stationary combustion,244.7,GJ,12.609391,12.609391,FY2024-25
+2025-02,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,244.7,GJ,0.9788,0.9788,FY2024-25
+2025-03,B04,Natural gas,1,Stationary combustion,302.5,GJ,15.587825,15.587825,FY2024-25
+2025-03,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,302.5,GJ,1.21,1.21,FY2024-25
+2025-04,B04,Natural gas,1,Stationary combustion,510.1,GJ,26.285453,26.285453,FY2024-25
+2025-04,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,510.1,GJ,2.0404,2.0404,FY2024-25
+2025-05,B04,Natural gas,1,Stationary combustion,917.8,GJ,47.294233999999996,47.294233999999996,FY2024-25
+2025-05,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,917.8,GJ,3.6712,3.6712,FY2024-25
+2025-06,B04,Natural gas,1,Stationary combustion,1314.2,GJ,67.72072600000001,67.72072600000001,FY2024-25
+2025-06,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1314.2,GJ,5.2568,5.2568,FY2024-25
+2025-07,B04,Natural gas,1,Stationary combustion,1127.0,GJ,58.07431,58.07431,FY2025-26
+2025-07,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1127.0,GJ,4.508,4.508,FY2025-26
+2025-08,B04,Natural gas,1,Stationary combustion,982.6,GJ,50.63337800000001,50.63337800000001,FY2025-26
+2025-08,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,982.6,GJ,3.9304,3.9304,FY2025-26
+2025-09,B04,Natural gas,1,Stationary combustion,958.0,GJ,49.365739999999995,49.365739999999995,FY2025-26
+2025-09,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,958.0,GJ,3.832,3.832,FY2025-26
+2025-10,B04,Natural gas,1,Stationary combustion,573.0,GJ,29.526690000000002,29.526690000000002,FY2025-26
+2025-10,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,573.0,GJ,2.292,2.292,FY2025-26
+2025-11,B04,Natural gas,1,Stationary combustion,434.9,GJ,22.410397,22.410397,FY2025-26
+2025-11,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,434.9,GJ,1.7395999999999998,1.7395999999999998,FY2025-26
+2025-12,B04,Natural gas,1,Stationary combustion,318.6,GJ,16.417458000000003,16.417458000000003,FY2025-26
+2025-12,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,318.6,GJ,1.2744000000000002,1.2744000000000002,FY2025-26
+2026-01,B04,Natural gas,1,Stationary combustion,214.8,GJ,11.068644,11.068644,FY2025-26
+2026-01,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,214.8,GJ,0.8592000000000001,0.8592000000000001,FY2025-26
+2026-02,B04,Natural gas,1,Stationary combustion,276.5,GJ,14.248045,14.248045,FY2025-26
+2026-02,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,276.5,GJ,1.106,1.106,FY2025-26
+2026-03,B04,Natural gas,1,Stationary combustion,250.2,GJ,12.892806,12.892806,FY2025-26
+2026-03,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,250.2,GJ,1.0008,1.0008,FY2025-26
+2026-04,B04,Natural gas,1,Stationary combustion,541.4,GJ,27.898342,27.898342,FY2025-26
+2026-04,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,541.4,GJ,2.1656,2.1656,FY2025-26
+2026-05,B04,Natural gas,1,Stationary combustion,708.1,GJ,36.488393,36.488393,FY2025-26
+2026-05,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,708.1,GJ,2.8324000000000003,2.8324000000000003,FY2025-26
+2026-06,B04,Natural gas,1,Stationary combustion,1068.6,GJ,55.064958,55.064958,FY2025-26
+2026-06,B04,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1068.6,GJ,4.2744,4.2744,FY2025-26
+2023-07,B05,Natural gas,1,Stationary combustion,1182.3,GJ,60.923919000000005,60.923919000000005,FY2023-24
+2023-07,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1182.3,GJ,4.7292,4.7292,FY2023-24
+2023-08,B05,Natural gas,1,Stationary combustion,1053.3,GJ,54.276548999999996,54.276548999999996,FY2023-24
+2023-08,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1053.3,GJ,4.2132,4.2132,FY2023-24
+2023-09,B05,Natural gas,1,Stationary combustion,863.9,GJ,44.516767,44.516767,FY2023-24
+2023-09,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,863.9,GJ,3.4556,3.4556,FY2023-24
+2023-10,B05,Natural gas,1,Stationary combustion,688.6,GJ,35.483558,35.483558,FY2023-24
+2023-10,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,688.6,GJ,2.7544,2.7544,FY2023-24
+2023-11,B05,Natural gas,1,Stationary combustion,256.1,GJ,13.196833000000002,13.196833000000002,FY2023-24
+2023-11,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,256.1,GJ,1.0244000000000002,1.0244000000000002,FY2023-24
+2023-12,B05,Natural gas,1,Stationary combustion,164.9,GJ,8.497297,8.497297,FY2023-24
+2023-12,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,164.9,GJ,0.6596000000000001,0.6596000000000001,FY2023-24
+2024-01,B05,Natural gas,1,Stationary combustion,135.1,GJ,6.961702999999999,6.961702999999999,FY2023-24
+2024-01,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,135.1,GJ,0.5404,0.5404,FY2023-24
+2024-02,B05,Natural gas,1,Stationary combustion,179.3,GJ,9.239329000000001,9.239329000000001,FY2023-24
+2024-02,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,179.3,GJ,0.7172000000000001,0.7172000000000001,FY2023-24
+2024-03,B05,Natural gas,1,Stationary combustion,193.4,GJ,9.965902,9.965902,FY2023-24
+2024-03,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,193.4,GJ,0.7736000000000001,0.7736000000000001,FY2023-24
+2024-04,B05,Natural gas,1,Stationary combustion,423.9,GJ,21.843567,21.843567,FY2023-24
+2024-04,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,423.9,GJ,1.6956,1.6956,FY2023-24
+2024-05,B05,Natural gas,1,Stationary combustion,574.7,GJ,29.614291000000005,29.614291000000005,FY2023-24
+2024-05,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,574.7,GJ,2.2988000000000004,2.2988000000000004,FY2023-24
+2024-06,B05,Natural gas,1,Stationary combustion,986.4,GJ,50.829192000000006,50.829192000000006,FY2023-24
+2024-06,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,986.4,GJ,3.9455999999999998,3.9455999999999998,FY2023-24
+2024-07,B05,Natural gas,1,Stationary combustion,1141.9,GJ,58.842107000000006,58.842107000000006,FY2024-25
+2024-07,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1141.9,GJ,4.5676000000000005,4.5676000000000005,FY2024-25
+2024-08,B05,Natural gas,1,Stationary combustion,1183.5,GJ,60.985755000000005,60.985755000000005,FY2024-25
+2024-08,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1183.5,GJ,4.734,4.734,FY2024-25
+2024-09,B05,Natural gas,1,Stationary combustion,788.1,GJ,40.61079300000001,40.61079300000001,FY2024-25
+2024-09,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,788.1,GJ,3.1524,3.1524,FY2024-25
+2024-10,B05,Natural gas,1,Stationary combustion,494.8,GJ,25.497044000000002,25.497044000000002,FY2024-25
+2024-10,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,494.8,GJ,1.9792,1.9792,FY2024-25
+2024-11,B05,Natural gas,1,Stationary combustion,302.8,GJ,15.603284000000002,15.603284000000002,FY2024-25
+2024-11,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,302.8,GJ,1.2112,1.2112,FY2024-25
+2024-12,B05,Natural gas,1,Stationary combustion,159.2,GJ,8.203576,8.203576,FY2024-25
+2024-12,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,159.2,GJ,0.6367999999999999,0.6367999999999999,FY2024-25
+2025-01,B05,Natural gas,1,Stationary combustion,144.5,GJ,7.446085,7.446085,FY2024-25
+2025-01,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,144.5,GJ,0.578,0.578,FY2024-25
+2025-02,B05,Natural gas,1,Stationary combustion,144.9,GJ,7.466697,7.466697,FY2024-25
+2025-02,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,144.9,GJ,0.5796,0.5796,FY2024-25
+2025-03,B05,Natural gas,1,Stationary combustion,238.6,GJ,12.295058,12.295058,FY2024-25
+2025-03,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,238.6,GJ,0.9544,0.9544,FY2024-25
+2025-04,B05,Natural gas,1,Stationary combustion,436.6,GJ,22.497998000000003,22.497998000000003,FY2024-25
+2025-04,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,436.6,GJ,1.7464000000000002,1.7464000000000002,FY2024-25
+2025-05,B05,Natural gas,1,Stationary combustion,800.5,GJ,41.249765,41.249765,FY2024-25
+2025-05,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,800.5,GJ,3.202,3.202,FY2024-25
+2025-06,B05,Natural gas,1,Stationary combustion,1121.6,GJ,57.79604799999999,57.79604799999999,FY2024-25
+2025-06,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1121.6,GJ,4.4864,4.4864,FY2024-25
+2025-07,B05,Natural gas,1,Stationary combustion,1019.2,GJ,52.519376,52.519376,FY2025-26
+2025-07,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1019.2,GJ,4.0768,4.0768,FY2025-26
+2025-08,B05,Natural gas,1,Stationary combustion,918.2,GJ,47.314846,47.314846,FY2025-26
+2025-08,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,918.2,GJ,3.6728,3.6728,FY2025-26
+2025-09,B05,Natural gas,1,Stationary combustion,837.3,GJ,43.146069,43.146069,FY2025-26
+2025-09,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,837.3,GJ,3.3491999999999997,3.3491999999999997,FY2025-26
+2025-10,B05,Natural gas,1,Stationary combustion,512.8,GJ,26.424584,26.424584,FY2025-26
+2025-10,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,512.8,GJ,2.0511999999999997,2.0511999999999997,FY2025-26
+2025-11,B05,Natural gas,1,Stationary combustion,330.1,GJ,17.010053,17.010053,FY2025-26
+2025-11,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,330.1,GJ,1.3204,1.3204,FY2025-26
+2025-12,B05,Natural gas,1,Stationary combustion,219.5,GJ,11.310835,11.310835,FY2025-26
+2025-12,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,219.5,GJ,0.878,0.878,FY2025-26
+2026-01,B05,Natural gas,1,Stationary combustion,119.8,GJ,6.173294,6.173294,FY2025-26
+2026-01,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,119.8,GJ,0.4792,0.4792,FY2025-26
+2026-02,B05,Natural gas,1,Stationary combustion,188.8,GJ,9.728864000000002,9.728864000000002,FY2025-26
+2026-02,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,188.8,GJ,0.7552000000000001,0.7552000000000001,FY2025-26
+2026-03,B05,Natural gas,1,Stationary combustion,153.3,GJ,7.899549000000001,7.899549000000001,FY2025-26
+2026-03,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,153.3,GJ,0.6132000000000001,0.6132000000000001,FY2025-26
+2026-04,B05,Natural gas,1,Stationary combustion,422.5,GJ,21.771425,21.771425,FY2025-26
+2026-04,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,422.5,GJ,1.69,1.69,FY2025-26
+2026-05,B05,Natural gas,1,Stationary combustion,655.5,GJ,33.777915,33.777915,FY2025-26
+2026-05,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,655.5,GJ,2.622,2.622,FY2025-26
+2026-06,B05,Natural gas,1,Stationary combustion,889.2,GJ,45.820476,45.820476,FY2025-26
+2026-06,B05,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,889.2,GJ,3.5568,3.5568,FY2025-26
+2023-07,B06,Natural gas,1,Stationary combustion,4737.9,GJ,244.14398699999998,244.14398699999998,FY2023-24
+2023-07,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,4737.9,GJ,18.9516,18.9516,FY2023-24
+2023-08,B06,Natural gas,1,Stationary combustion,4337.9,GJ,223.531987,223.531987,FY2023-24
+2023-08,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,4337.9,GJ,17.351599999999998,17.351599999999998,FY2023-24
+2023-09,B06,Natural gas,1,Stationary combustion,3755.4,GJ,193.51576200000002,193.51576200000002,FY2023-24
+2023-09,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,3755.4,GJ,15.021600000000001,15.021600000000001,FY2023-24
+2023-10,B06,Natural gas,1,Stationary combustion,3315.7,GJ,170.858021,170.858021,FY2023-24
+2023-10,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,3315.7,GJ,13.262799999999999,13.262799999999999,FY2023-24
+2023-11,B06,Natural gas,1,Stationary combustion,1914.3,GJ,98.643879,98.643879,FY2023-24
+2023-11,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1914.3,GJ,7.6572,7.6572,FY2023-24
+2023-12,B06,Natural gas,1,Stationary combustion,1553.4,GJ,80.04670200000001,80.04670200000001,FY2023-24
+2023-12,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1553.4,GJ,6.2136000000000005,6.2136000000000005,FY2023-24
+2024-01,B06,Natural gas,1,Stationary combustion,1312.8,GJ,67.648584,67.648584,FY2023-24
+2024-01,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1312.8,GJ,5.2512,5.2512,FY2023-24
+2024-02,B06,Natural gas,1,Stationary combustion,1539.9,GJ,79.35104700000001,79.35104700000001,FY2023-24
+2024-02,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1539.9,GJ,6.1596,6.1596,FY2023-24
+2024-03,B06,Natural gas,1,Stationary combustion,1508.1,GJ,77.71239299999999,77.71239299999999,FY2023-24
+2024-03,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1508.1,GJ,6.0324,6.0324,FY2023-24
+2024-04,B06,Natural gas,1,Stationary combustion,2372.2,GJ,122.23946600000001,122.23946600000001,FY2023-24
+2024-04,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,2372.2,GJ,9.4888,9.4888,FY2023-24
+2024-05,B06,Natural gas,1,Stationary combustion,2848.0,GJ,146.75744,146.75744,FY2023-24
+2024-05,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,2848.0,GJ,11.392,11.392,FY2023-24
+2024-06,B06,Natural gas,1,Stationary combustion,4064.4,GJ,209.438532,209.438532,FY2023-24
+2024-06,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,4064.4,GJ,16.2576,16.2576,FY2023-24
+2024-07,B06,Natural gas,1,Stationary combustion,4968.2,GJ,256.011346,256.011346,FY2024-25
+2024-07,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,4968.2,GJ,19.872799999999998,19.872799999999998,FY2024-25
+2024-08,B06,Natural gas,1,Stationary combustion,4916.3,GJ,253.336939,253.336939,FY2024-25
+2024-08,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,4916.3,GJ,19.665200000000002,19.665200000000002,FY2024-25
+2024-09,B06,Natural gas,1,Stationary combustion,3841.2,GJ,197.937036,197.937036,FY2024-25
+2024-09,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,3841.2,GJ,15.364799999999999,15.364799999999999,FY2024-25
+2024-10,B06,Natural gas,1,Stationary combustion,2431.0,GJ,125.26943000000001,125.26943000000001,FY2024-25
+2024-10,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,2431.0,GJ,9.724,9.724,FY2024-25
+2024-11,B06,Natural gas,1,Stationary combustion,1798.6,GJ,92.68185799999999,92.68185799999999,FY2024-25
+2024-11,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1798.6,GJ,7.1944,7.1944,FY2024-25
+2024-12,B06,Natural gas,1,Stationary combustion,1414.5,GJ,72.889185,72.889185,FY2024-25
+2024-12,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1414.5,GJ,5.658,5.658,FY2024-25
+2025-01,B06,Natural gas,1,Stationary combustion,1333.8,GJ,68.73071399999999,68.73071399999999,FY2024-25
+2025-01,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1333.8,GJ,5.3351999999999995,5.3351999999999995,FY2024-25
+2025-02,B06,Natural gas,1,Stationary combustion,1339.1,GJ,69.003823,69.003823,FY2024-25
+2025-02,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1339.1,GJ,5.3564,5.3564,FY2024-25
+2025-03,B06,Natural gas,1,Stationary combustion,1541.7,GJ,79.44380100000001,79.44380100000001,FY2024-25
+2025-03,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1541.7,GJ,6.1668,6.1668,FY2024-25
+2025-04,B06,Natural gas,1,Stationary combustion,2482.6,GJ,127.928378,127.928378,FY2024-25
+2025-04,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,2482.6,GJ,9.930399999999999,9.930399999999999,FY2024-25
+2025-05,B06,Natural gas,1,Stationary combustion,3744.6,GJ,192.959238,192.959238,FY2024-25
+2025-05,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,3744.6,GJ,14.978399999999999,14.978399999999999,FY2024-25
+2025-06,B06,Natural gas,1,Stationary combustion,4730.9,GJ,243.78327699999997,243.78327699999997,FY2024-25
+2025-06,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,4730.9,GJ,18.923599999999997,18.923599999999997,FY2024-25
+2025-07,B06,Natural gas,1,Stationary combustion,4229.0,GJ,217.92037,217.92037,FY2025-26
+2025-07,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,4229.0,GJ,16.916,16.916,FY2025-26
+2025-08,B06,Natural gas,1,Stationary combustion,4224.1,GJ,217.66787300000001,217.66787300000001,FY2025-26
+2025-08,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,4224.1,GJ,16.8964,16.8964,FY2025-26
+2025-09,B06,Natural gas,1,Stationary combustion,4027.9,GJ,207.55768700000002,207.55768700000002,FY2025-26
+2025-09,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,4027.9,GJ,16.1116,16.1116,FY2025-26
+2025-10,B06,Natural gas,1,Stationary combustion,2648.5,GJ,136.47720500000003,136.47720500000003,FY2025-26
+2025-10,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,2648.5,GJ,10.594,10.594,FY2025-26
+2025-11,B06,Natural gas,1,Stationary combustion,1895.0,GJ,97.64935000000001,97.64935000000001,FY2025-26
+2025-11,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1895.0,GJ,7.58,7.58,FY2025-26
+2025-12,B06,Natural gas,1,Stationary combustion,1699.5,GJ,87.575235,87.575235,FY2025-26
+2025-12,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1699.5,GJ,6.798,6.798,FY2025-26
+2026-01,B06,Natural gas,1,Stationary combustion,1234.0,GJ,63.58802000000001,63.58802000000001,FY2025-26
+2026-01,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1234.0,GJ,4.936,4.936,FY2025-26
+2026-02,B06,Natural gas,1,Stationary combustion,1510.9,GJ,77.856677,77.856677,FY2025-26
+2026-02,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1510.9,GJ,6.0436000000000005,6.0436000000000005,FY2025-26
+2026-03,B06,Natural gas,1,Stationary combustion,1306.2,GJ,67.308486,67.308486,FY2025-26
+2026-03,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1306.2,GJ,5.2248,5.2248,FY2025-26
+2026-04,B06,Natural gas,1,Stationary combustion,2383.3,GJ,122.81144900000001,122.81144900000001,FY2025-26
+2026-04,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,2383.3,GJ,9.5332,9.5332,FY2025-26
+2026-05,B06,Natural gas,1,Stationary combustion,3080.6,GJ,158.743318,158.743318,FY2025-26
+2026-05,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,3080.6,GJ,12.3224,12.3224,FY2025-26
+2026-06,B06,Natural gas,1,Stationary combustion,4216.9,GJ,217.296857,217.296857,FY2025-26
+2026-06,B06,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,4216.9,GJ,16.8676,16.8676,FY2025-26
+2023-07,Campus,Fleet fuel,1,Transport combustion,1002.3000000000001,L,2.7240769998000003,2.7240769998000003,FY2023-24
+2023-07,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1002.3000000000001,L,0.669315894,0.669315894,FY2023-24
+2023-07,Campus,Fleet fuel,1,Transport combustion,1008.2,L,2.3315673528,2.3315673528,FY2023-24
+2023-07,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1008.2,L,0.593063568,0.593063568,FY2023-24
+2023-08,Campus,Fleet fuel,1,Transport combustion,995.4,L,2.7053240004,2.7053240004,FY2023-24
+2023-08,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,995.4,L,0.664708212,0.664708212,FY2023-24
+2023-08,Campus,Fleet fuel,1,Transport combustion,1010.4,L,2.3366550816000005,2.3366550816000005,FY2023-24
+2023-08,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1010.4,L,0.594357696,0.594357696,FY2023-24
+2023-09,Campus,Fleet fuel,1,Transport combustion,885.8,L,2.4074502707999996,2.4074502707999996,FY2023-24
+2023-09,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,885.8,L,0.591519524,0.591519524,FY2023-24
+2023-09,Campus,Fleet fuel,1,Transport combustion,1034.2,L,2.3916950568,2.3916950568,FY2023-24
+2023-09,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1034.2,L,0.608357808,0.608357808,FY2023-24
+2023-10,Campus,Fleet fuel,1,Transport combustion,887.0,L,2.4107116619999998,2.4107116619999998,FY2023-24
+2023-10,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,887.0,L,0.5923208600000001,0.5923208600000001,FY2023-24
+2023-10,Campus,Fleet fuel,1,Transport combustion,1012.7,L,2.341974070800001,2.341974070800001,FY2023-24
+2023-10,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1012.7,L,0.5957106480000001,0.5957106480000001,FY2023-24
+2023-11,Campus,Fleet fuel,1,Transport combustion,870.5999999999999,L,2.3661393156,2.3661393156,FY2023-24
+2023-11,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,870.5999999999999,L,0.581369268,0.581369268,FY2023-24
+2023-11,Campus,Fleet fuel,1,Transport combustion,981.0,L,2.268664524,2.268664524,FY2023-24
+2023-11,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,981.0,L,0.57706344,0.57706344,FY2023-24
+2023-12,Campus,Fleet fuel,1,Transport combustion,626.7,L,1.7032615542,1.7032615542,FY2023-24
+2023-12,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,626.7,L,0.41849772600000007,0.41849772600000007,FY2023-24
+2023-12,Campus,Fleet fuel,1,Transport combustion,734.0,L,1.6974513360000003,1.6974513360000003,FY2023-24
+2023-12,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,734.0,L,0.43176816,0.43176816,FY2023-24
+2024-01,Campus,Fleet fuel,1,Transport combustion,648.0,L,1.7611512480000002,1.7611512480000002,FY2023-24
+2024-01,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,648.0,L,0.43272144,0.43272144,FY2023-24
+2024-01,Campus,Fleet fuel,1,Transport combustion,639.6,L,1.4791415184000005,1.4791415184000005,FY2023-24
+2024-01,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,639.6,L,0.3762383040000001,0.3762383040000001,FY2023-24
+2024-02,Campus,Fleet fuel,1,Transport combustion,876.7,L,2.3827180542,2.3827180542,FY2023-24
+2024-02,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,876.7,L,0.585442726,0.585442726,FY2023-24
+2024-02,Campus,Fleet fuel,1,Transport combustion,1012.0,L,2.3403552480000007,2.3403552480000007,FY2023-24
+2024-02,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1012.0,L,0.5952988800000001,0.5952988800000001,FY2023-24
+2024-03,Campus,Fleet fuel,1,Transport combustion,868.2,L,2.3596165332,2.3596165332,FY2023-24
+2024-03,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,868.2,L,0.579766596,0.579766596,FY2023-24
+2024-03,Campus,Fleet fuel,1,Transport combustion,984.9,L,2.2776836796000004,2.2776836796000004,FY2023-24
+2024-03,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,984.9,L,0.579357576,0.579357576,FY2023-24
+2024-04,Campus,Fleet fuel,1,Transport combustion,858.8,L,2.3340689688,2.3340689688,FY2023-24
+2024-04,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,858.8,L,0.5734894640000001,0.5734894640000001,FY2023-24
+2024-04,Campus,Fleet fuel,1,Transport combustion,1036.1,L,2.3960890044,2.3960890044,FY2023-24
+2024-04,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1036.1,L,0.6094754639999999,0.6094754639999999,FY2023-24
+2024-05,Campus,Fleet fuel,1,Transport combustion,940.8,L,2.5569307008,2.5569307008,FY2023-24
+2024-05,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,940.8,L,0.628247424,0.628247424,FY2023-24
+2024-05,Campus,Fleet fuel,1,Transport combustion,999.1999999999999,L,2.3107539168000004,2.3107539168000004,FY2023-24
+2024-05,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,999.1999999999999,L,0.587769408,0.587769408,FY2023-24
+2024-06,Campus,Fleet fuel,1,Transport combustion,890.5,L,2.420224053,2.420224053,FY2023-24
+2024-06,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,890.5,L,0.59465809,0.59465809,FY2023-24
+2024-06,Campus,Fleet fuel,1,Transport combustion,1011.2,L,2.3385051648000004,2.3385051648000004,FY2023-24
+2024-06,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1011.2,L,0.5948282880000001,0.5948282880000001,FY2023-24
+2024-07,Campus,Fleet fuel,1,Transport combustion,1026.5,L,2.789848389,2.789848389,FY2024-25
+2024-07,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1026.5,L,0.68547617,0.68547617,FY2024-25
+2024-07,Campus,Fleet fuel,1,Transport combustion,1084.5,L,2.508019038000001,2.508019038000001,FY2024-25
+2024-07,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1084.5,L,0.6379462800000001,0.6379462800000001,FY2024-25
+2024-08,Campus,Fleet fuel,1,Transport combustion,921.7,L,2.5050202242,2.5050202242,FY2024-25
+2024-08,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,921.7,L,0.615492826,0.615492826,FY2024-25
+2024-08,Campus,Fleet fuel,1,Transport combustion,979.6,L,2.2654268784000005,2.2654268784000005,FY2024-25
+2024-08,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,979.6,L,0.576239904,0.576239904,FY2024-25
+2024-09,Campus,Fleet fuel,1,Transport combustion,932.2,L,2.5335573971999996,2.5335573971999996,FY2024-25
+2024-09,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,932.2,L,0.6225045160000001,0.6225045160000001,FY2024-25
+2024-09,Campus,Fleet fuel,1,Transport combustion,991.3,L,2.2924843452000006,2.2924843452000006,FY2024-25
+2024-09,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,991.3,L,0.5831223120000001,0.5831223120000001,FY2024-25
+2024-10,Campus,Fleet fuel,1,Transport combustion,881.0,L,2.394404706,2.394404706,FY2024-25
+2024-10,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,881.0,L,0.58831418,0.58831418,FY2024-25
+2024-10,Campus,Fleet fuel,1,Transport combustion,1015.7,L,2.3489118828000004,2.3489118828000004,FY2024-25
+2024-10,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1015.7,L,0.597475368,0.597475368,FY2024-25
+2024-11,Campus,Fleet fuel,1,Transport combustion,870.2,L,2.3650521852,2.3650521852,FY2024-25
+2024-11,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,870.2,L,0.5811021560000001,0.5811021560000001,FY2024-25
+2024-11,Campus,Fleet fuel,1,Transport combustion,932.2,L,2.155809448800001,2.155809448800001,FY2024-25
+2024-11,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,932.2,L,0.548357328,0.548357328,FY2024-25
+2024-12,Campus,Fleet fuel,1,Transport combustion,596.9,L,1.6222703394,1.6222703394,FY2024-25
+2024-12,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,596.9,L,0.398597882,0.398597882,FY2024-25
+2024-12,Campus,Fleet fuel,1,Transport combustion,789.3,L,1.8253383372000003,1.8253383372000003,FY2024-25
+2024-12,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,789.3,L,0.46429783199999997,0.46429783199999997,FY2024-25
+2025-01,Campus,Fleet fuel,1,Transport combustion,619.7,L,1.6842367722000002,1.6842367722000002,FY2024-25
+2025-01,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,619.7,L,0.4138232660000001,0.4138232660000001,FY2024-25
+2025-01,Campus,Fleet fuel,1,Transport combustion,720.8,L,1.6669249632,1.6669249632,FY2024-25
+2025-01,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,720.8,L,0.424003392,0.424003392,FY2024-25
+2025-02,Campus,Fleet fuel,1,Transport combustion,965.0999999999999,L,2.6229738726,2.6229738726,FY2024-25
+2025-02,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,965.0999999999999,L,0.644474478,0.644474478,FY2024-25
+2025-02,Campus,Fleet fuel,1,Transport combustion,961.5,L,2.223568746,2.223568746,FY2024-25
+2025-02,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,961.5,L,0.5655927600000001,0.5655927600000001,FY2024-25
+2025-03,Campus,Fleet fuel,1,Transport combustion,897.6,L,2.4395206176,2.4395206176,FY2024-25
+2025-03,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,897.6,L,0.5993993280000001,0.5993993280000001,FY2024-25
+2025-03,Campus,Fleet fuel,1,Transport combustion,905.7,L,2.0945254428,2.0945254428,FY2024-25
+2025-03,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,905.7,L,0.5327689680000001,0.5327689680000001,FY2024-25
+2025-04,Campus,Fleet fuel,1,Transport combustion,884.3,L,2.4033735318,2.4033735318,FY2024-25
+2025-04,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,884.3,L,0.590517854,0.590517854,FY2024-25
+2025-04,Campus,Fleet fuel,1,Transport combustion,1049.6,L,2.4273091584,2.4273091584,FY2024-25
+2025-04,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1049.6,L,0.6174167039999998,0.6174167039999998,FY2024-25
+2025-05,Campus,Fleet fuel,1,Transport combustion,857.7,L,2.3310793602000004,2.3310793602000004,FY2024-25
+2025-05,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,857.7,L,0.5727549060000001,0.5727549060000001,FY2024-25
+2025-05,Campus,Fleet fuel,1,Transport combustion,1089.2,L,2.5188882768000003,2.5188882768000003,FY2024-25
+2025-05,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1089.2,L,0.640711008,0.640711008,FY2024-25
+2025-06,Campus,Fleet fuel,1,Transport combustion,948.0,L,2.5764990479999996,2.5764990479999996,FY2024-25
+2025-06,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,948.0,L,0.63305544,0.63305544,FY2024-25
+2025-06,Campus,Fleet fuel,1,Transport combustion,995.9,L,2.3031223236000007,2.3031223236000007,FY2024-25
+2025-06,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,995.9,L,0.585828216,0.585828216,FY2024-25
+2025-07,Campus,Fleet fuel,1,Transport combustion,860.6,L,2.3389610556000004,2.3389610556000004,FY2025-26
+2025-07,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,860.6,L,0.5746914680000001,0.5746914680000001,FY2025-26
+2025-07,Campus,Fleet fuel,1,Transport combustion,1004.3,L,2.3225481972,2.3225481972,FY2025-26
+2025-07,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1004.3,L,0.590769432,0.590769432,FY2025-26
+2025-08,Campus,Fleet fuel,1,Transport combustion,924.6,L,2.5129019196,2.5129019196,FY2025-26
+2025-08,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,924.6,L,0.617429388,0.617429388,FY2025-26
+2025-08,Campus,Fleet fuel,1,Transport combustion,959.8,L,2.2196373192000007,2.2196373192000007,FY2025-26
+2025-08,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,959.8,L,0.564592752,0.564592752,FY2025-26
+2025-09,Campus,Fleet fuel,1,Transport combustion,851.7,L,2.3147724042000006,2.3147724042000006,FY2025-26
+2025-09,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,851.7,L,0.5687482260000002,0.5687482260000002,FY2025-26
+2025-09,Campus,Fleet fuel,1,Transport combustion,1051.0,L,2.4305468040000004,2.4305468040000004,FY2025-26
+2025-09,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1051.0,L,0.61824024,0.61824024,FY2025-26
+2025-10,Campus,Fleet fuel,1,Transport combustion,845.0,L,2.2965629699999996,2.2965629699999996,FY2025-26
+2025-10,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,845.0,L,0.5642741,0.5642741,FY2025-26
+2025-10,Campus,Fleet fuel,1,Transport combustion,1033.9,L,2.3910012756000003,2.3910012756000003,FY2025-26
+2025-10,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1033.9,L,0.608181336,0.608181336,FY2025-26
+2025-11,Campus,Fleet fuel,1,Transport combustion,902.7,L,2.4533815301999997,2.4533815301999997,FY2025-26
+2025-11,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,902.7,L,0.6028050060000001,0.6028050060000001,FY2025-26
+2025-11,Campus,Fleet fuel,1,Transport combustion,967.9,L,2.238369411600001,2.238369411600001,FY2025-26
+2025-11,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,967.9,L,0.5693574960000001,0.5693574960000001,FY2025-26
+2025-12,Campus,Fleet fuel,1,Transport combustion,644.1,L,1.7505517266000001,1.7505517266000001,FY2025-26
+2025-12,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,644.1,L,0.43011709800000003,0.43011709800000003,FY2025-26
+2025-12,Campus,Fleet fuel,1,Transport combustion,718.4,L,1.6613747135999999,1.6613747135999999,FY2025-26
+2025-12,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,718.4,L,0.422591616,0.422591616,FY2025-26
+2026-01,Campus,Fleet fuel,1,Transport combustion,662.4,L,1.8002879424,1.8002879424,FY2025-26
+2026-01,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,662.4,L,0.44233747200000006,0.44233747200000006,FY2025-26
+2026-01,Campus,Fleet fuel,1,Transport combustion,737.4,L,1.7053141896000001,1.7053141896000001,FY2025-26
+2026-01,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,737.4,L,0.43376817600000006,0.43376817600000006,FY2025-26
+2026-02,Campus,Fleet fuel,1,Transport combustion,904.7,L,2.4588171822000002,2.4588171822000002,FY2025-26
+2026-02,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,904.7,L,0.6041405660000001,0.6041405660000001,FY2025-26
+2026-02,Campus,Fleet fuel,1,Transport combustion,904.2,L,2.0910565368,2.0910565368,FY2025-26
+2026-02,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,904.2,L,0.531886608,0.531886608,FY2025-26
+2026-03,Campus,Fleet fuel,1,Transport combustion,890.4,L,2.4199522703999996,2.4199522703999996,FY2025-26
+2026-03,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,890.4,L,0.594591312,0.594591312,FY2025-26
+2026-03,Campus,Fleet fuel,1,Transport combustion,999.3,L,2.3109851772,2.3109851772,FY2025-26
+2026-03,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,999.3,L,0.587828232,0.587828232,FY2025-26
+2026-04,Campus,Fleet fuel,1,Transport combustion,962.9,L,2.6169946553999996,2.6169946553999996,FY2025-26
+2026-04,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,962.9,L,0.6430053620000001,0.6430053620000001,FY2025-26
+2026-04,Campus,Fleet fuel,1,Transport combustion,994.6,L,2.3001159384000003,2.3001159384000003,FY2025-26
+2026-04,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,994.6,L,0.585063504,0.585063504,FY2025-26
+2026-05,Campus,Fleet fuel,1,Transport combustion,896.9,L,2.4376181394000005,2.4376181394000005,FY2025-26
+2026-05,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,896.9,L,0.5989318820000001,0.5989318820000001,FY2025-26
+2026-05,Campus,Fleet fuel,1,Transport combustion,1036.4,L,2.3967827856,2.3967827856,FY2025-26
+2026-05,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1036.4,L,0.6096519360000001,0.6096519360000001,FY2025-26
+2026-06,Campus,Fleet fuel,1,Transport combustion,912.4,L,2.4797444424,2.4797444424,FY2025-26
+2026-06,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,912.4,L,0.609282472,0.609282472,FY2025-26
+2026-06,Campus,Fleet fuel,1,Transport combustion,1057.7,L,2.4460412508000005,2.4460412508000005,FY2025-26
+2026-06,Campus,Electricity & gas supply chain,3,Cat 3 Fuel- and energy-related,1057.7,L,0.6221814480000001,0.6221814480000001,FY2025-26
+2023-08,B01,Refrigerant leaks,1,Fugitive emissions,20.6,kg,26.780000000000005,26.780000000000005,FY2023-24
+2023-10,B04,Refrigerant leaks,1,Fugitive emissions,10.2,kg,19.619699999999998,19.619699999999998,FY2023-24
+2023-12,B05,Refrigerant leaks,1,Fugitive emissions,4.5,kg,8.65575,8.65575,FY2023-24
+2024-01,B06,Refrigerant leaks,1,Fugitive emissions,24.7,kg,32.11,32.11,FY2023-24
+2024-03,B04,Refrigerant leaks,1,Fugitive emissions,32.9,kg,42.77,42.77,FY2023-24
+2024-04,B05,Refrigerant leaks,1,Fugitive emissions,5.8,kg,3.9266,3.9266,FY2023-24
+2024-05,B03,Refrigerant leaks,1,Fugitive emissions,5.8,kg,11.1563,11.1563,FY2023-24
+2024-06,B06,Refrigerant leaks,1,Fugitive emissions,10.2,kg,19.619699999999998,19.619699999999998,FY2023-24
+2024-07,B01,Refrigerant leaks,1,Fugitive emissions,10.5,kg,20.19675,20.19675,FY2024-25
+2024-08,B01,Refrigerant leaks,1,Fugitive emissions,4.1,kg,7.886349999999999,7.886349999999999,FY2024-25
+2024-09,B02,Refrigerant leaks,1,Fugitive emissions,5.6,kg,3.7912,3.7912,FY2024-25
+2024-10,B03,Refrigerant leaks,1,Fugitive emissions,24.7,kg,32.11,32.11,FY2024-25
+2024-12,B04,Refrigerant leaks,1,Fugitive emissions,2.4,kg,1.6248,1.6248,FY2024-25
+2025-01,B04,Refrigerant leaks,1,Fugitive emissions,6.2,kg,11.9257,11.9257,FY2024-25
+2025-02,B05,Refrigerant leaks,1,Fugitive emissions,7.1,kg,13.656849999999999,13.656849999999999,FY2024-25
+2025-06,B05,Refrigerant leaks,1,Fugitive emissions,4.0,kg,2.708,2.708,FY2024-25
+2025-07,B06,Refrigerant leaks,1,Fugitive emissions,11.6,kg,22.3126,22.3126,FY2025-26
+2025-09,B03,Refrigerant leaks,1,Fugitive emissions,11.6,kg,22.3126,22.3126,FY2025-26
+2025-11,B02,Refrigerant leaks,1,Fugitive emissions,1.1,kg,0.7447,0.7447,FY2025-26
+2025-12,B01,Refrigerant leaks,1,Fugitive emissions,30.4,kg,39.52,39.52,FY2025-26
+2026-01,B06,Refrigerant leaks,1,Fugitive emissions,9.4,kg,18.0809,18.0809,FY2025-26
+2026-02,B01,Refrigerant leaks,1,Fugitive emissions,31.1,kg,40.43,40.43,FY2025-26
+2026-06,B03,Refrigerant leaks,1,Fugitive emissions,15.2,kg,19.76,19.76,FY2025-26
+2023-07,Campus,Business flights,3,Cat 6 Business travel,624888.4284606776,passenger-km,101.9136927750983,101.9136927750983,FY2023-24
+2023-08,Campus,Business flights,3,Cat 6 Business travel,738412.7189717252,passenger-km,95.03560253285373,95.03560253285373,FY2023-24
+2023-09,Campus,Business flights,3,Cat 6 Business travel,646607.4510724925,passenger-km,103.00224251123574,103.00224251123574,FY2023-24
+2023-10,Campus,Business flights,3,Cat 6 Business travel,359329.2053694313,passenger-km,48.80079504647719,48.80079504647719,FY2023-24
+2023-11,Campus,Business flights,3,Cat 6 Business travel,553543.8691351218,passenger-km,77.71703266742435,77.71703266742435,FY2023-24
+2023-12,Campus,Business flights,3,Cat 6 Business travel,517329.00141403626,passenger-km,74.30103408499973,74.30103408499973,FY2023-24
+2024-01,Campus,Business flights,3,Cat 6 Business travel,236894.52316028357,passenger-km,31.95280840263029,31.95280840263029,FY2023-24
+2024-02,Campus,Business flights,3,Cat 6 Business travel,275072.960847222,passenger-km,34.66868736211811,34.66868736211811,FY2023-24
+2024-03,Campus,Business flights,3,Cat 6 Business travel,513722.2983659119,passenger-km,75.20934415233108,75.20934415233108,FY2023-24
+2024-04,Campus,Business flights,3,Cat 6 Business travel,793645.8876740666,passenger-km,114.76542634929571,114.76542634929571,FY2023-24
+2024-05,Campus,Business flights,3,Cat 6 Business travel,588297.9898361998,passenger-km,93.03737700142433,93.03737700142433,FY2023-24
+2024-06,Campus,Business flights,3,Cat 6 Business travel,501057.16385876905,passenger-km,66.6468352540189,66.6468352540189,FY2023-24
+2024-07,Campus,Business flights,3,Cat 6 Business travel,674603.5440066886,passenger-km,93.23877019268603,93.23877019268603,FY2024-25
+2024-08,Campus,Business flights,3,Cat 6 Business travel,857953.9468393595,passenger-km,134.2227732497493,134.2227732497493,FY2024-25
+2024-09,Campus,Business flights,3,Cat 6 Business travel,803804.9060545535,passenger-km,109.92335925754831,109.92335925754831,FY2024-25
+2024-10,Campus,Business flights,3,Cat 6 Business travel,608797.34505717,passenger-km,96.97710059748724,96.97710059748724,FY2024-25
+2024-11,Campus,Business flights,3,Cat 6 Business travel,471856.83182671864,passenger-km,63.300191714520814,63.300191714520814,FY2024-25
+2024-12,Campus,Business flights,3,Cat 6 Business travel,401429.1257099676,passenger-km,63.65907710158332,63.65907710158332,FY2024-25
+2025-01,Campus,Business flights,3,Cat 6 Business travel,285726.7399385977,passenger-km,41.94437007573829,41.94437007573829,FY2024-25
+2025-02,Campus,Business flights,3,Cat 6 Business travel,502408.31506162236,passenger-km,70.68490466898575,70.68490466898575,FY2024-25
+2025-03,Campus,Business flights,3,Cat 6 Business travel,773183.2583755864,passenger-km,136.80062488784267,136.80062488784267,FY2024-25
+2025-04,Campus,Business flights,3,Cat 6 Business travel,731900.6194924527,passenger-km,94.14646385013995,94.14646385013995,FY2024-25
+2025-05,Campus,Business flights,3,Cat 6 Business travel,691587.79465512,passenger-km,104.50300932583924,104.50300932583924,FY2024-25
+2025-06,Campus,Business flights,3,Cat 6 Business travel,542436.6506306449,passenger-km,64.70301169429595,64.70301169429595,FY2024-25
+2025-07,Campus,Business flights,3,Cat 6 Business travel,667992.592430265,passenger-km,98.79654225094265,98.79654225094265,FY2025-26
+2025-08,Campus,Business flights,3,Cat 6 Business travel,625347.178969132,passenger-km,99.1798852169928,99.1798852169928,FY2025-26
+2025-09,Campus,Business flights,3,Cat 6 Business travel,745997.0499444734,passenger-km,106.77760077776949,106.77760077776949,FY2025-26
+2025-10,Campus,Business flights,3,Cat 6 Business travel,614705.2381259557,passenger-km,102.97534311075647,102.97534311075647,FY2025-26
+2025-11,Campus,Business flights,3,Cat 6 Business travel,659882.5428977397,passenger-km,107.12350161010481,107.12350161010481,FY2025-26
+2025-12,Campus,Business flights,3,Cat 6 Business travel,461612.21415394824,passenger-km,71.23386479097152,71.23386479097152,FY2025-26
+2026-01,Campus,Business flights,3,Cat 6 Business travel,602937.1611882348,passenger-km,75.73021356175867,75.73021356175867,FY2025-26
+2026-02,Campus,Business flights,3,Cat 6 Business travel,550210.0643884159,passenger-km,74.59522841409179,74.59522841409179,FY2025-26
+2026-03,Campus,Business flights,3,Cat 6 Business travel,657336.2525348064,passenger-km,115.08871341749531,115.08871341749531,FY2025-26
+2026-04,Campus,Business flights,3,Cat 6 Business travel,764228.7529237161,passenger-km,119.43687504945622,119.43687504945622,FY2025-26
+2026-05,Campus,Business flights,3,Cat 6 Business travel,915625.0093596628,passenger-km,141.66711646537664,141.66711646537664,FY2025-26
+2026-06,Campus,Business flights,3,Cat 6 Business travel,736839.296098662,passenger-km,105.12088372844858,105.12088372844858,FY2025-26
+2023-07,Campus,Waste,3,Cat 5 Waste,47.69,t,57.227999999999994,57.227999999999994,FY2023-24
+2023-07,Campus,Waste,3,Cat 5 Waste,24.77,t,0.0,0.0,FY2023-24
+2023-07,Campus,Waste,3,Cat 5 Waste,10.83,t,0.49818,0.49818,FY2023-24
+2023-08,Campus,Waste,3,Cat 5 Waste,63.04,t,75.648,75.648,FY2023-24
+2023-08,Campus,Waste,3,Cat 5 Waste,34.24,t,0.0,0.0,FY2023-24
+2023-08,Campus,Waste,3,Cat 5 Waste,13.65,t,0.6279,0.6279,FY2023-24
+2023-09,Campus,Waste,3,Cat 5 Waste,59.38,t,71.256,71.256,FY2023-24
+2023-09,Campus,Waste,3,Cat 5 Waste,34.79,t,0.0,0.0,FY2023-24
+2023-09,Campus,Waste,3,Cat 5 Waste,12.15,t,0.5589,0.5589,FY2023-24
+2023-10,Campus,Waste,3,Cat 5 Waste,62.66,t,75.192,75.192,FY2023-24
+2023-10,Campus,Waste,3,Cat 5 Waste,30.12,t,0.0,0.0,FY2023-24
+2023-10,Campus,Waste,3,Cat 5 Waste,13.06,t,0.60076,0.60076,FY2023-24
+2023-11,Campus,Waste,3,Cat 5 Waste,53.95,t,64.74,64.74,FY2023-24
+2023-11,Campus,Waste,3,Cat 5 Waste,25.57,t,0.0,0.0,FY2023-24
+2023-11,Campus,Waste,3,Cat 5 Waste,12.44,t,0.57224,0.57224,FY2023-24
+2023-12,Campus,Waste,3,Cat 5 Waste,43.85,t,52.62,52.62,FY2023-24
+2023-12,Campus,Waste,3,Cat 5 Waste,20.97,t,0.0,0.0,FY2023-24
+2023-12,Campus,Waste,3,Cat 5 Waste,8.92,t,0.41031999999999996,0.41031999999999996,FY2023-24
+2024-01,Campus,Waste,3,Cat 5 Waste,41.23,t,49.47599999999999,49.47599999999999,FY2023-24
+2024-01,Campus,Waste,3,Cat 5 Waste,20.67,t,0.0,0.0,FY2023-24
+2024-01,Campus,Waste,3,Cat 5 Waste,10.34,t,0.47564,0.47564,FY2023-24
+2024-02,Campus,Waste,3,Cat 5 Waste,44.75,t,53.699999999999996,53.699999999999996,FY2023-24
+2024-02,Campus,Waste,3,Cat 5 Waste,20.66,t,0.0,0.0,FY2023-24
+2024-02,Campus,Waste,3,Cat 5 Waste,10.1,t,0.46459999999999996,0.46459999999999996,FY2023-24
+2024-03,Campus,Waste,3,Cat 5 Waste,62.83,t,75.396,75.396,FY2023-24
+2024-03,Campus,Waste,3,Cat 5 Waste,33.53,t,0.0,0.0,FY2023-24
+2024-03,Campus,Waste,3,Cat 5 Waste,14.43,t,0.6637799999999999,0.6637799999999999,FY2023-24
+2024-04,Campus,Waste,3,Cat 5 Waste,66.78,t,80.136,80.136,FY2023-24
+2024-04,Campus,Waste,3,Cat 5 Waste,28.6,t,0.0,0.0,FY2023-24
+2024-04,Campus,Waste,3,Cat 5 Waste,15.3,t,0.7038,0.7038,FY2023-24
+2024-05,Campus,Waste,3,Cat 5 Waste,56.87,t,68.244,68.244,FY2023-24
+2024-05,Campus,Waste,3,Cat 5 Waste,28.88,t,0.0,0.0,FY2023-24
+2024-05,Campus,Waste,3,Cat 5 Waste,14.69,t,0.67574,0.67574,FY2023-24
+2024-06,Campus,Waste,3,Cat 5 Waste,50.48,t,60.57599999999999,60.57599999999999,FY2023-24
+2024-06,Campus,Waste,3,Cat 5 Waste,28.05,t,0.0,0.0,FY2023-24
+2024-06,Campus,Waste,3,Cat 5 Waste,12.45,t,0.5727,0.5727,FY2023-24
+2024-07,Campus,Waste,3,Cat 5 Waste,42.45,t,50.940000000000005,50.940000000000005,FY2024-25
+2024-07,Campus,Waste,3,Cat 5 Waste,22.65,t,0.0,0.0,FY2024-25
+2024-07,Campus,Waste,3,Cat 5 Waste,11.56,t,0.53176,0.53176,FY2024-25
+2024-08,Campus,Waste,3,Cat 5 Waste,53.47,t,64.164,64.164,FY2024-25
+2024-08,Campus,Waste,3,Cat 5 Waste,34.31,t,0.0,0.0,FY2024-25
+2024-08,Campus,Waste,3,Cat 5 Waste,14.58,t,0.6706799999999999,0.6706799999999999,FY2024-25
+2024-09,Campus,Waste,3,Cat 5 Waste,60.93,t,73.116,73.116,FY2024-25
+2024-09,Campus,Waste,3,Cat 5 Waste,30.06,t,0.0,0.0,FY2024-25
+2024-09,Campus,Waste,3,Cat 5 Waste,13.62,t,0.62652,0.62652,FY2024-25
+2024-10,Campus,Waste,3,Cat 5 Waste,60.05,t,72.05999999999999,72.05999999999999,FY2024-25
+2024-10,Campus,Waste,3,Cat 5 Waste,31.35,t,0.0,0.0,FY2024-25
+2024-10,Campus,Waste,3,Cat 5 Waste,15.09,t,0.69414,0.69414,FY2024-25
+2024-11,Campus,Waste,3,Cat 5 Waste,56.87,t,68.244,68.244,FY2024-25
+2024-11,Campus,Waste,3,Cat 5 Waste,27.02,t,0.0,0.0,FY2024-25
+2024-11,Campus,Waste,3,Cat 5 Waste,13.06,t,0.60076,0.60076,FY2024-25
+2024-12,Campus,Waste,3,Cat 5 Waste,41.16,t,49.391999999999996,49.391999999999996,FY2024-25
+2024-12,Campus,Waste,3,Cat 5 Waste,22.32,t,0.0,0.0,FY2024-25
+2024-12,Campus,Waste,3,Cat 5 Waste,9.41,t,0.43286,0.43286,FY2024-25
+2025-01,Campus,Waste,3,Cat 5 Waste,41.66,t,49.992,49.992,FY2024-25
+2025-01,Campus,Waste,3,Cat 5 Waste,19.84,t,0.0,0.0,FY2024-25
+2025-01,Campus,Waste,3,Cat 5 Waste,9.66,t,0.44436,0.44436,FY2024-25
+2025-02,Campus,Waste,3,Cat 5 Waste,38.58,t,46.296,46.296,FY2024-25
+2025-02,Campus,Waste,3,Cat 5 Waste,20.58,t,0.0,0.0,FY2024-25
+2025-02,Campus,Waste,3,Cat 5 Waste,10.11,t,0.46506,0.46506,FY2024-25
+2025-03,Campus,Waste,3,Cat 5 Waste,60.87,t,73.044,73.044,FY2024-25
+2025-03,Campus,Waste,3,Cat 5 Waste,33.12,t,0.0,0.0,FY2024-25
+2025-03,Campus,Waste,3,Cat 5 Waste,14.67,t,0.67482,0.67482,FY2024-25
+2025-04,Campus,Waste,3,Cat 5 Waste,60.91,t,73.092,73.092,FY2024-25
+2025-04,Campus,Waste,3,Cat 5 Waste,30.82,t,0.0,0.0,FY2024-25
+2025-04,Campus,Waste,3,Cat 5 Waste,15.07,t,0.69322,0.69322,FY2024-25
+2025-05,Campus,Waste,3,Cat 5 Waste,53.71,t,64.452,64.452,FY2024-25
+2025-05,Campus,Waste,3,Cat 5 Waste,33.63,t,0.0,0.0,FY2024-25
+2025-05,Campus,Waste,3,Cat 5 Waste,15.61,t,0.7180599999999999,0.7180599999999999,FY2024-25
+2025-06,Campus,Waste,3,Cat 5 Waste,49.32,t,59.184,59.184,FY2024-25
+2025-06,Campus,Waste,3,Cat 5 Waste,27.69,t,0.0,0.0,FY2024-25
+2025-06,Campus,Waste,3,Cat 5 Waste,10.96,t,0.50416,0.50416,FY2024-25
+2025-07,Campus,Waste,3,Cat 5 Waste,45.0,t,54.0,54.0,FY2025-26
+2025-07,Campus,Waste,3,Cat 5 Waste,26.02,t,0.0,0.0,FY2025-26
+2025-07,Campus,Waste,3,Cat 5 Waste,13.84,t,0.63664,0.63664,FY2025-26
+2025-08,Campus,Waste,3,Cat 5 Waste,57.13,t,68.556,68.556,FY2025-26
+2025-08,Campus,Waste,3,Cat 5 Waste,35.59,t,0.0,0.0,FY2025-26
+2025-08,Campus,Waste,3,Cat 5 Waste,14.04,t,0.64584,0.64584,FY2025-26
+2025-09,Campus,Waste,3,Cat 5 Waste,51.37,t,61.64399999999999,61.64399999999999,FY2025-26
+2025-09,Campus,Waste,3,Cat 5 Waste,33.91,t,0.0,0.0,FY2025-26
+2025-09,Campus,Waste,3,Cat 5 Waste,17.57,t,0.80822,0.80822,FY2025-26
+2025-10,Campus,Waste,3,Cat 5 Waste,57.12,t,68.544,68.544,FY2025-26
+2025-10,Campus,Waste,3,Cat 5 Waste,29.86,t,0.0,0.0,FY2025-26
+2025-10,Campus,Waste,3,Cat 5 Waste,16.22,t,0.7461199999999999,0.7461199999999999,FY2025-26
+2025-11,Campus,Waste,3,Cat 5 Waste,48.07,t,57.684,57.684,FY2025-26
+2025-11,Campus,Waste,3,Cat 5 Waste,28.16,t,0.0,0.0,FY2025-26
+2025-11,Campus,Waste,3,Cat 5 Waste,13.01,t,0.59846,0.59846,FY2025-26
+2025-12,Campus,Waste,3,Cat 5 Waste,43.79,t,52.547999999999995,52.547999999999995,FY2025-26
+2025-12,Campus,Waste,3,Cat 5 Waste,24.98,t,0.0,0.0,FY2025-26
+2025-12,Campus,Waste,3,Cat 5 Waste,10.67,t,0.49082,0.49082,FY2025-26
+2026-01,Campus,Waste,3,Cat 5 Waste,35.84,t,43.008,43.008,FY2025-26
+2026-01,Campus,Waste,3,Cat 5 Waste,18.54,t,0.0,0.0,FY2025-26
+2026-01,Campus,Waste,3,Cat 5 Waste,11.43,t,0.52578,0.52578,FY2025-26
+2026-02,Campus,Waste,3,Cat 5 Waste,39.07,t,46.884,46.884,FY2025-26
+2026-02,Campus,Waste,3,Cat 5 Waste,21.66,t,0.0,0.0,FY2025-26
+2026-02,Campus,Waste,3,Cat 5 Waste,12.33,t,0.56718,0.56718,FY2025-26
+2026-03,Campus,Waste,3,Cat 5 Waste,52.68,t,63.215999999999994,63.215999999999994,FY2025-26
+2026-03,Campus,Waste,3,Cat 5 Waste,30.77,t,0.0,0.0,FY2025-26
+2026-03,Campus,Waste,3,Cat 5 Waste,15.22,t,0.70012,0.70012,FY2025-26
+2026-04,Campus,Waste,3,Cat 5 Waste,58.71,t,70.452,70.452,FY2025-26
+2026-04,Campus,Waste,3,Cat 5 Waste,31.94,t,0.0,0.0,FY2025-26
+2026-04,Campus,Waste,3,Cat 5 Waste,15.25,t,0.7015,0.7015,FY2025-26
+2026-05,Campus,Waste,3,Cat 5 Waste,50.32,t,60.384,60.384,FY2025-26
+2026-05,Campus,Waste,3,Cat 5 Waste,28.97,t,0.0,0.0,FY2025-26
+2026-05,Campus,Waste,3,Cat 5 Waste,16.95,t,0.7797,0.7797,FY2025-26
+2026-06,Campus,Waste,3,Cat 5 Waste,47.85,t,57.42,57.42,FY2025-26
+2026-06,Campus,Waste,3,Cat 5 Waste,26.75,t,0.0,0.0,FY2025-26
+2026-06,Campus,Waste,3,Cat 5 Waste,14.67,t,0.67482,0.67482,FY2025-26

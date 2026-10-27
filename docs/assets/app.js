@@ -198,10 +198,12 @@
   function renderGrid() {
     const g = D.grid, b = base();
     if (!g.available) {
-      $("h-grid").textContent = "Half-hourly grid data is not available, so a flat Victorian factor is used";
-      $("grid-finding").textContent = `All electricity is counted at the NGA Victorian factor of ${g.fallback_intensity} kg CO2-e per kWh.`;
+      $("h-grid").textContent = `Every kWh is counted at Victoria's average of ${g.fallback_intensity} kg CO2-e`;
+      $("grid-finding").textContent = `Without half-hourly grid data, all ${fmt(D.summary.by_fy[D.summary.fys[D.summary.fys.length - 1]].energy.grid_mwh)} MWh of grid electricity in the latest year is counted at the flat NGA Victorian factor, so the timing of use makes no difference to the result. Adding AEMO half-hourly intensity would show when campus power is cleanest and what shifting load could save.`;
       $("grid-source").textContent = g.source;
       $("c-grid").style.display = "none";
+      document.querySelector(".grid-band .scale").style.display = "none";
+      document.querySelector(".grid-band .dek").textContent = "Half-hourly Victorian grid intensity from AEMO is not loaded in this version.";
       return;
     }
     const pct = 100 * (g.dirtiest_intensity / g.cleanest_intensity - 1);
