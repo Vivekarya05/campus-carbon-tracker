@@ -30,7 +30,7 @@ jobs:
           mkdir -p out/nga out/desnz
           LOG=out/fetch_log.txt
           get() {  # url, output file
-            if curl -sSfL --http1.1 --retry 3 --retry-delay 5 -A "$UA" -H "Accept-Language: en-AU,en" "$1" -o "$2"; then
+            if curl -sSfL --http1.1 --connect-timeout 20 --max-time 120 --retry 2 --retry-delay 5 -A "$UA" -H "Accept-Language: en-AU,en" "$1" -o "$2"; then
               echo "ok   $(date -u +%FT%TZ) $1 ($(stat -c %s "$2") bytes)" >> $LOG
             else
               echo "FAIL $(date -u +%FT%TZ) $1 (curl exit $?)" >> $LOG; rm -f "$2"
@@ -67,7 +67,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - run: pip install nemed && pip show nemed | head -2
+      - run: pip install nemed "numpy<2" && pip show nemed | head -2
       - name: Build half-hourly VIC1 intensity for one month
         run: |
           mkdir -p out
