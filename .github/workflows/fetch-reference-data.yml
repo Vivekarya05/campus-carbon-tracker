@@ -1,9 +1,9 @@
-# Downloads the official reference data the pipeline needs:
+# Downloads the official reference data the pipeline needs and commits it to the `reference-data` branch:
 #   - NGA Factors workbook (DCCEEW)            -> data/reference/nga/
 #   - UK DESNZ conversion factors (flights)    -> data/reference/desnz/
 #   - Half-hourly VIC1 grid emissions intensity built from AEMO dispatch data with `nemed`
-# Run manually (Actions tab -> Fetch reference data -> Run workflow), then download the
-# `reference-data` artifact and copy its contents into data/reference/.
+#                                                -> data/reference/aemo/vic1_intensity_halfhourly.csv
+# Run manually: Actions tab -> Fetch reference data -> Run workflow. Then merge or copy the files into main.
 name: Fetch reference data
 
 on:
@@ -12,36 +12,52 @@ on:
       fy_start:
         description: "First month of the financial year to fetch AEMO data for (YYYY-MM)"
         default: "2025-07"
+      skip_aemo:
+        description: "Skip the (slow) AEMO download"
+        type: boolean
+        default: false
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   factors:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Download NGA Factors and DESNZ workbooks
         run: |
-          set -euo pipefail
+          set -uo pipefail
           mkdir -p out/nga out/desnz
+          LOG=out/fetch_log.txt
+          get() {  # url, output file
+            if curl -sSfL --http1.1 --retry 3 --retry-delay 5 -A "$UA" -H "Accept-Language: en-AU,en" "$1" -o "$2"; then
+              echo "ok   $(date -u +%FT%TZ) $1 ($(stat -c %s "$2") bytes)" >> $LOG
+            else
+              echo "FAIL $(date -u +%FT%TZ) $1 (curl exit $?)" >> $LOG; rm -f "$2"
+            fi
+          }
           UA="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
-          PAGE=https://www.dcceew.gov.au/climate-change/publications/national-greenhouse-accounts-factors-2026
-          curl -sSfL -A "$UA" "$PAGE" -o out/nga/page.html
-          grep -oE 'href="[^"]+\.(xlsx|pdf)"' out/nga/page.html | sed 's/href="//;s/"$//' | sort -u | tee out/nga/links.txt
-          while read -r link; do
-            case "$link" in http*) url="$link" ;; *) url="https://www.dcceew.gov.au$link" ;; esac
-            curl -sSfL -A "$UA" "$url" -o "out/nga/$(basename "$url")" || echo "failed: $url"
-          done < out/nga/links.txt
-          curl -sSfL -A "$UA" https://assets.publishing.service.gov.uk/media/6a6c9748862aaf18d9c62ac9/ghg-conversion-factors-2026-flat-format-revised.xlsx \
-            -o out/desnz/ghg-conversion-factors-2026-flat-format-revised.xlsx
-          ls -la out/nga out/desnz
+          get https://www.dcceew.gov.au/climate-change/publications/national-greenhouse-accounts-factors-2026 out/nga/page.html
+          if [ -f out/nga/page.html ]; then
+            grep -oE 'href="[^"]+\.(xlsx|pdf)"' out/nga/page.html | sed 's/href="//;s/"$//' | sort -u > out/nga/links.txt
+            while read -r link; do
+              case "$link" in http*) url="$link" ;; *) url="https://www.dcceew.gov.au$link" ;; esac
+              get "$url" "out/nga/$(basename "$url")"
+            done < out/nga/links.txt
+          fi
+          # direct fallbacks (documents path used by DCCEEW for the factors publications)
+          ls out/nga/*.pdf >/dev/null 2>&1 || get https://www.dcceew.gov.au/sites/default/files/documents/national-greenhouse-accounts-factors-2026.pdf out/nga/national-greenhouse-accounts-factors-2026.pdf
+          ls out/nga/*.xlsx >/dev/null 2>&1 || get https://www.dcceew.gov.au/sites/default/files/documents/national-greenhouse-accounts-factors-2026-workbook.xlsx out/nga/national-greenhouse-accounts-factors-2026-workbook.xlsx
+          get https://assets.publishing.service.gov.uk/media/6a6c9748862aaf18d9c62ac9/ghg-conversion-factors-2026-flat-format-revised.xlsx out/desnz/ghg-conversion-factors-2026-flat-format-revised.xlsx
+          cat $LOG
       - uses: actions/upload-artifact@v4
         with:
           name: factors
           path: out/
 
   aemo:
-    runs-on: ubuntu-latest
+    if: ${{ !inputs.skip_aemo }}
+    runs-on: ubuntu-24.04
     strategy:
       fail-fast: false
       matrix:
@@ -53,29 +69,40 @@ jobs:
           python-version: "3.11"
       - run: pip install nemed && pip show nemed | head -2
       - name: Build half-hourly VIC1 intensity for one month
-        run: python scripts/fetch_vic1_intensity.py "${{ inputs.fy_start }}" ${{ matrix.month }} out
+        run: |
+          mkdir -p out
+          python scripts/fetch_vic1_intensity.py "${{ inputs.fy_start }}" ${{ matrix.month }} out 2>&1 | tail -n 60 > out/log_${{ matrix.month }}.txt
+          cat out/log_${{ matrix.month }}.txt
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: aemo-${{ matrix.month }}
           path: out/
 
-  combine:
+  commit:
     needs: [factors, aemo]
     if: always()
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
+      - uses: actions/checkout@v4
       - uses: actions/download-artifact@v4
         with:
           path: in
-      - name: Merge into one reference-data bundle
+      - name: Commit everything to the reference-data branch
         run: |
           set -euo pipefail
-          mkdir -p reference/aemo
-          cp -r in/factors/* reference/ || true
-          head -n1 -q in/aemo-*/vic1_*.csv | head -n1 > reference/aemo/vic1_intensity_halfhourly.csv
-          for f in $(ls in/aemo-*/vic1_*.csv | sort); do tail -n +2 "$f" >> reference/aemo/vic1_intensity_halfhourly.csv; done
-          wc -l reference/aemo/vic1_intensity_halfhourly.csv
-      - uses: actions/upload-artifact@v4
-        with:
-          name: reference-data
-          path: reference/
+          git switch -c reference-data
+          mkdir -p data/reference/aemo
+          [ -d in/factors ] && cp -r in/factors/* data/reference/
+          if ls in/aemo-*/vic1_*.csv >/dev/null 2>&1; then
+            f=data/reference/aemo/vic1_intensity_halfhourly.csv
+            head -n1 $(ls in/aemo-*/vic1_*.csv | head -n1) > $f
+            for x in $(ls in/aemo-*/vic1_*.csv | sort -t_ -k2); do tail -n +2 "$x" >> $f; done
+            echo "aemo rows: $(wc -l < $f)" >> data/reference/fetch_log.txt
+          fi
+          for x in in/aemo-*/log_*.txt; do [ -f "$x" ] && { echo "== $x"; cat "$x"; } >> data/reference/aemo/fetch_logs.txt; done || true
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f data/reference
+          git commit -m "Reference data fetched by workflow run ${{ github.run_id }}" || echo "nothing to commit"
+          git push -f origin reference-data
